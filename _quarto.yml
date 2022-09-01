@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Phùng Khánh Lâm's notes"
+  navbar:
+    left:
+      - href: index.qmd
+        text: List of notes
+
+format:
+  html:
+    theme: simplex
+    css: styles.css
+    toc: true
+
+editor: visual
+
