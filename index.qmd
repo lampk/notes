@@ -3,3 +3,6 @@ title: "List of notes"
 ---
 
 
+https://lampk.github.io/notes/Note_DocDanhGiaBaiBaoKhoaHoc.html 
+
+https://lampk.github.io/notes/Note_ThuThapQuanLyDuLieu.html 
