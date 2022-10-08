@@ -1,0 +1,79 @@
+/* Title slide */
+
+/* Add image and change bg color */
+.title-slide {
+  /*background-image: url(https://github.com/jvcasillas/ru_xaringan/raw/master/img/logo/ru_shield.png);*/
+  background-position: 9% 15%;
+  background-size: 55px;
+  background-color: #002147;
+  padding-left: 100px;  /* delete this for 4:3 aspect ratio */
+}
+
+/* H1 fonts */
+.title-slide h1 {
+  color: #ffffff;
+  padding-top: 80px;
+  font-weight: normal;
+  font-size: 50px;
+  text-align: left;
+  text-shadow: none;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
+}
+
+/* H2 fonts */
+.title-slide h2 {
+  color: #ffffff;
+  font-size: 50px;
+  text-align: left;
+  text-shadow: none;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+/* H3 fonts */
+.title-slide h3 {
+  font-size: 28px;
+  font-weight: normal;
+  color: #ffffff;
+  text-align: left;
+  text-shadow: none;
+  padding: 0px;
+  margin: 0px;
+  line-height: 1;
+}
+
+.remark-slide-content h1 {
+  border-bottom: 5px solid #002147;
+}
+
+.remark-slide-content h2 {
+  border-bottom: 5px solid #002147;
+}
+
+/* Remove slide count */
+.title-slide .remark-slide-number {
+  text-shadow: none;
+}
+
+/* Footnote */
+
+.footnote {
+  position: absolute;
+  bottom: 1em;
+  padding-right: 4em;
+  font-size: 70%;
+  font-style: italic;
+  line-height: 50%;
+}
+
+.ered {
+  color: #E04556;
+}
+
+.egrey {
+  color: #7F7F7F;
+}
+
+.large { font-size: 130% }
+.small { font-size: 60% }

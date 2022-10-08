@@ -1,0 +1,425 @@
+---
+title: "Dịch tễ học bệnh lây qua đường hô hấp"
+format: 
+  html:
+    css: [css/style.css, css/webex.css]
+    toc: true
+    toc-float: true
+    toc-depth: 2
+    number-sections: true
+    number-depth: 3
+    include-after-body: js/webex.js
+    self-contained: true
+bibliography: references.bib
+csl: the-new-england-journal-of-medicine.csl
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(shiny)
+library(tidyverse)
+library(webexercises)
+library(gt)
+library(glue)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  results = "hold",
+  out.width = '100%',
+  fig.width = 8,
+  fig.height = 5,
+  fig.align = 'center',
+  fig.cap = TRUE
+)
+```
+
+## Mục tiêu
+
+::: {.infobox .caution data-latex="{caution}"}
+
+1. Mô tả được cách thức lây của các bệnh lây qua đường hô hấp
+
+2. Trình bày được các biện pháp phòng chống các bệnh lây qua đường hô hấp
+
+3. Trình bày được dây chuyền lây và các biện pháp phòng chống bệnh COVID-19
+
+:::
+
+## Dây chuyền lây - Cách thức lây
+
+::: panel-tabset
+
+### Lý thuyết
+
+#### Dây chuyền lây
+
+```{r, fig.cap="Hình 1. Dây chuyền lây bệnh lây qua đường hô hấp", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_DCL.png")
+```
+
+#### Cách thức lây
+
+##### Khái niệm:
+
+* Aerosol (sol khí): tập hợp hạt chất lỏng hoặc rắn lơ lửng trong môi trường khí đủ lâu để quan sát hoặc đo lường.
+
+* Droplet (giọt bắn): hạt chất lỏng
+
+##### Quá trình tạo sol khí khi thở:
+
+```{r, fig.cap="Hình 2. Quá trình tạo sol khí khi thở [@morawska_airborne_2021]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_aerosol_01.png")
+```
+
+```{r, fig.cap="Hình 3. Quá trình tạo sol khí khi thở [@morawska_size_2009]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_aerosol_02.png")
+```
+
+[@morawska_airborne_2021]
+
+* Mọi hoạt động hô hấp (bao gồm hít thở) đều tạo ra các hạt nhỏ.
+
+* Phần lớn các hạt này có kích thước <1 microm (hầu hết <10 microm)
+
+* Do có kích thước rất nhỏ, các hạt này có thể tồn tại trong không khí trong thời gian dài
+
+* Các hoạt động phát ra âm thanh tạo nhiều hạt hơn so với các hoạt động khác
+
+##### Hạt có chứa virus
+
+Hạt càng nhỏ <1 microm) càng chứa nhiều virus
+
+* Virus có kích thước ~0.12 microm
+* Hạt kích thước nhỏ: hình thành từ đường hô hấp dưới (nơi nhiều virus)
+* Hạt kích thước lớn: hình thành từ đường hô hấp trên (nơi ít virus)
+
+##### Diễn tiến của sol khí và giọt bắn
+
+* Hạt kích thước lớn: lắng đọng
+* Hạt kích thước nhỏ: di chuyển theo dòng khí (bao lâu? bao xa?)
+
+```{r, fig.cap="Hình 4. Diễn tiến của sol khí và giọt bắn [@bourouiba_violent_2014]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_aerosol_03.png")
+```
+
+```{r, fig.cap="Hình 5. Diễn tiến của sol khí và giọt bắn [@balachandar_host--host_2020]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_aerosol_04.png")
+```
+
+[@bourouiba_turbulent_2020]
+
+```{r, echo = FALSE}
+knitr::include_url("https://youtube.com/embed/piCWFgwysu0")
+```
+
+##### Lây truyền qua đường hô hấp
+
+```{r, fig.cap="Hình 6. Lây truyền qua đường hô hấp [@leung_transmissibility_2021]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_transmission_01.png")
+```
+
+```{r, fig.cap="Hình 7. Lây truyền qua đường hô hấp [@azimi_mechanistic_2021]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_aerosol_05.png")
+```
+
+```{r, fig.cap="Hình 8. Lây truyền qua đường hô hấp [@leung_transmissibility_2021]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_transmission_02.png")
+```
+
+```{r}
+shiny::textAreaInput(
+  value = "",
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+
+### Bài tập
+
+**Bài tập 1:**
+
+```{r, echo = FALSE}
+opts <- c("A",
+          "B",
+          "C",
+          answer = "D")
+```
+
+`r longmcq(opts)`
+
+`r hide("Xem giải thích")`
+
+Giải thích
+
+`r unhide()`
+:::
+
+## Biện pháp phòng chống
+
+::: panel-tabset
+
+### Lý thuyết
+
+#### Lịch sử tự nhiên và dây chuyền lây
+
+```{r, fig.cap="Hình 9. Lịch sử tự nhiên và dây chuyền lây", echo=FALSE}
+knitr::include_graphics("figures/LSTN_DCL_01.png")
+```
+
+```{r, fig.cap="Hình 10. Lịch sử tự nhiên và dây chuyền lây", echo=FALSE}
+knitr::include_graphics("figures/LSTN_DCL_02.png")
+```
+
+```{r, fig.cap="Hình 10. Lịch sử tự nhiên và dây chuyền lây", echo=FALSE}
+knitr::include_graphics("figures/LSTN_DCL_03.png")
+```
+
+```{r, fig.cap="Hình 10. Lịch sử tự nhiên và dây chuyền lây", echo=FALSE}
+knitr::include_graphics("figures/LSTN_DCL_04.png")
+```
+
+```{r, fig.cap="Hình 11. Lịch sử tự nhiên và dây chuyền lây", echo=FALSE}
+knitr::include_graphics("figures/LSTN_DCL_07.png")
+```
+
+#### Biện pháp kiểm soát
+
+```{r, fig.cap="Hình 12. Biện pháp kiểm soát", echo=FALSE}
+knitr::include_graphics("figures/DTHBHH_mitigation.jpg")
+```
+
+##### Biện pháp không dùng thuốc (NPI)
+
+```{r, fig.cap="Hình 13. Biện pháp không dùng thuốc [@morawska_airborne_2020]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_intervention_01.png")
+```
+
+
+```{r, fig.cap="Hình 14. Biện pháp không dùng thuốc [@morawska_airborne_2020]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_intervention_05.png")
+```
+
+
+```{r, fig.cap="Hình 15. Biện pháp không dùng thuốc [@morawska_airborne_2020]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_intervention_02.png")
+```
+
+
+```{r, fig.cap="Hình 16. Biện pháp không dùng thuốc [@morawska_airborne_2020]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_intervention_03.png")
+```
+
+```{r, fig.cap="Hình 16. Biện pháp không dùng thuốc [@morawska_airborne_2020]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_intervention_04.png")
+```
+
+Khẩu trang
+
+```{r, echo = FALSE}
+knitr::include_url("https://youtube.com/embed/0Tp0zB904Mc")
+```
+
+* Ngăn cản tạo ra giọt bắn
+
+* Cản trở sự di chuyển của giọt bắn
+
+* Ngăn cản sự tiếp xúc với giọt bắn
+
+Vaccine
+
+```{r}
+shiny::textAreaInput(
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+
+### Bài tập
+
+```{r}
+shiny::textAreaInput(
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+
+:::
+
+## COVID-19
+
+::: panel-tabset
+
+### Lý thuyết
+
+#### Tác nhân gây bệnh: SARS-CoV-2
+
+SARS-CoV-2 is an enveloped β-coronavirus, with a genetic sequence very similar to SARS-CoV-1 (80%) and bat coronavirus RaTG13 (96.2%)
+
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) clusters with closely related viruses in bats and pangolins and together with SARS-CoV and bat SARS-related coronaviruses (SARSr-CoVs) forms the sarbecoviruses
+
+```{r, fig.cap="Hình 17. SARS-CoV-2", echo=FALSE}
+knitr::include_graphics("figures/DTHBHH_SARSCoV2.jpg")
+```
+
+```{r, fig.cap="Hình 18. SARS-CoV-2 [@hu_characteristics_2020]", echo=FALSE}
+knitr::include_graphics("figures/DTHBHH_SARSCoV2_phylogenetic.png")
+```
+
+#### Bệnh sinh
+
+The viral envelope is coated by spike (S) glycoprotein, envelope (E), and membrane (M) proteins (fig 1). Host cell binding and entry are mediated by the S protein. The first step in infection is virus binding to a host cell through its target receptor. The S1 sub-unit of the S protein contains the receptor binding domain that binds to the peptidase domain of angiotensin-converting enzyme 2 (ACE 2). In SARS-CoV-2 the S2 sub-unit is highly preserved and is considered a potential antiviral target. The virus structure and replication cycle are described in figure
+
+(1) The virus binds to ACE 2 as the host target cell receptor in synergy with the host’s transmembrane serine protease 2 (cell surface protein), which is principally expressed in the airway epithelial cells and vascular endothelial cells. This leads to membrane fusion and releases the viral genome into the host cytoplasm (2). Stages (3-7) show the remaining steps of viral replication, leading to viral assembly, maturation, and virus release
+
+Why is SARS-CoV-2 more infectious than SARS-CoV-1?
+
+SARS-CoV-2 has a higher reproductive number (R0) than SARS-CoV-1, indicating much more efficient spread.1 Several characteristics of SARS-CoV-2 may help explain this enhanced transmission. While both SARS-CoV-1 and SARS-CoV-2 preferentially interact with the angiotensin-converting enzyme 2 (ACE 2) receptor, SARS-CoV-2 has structural differences in its surface proteins that enable stronger binding to the ACE 2 receptor4 and greater efficiency at invading host cells.1 SARS-CoV-2 also has greater affinity (or bonding) for the upper respiratory tract and conjunctiva,5 thus can infect the upper respiratory tract and can conduct airways more easily.6
+
+```{r, fig.cap="Hình 19. Bệnh sinh [@cevik_virology_2020]", echo=FALSE}
+knitr::include_graphics("figures/DTHBHH_SARSCoV22.jpg")
+```
+
+#### Diễn tiến bệnh
+
+After the initial exposure, patients typically develop symptoms within 5-6 days (incubation period). SARS-CoV-2 generates a diverse range of clinical manifestations, ranging from mild infection to severe disease accompanied by high mortality. In patients with mild infection, initial host immune response is capable of controlling the infection. In severe disease, excessive immune response leads to organ damage, intensive care admission, or death. The viral load peaks in the first week of infection, declines thereafter gradually, while the antibody response gradually increases and is often detectable by day 14 
+
+transmission capacity is maximal in the first week of illness, and that transmission after this period has not been documented.8 Severely ill or immune-compromised patients may have relatively prolonged virus shedding, and some patients may have intermittent RNA shedding; however, low level results close to the detection limit may not constitute infectious viral particles. While asymptomatic individuals (those with no symptoms throughout the infection) can transmit the infection, their relative degree of infectiousness seems to be limited.91011 People with mild symptoms (paucisymptomatic) and those whose symptom have not yet appeared still carry large amounts of virus in the upper respiratory tract, which might contribute to the easy and rapid spread of SARS-CoV-2.7 Symptomatic and pre-symptomatic transmission (one to two days before symptom onset) is likely to play a greater role in the spread of SARS-CoV-2.1012 A combination of preventive measures, such as physical distancing and testing, tracing, and self-isolation, continue to be needed.
+
+```{r, fig.cap="Hình 20. Diễn tiến bệnh [@cevik_virology_2020]", echo=FALSE}
+knitr::include_graphics("figures/DTHBHH_SARSCoV2_clinical.jpg")
+```
+
+```{r, fig.cap="Hình 21. Diễn tiến bệnh [@hu_characteristics_2020]", echo=FALSE}
+knitr::include_graphics("figures/DTHBHH_SARSCoV2_clinical2.png")
+```
+
+Typical symptoms of coronavirus disease 2019 (COVID-19) are fever, dry cough and fatigue and in severer cases dyspnea. Many infections, in particular in children and young adults, are asymptomatic, whereas older people and/or people with co-morbidities are at higher risk of severe disease, respiratory failure and death. The incubation period is ~5 days, severe disease usually develops ~8 days after symptom onset and critical disease and death occur at ~16 days.
+
+Men older than 68 years had a higher risk of respiratory failure, acute cardiac injury and heart failure that led to death, regardless of a history of cardiovascular disease86 (Fig. 4). Most patients recovered enough to be released from hospital in 2 weeks9,80 (Fig. 4).
+
+Early transmission of SARS-CoV-2 in Wuhan in December 2019 was initially linked to the Huanan Seafood Wholesale Market, and it was suggested as the source of the outbreak9,22,60. However, community transmission might have happened before that88. Later, ongoing human-to-human transmission propagated the outbreak9. It is generally accepted that SARS-CoV-2 is more transmissible than SARS-CoV and MERS-CoV; however, determination of an accurate reproduction number (R0) for COVID-19 is not possible yet, as many asymptomatic infections cannot be accurately accounted for at this stage89. An estimated R0 of 2.5 (ranging from 1.8 to 3.6) has been proposed for SARS-CoV-2 recently, compared with 2.0–3.0 for SARS-CoV90. Notably, most of the SARS-CoV-2 human-to-human transmission early in China occurred in family clusters, and in other countries large outbreaks also happened in other settings, such as migrant worker communities, slaughterhouses and meat packing plants, indicating the necessity of isolating infected people9,12,91,92,93. Nosocomial transmission was not the main source of transmission in China because of the implementation of infection control measures in clinical settings9. By contrast, a high risk of nosocomial transmission was reported in some other areas. For example, a cohort study in London revealed 44% of the frontline health-care workers from a hospital were infected with SARS-CoV-2 (ref.94).
+
+#### Dịch COVID-19
+
+Like other coronaviruses, the primary mechanism of transmission of SARS-CoV-2 is via infected respiratory droplets, with viral infection occurring by direct or indirect contact with nasal, conjunctival, or oral mucosa, when respiratory particles are inhaled or deposited on these mucous membranes.6 Target host receptors are found mainly in the human respiratory tract epithelium, including the oropharynx and upper airway. The conjunctiva and gastrointestinal tracts are also susceptible to infection and may serve as transmission portals.6
+
+Transmission risk depends on factors such as contact pattern, environment, infectiousness of the host, and socioeconomic factors, as described elsewhere.12 Most transmission occurs through close range contact (such as 15 minutes face to face and within 2 m),13 and spread is especially efficient within households and through gatherings of family and friends.12 Household secondary attack rates (the proportion of susceptible individuals who become infected within a group of susceptible contacts with a primary case) ranges from 4% to 35%.12 Sleeping in the same room as, or being a spouse of an infected individual increases the risk of infection, but isolation of the infected person away from the family is related to lower risk of infection.12 Other activities identified as high risk include dining in close proximity with the infected person, sharing food, and taking part in group activities 12 The risk of infection substantially increases in enclosed environments compared with outdoor settings.12 For example, a systematic review of transmission clusters found that most superspreading events occurred indoors.11 Aerosol transmission can still factor during prolonged stay in crowded, poorly ventilated indoor settings (meaning transmission could occur at a distance >2 m).1214151617
+
+The role of faecal shedding in SARS-CoV-2 transmission and the extent of fomite (through inanimate surfaces) transmission also remain to be fully understood. Both SARS-CoV-2 and SARS-CoV-1 remain viable for many days on smooth surfaces (stainless steel, plastic, glass) and at lower temperature and humidity (eg, air conditioned environments).1819 Thus, transferring infection from contaminated surfaces to the mucosa of eyes, nose, and mouth via unwashed hands is a possible route of transmission. This route of transmission may contribute especially in facilities with communal areas, with increased likelihood of environmental contamination. However, both SARS-CoV-1 and SARS-CoV-2 are readily inactivated by commonly used disinfectants, emphasising the potential value of surface cleaning and handwashing. SARS-CoV-2 RNA has been found in stool samples and RNA shedding often persists for longer than in respiratory samples7; however, virus isolation has rarely been successful from the stool.57 No published reports describe faecal-oral transmission. In SARS-CoV-1, faecal-oral transmission was not considered to occur in most circumstances; but, one explosive outbreak was attributed to aerosolisation and spread of the virus across an apartment block via a faulty sewage system.20 It remains to be seen if similar transmission may occur with SARS-CoV-2.
+
+```{r, fig.cap="Hình 22. Dịch COVID-19 [@hu_characteristics_2020]", echo=FALSE}
+knitr::include_graphics("figures/DTHBHH_COVID19_timeline.png")
+```
+
+#### Cách thức lây
+
+##### WHO (2020): Chủ yếu giữa người với người qua tiếp xúc gần (trực tiếp/gián tiếp) qua dịch tiết/giọt bắn
+
+Lây truyền qua không khí: trong 1 số điều kiện nhất định (Khí dung nhân tạo tại cơ sở y tế, khi tập trung đông người trong phòng kín)
+    
+    
+##### WHO (2021): SARS-CoV-2 lây truyền người qua người theo nhiều cách khác nhau
+
+* Bằng chứng hiện tại cho thấy virus lây truyền chủ yếu khi tiếp xúc gần (hít phải dịch tiết có virus trong phạm vi gần, tiếp xúc với mắt, mũi, miệng).
+* Có thể lây qua không khí ở phạm vi xa trong điều kiện thông khí kém, nơi đông người trong nhà.
+* Có thể nhiễm bệnh khi sờ mắt, mũi, miệng sau khi chạm vào bề mặt nhiễm virus.
+
+2020: https://www.who.int/news-room/commentaries/detail/transmission-of-sars-cov-2-implications-for-infection-prevention-precautions
+2021: https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-covid-19-how-is-it-transmitted
+
+
+Main findings
+Understanding how, when and in what types of settings SARS-CoV-2 spreads between people is critical to develop effective public health and infection prevention measures to break chains of transmission.
+Current evidence suggests that transmission of SARS-CoV-2 occurs primarily between people through direct, indirect, or close contact with infected people through infected secretions such as saliva and respiratory secretions, or through their respiratory droplets, which are expelled when an infected person coughs, sneezes, talks or sings.
+Airborne transmission of the virus can occur in health care settings where specific medical procedures, called aerosol generating procedures, generate very small droplets called aerosols. Some outbreak reports related to indoor crowded spaces have suggested the possibility of aerosol transmission, combined with droplet transmission, for example, during choir practice, in restaurants or in fitness classes.
+Respiratory droplets from infected individuals can also land on objects, creating fomites (contaminated surfaces). As environmental contamination has been documented by many reports, it is likely that people can also be infected by touching these surfaces and touching their eyes, nose or mouth before cleaning their hands.
+Based on what we currently know, transmission of COVID-19 is primarily occurring from people when they have symptoms, and can also occur just before they develop symptoms, when they are in close proximity to others for prolonged periods of time. While someone who never develops symptoms can also pass the virus to others, it is still not clear to what extent this occurs and more research is needed in this area.
+Urgent high-quality research is needed to elucidate the relative importance of different transmission routes; the role of airborne transmission in the absence of aerosol generating procedures; the dose of virus required for transmission to occur; the settings and risk factors for superspreading events; and the extent of asymptomatic and pre-symptomatic transmission.
+How to prevent transmission
+The overarching aim of the Strategic Preparedness and Response Plan for COVID-19(1) is to control COVID-19 by suppressing transmission of the virus and preventing associated illness and death. To the best of our understanding, the virus is primarily spread through contact and respiratory droplets. Under some circumstances airborne transmission may occur (such as when aerosol generating procedures are conducted in health care settings or potentially, in indoor crowded poorly ventilated settings elsewhere).  More studies are urgently needed to investigate such instances and assess their actual significance for transmission of COVID-19.
+
+To prevent transmission, WHO recommends a comprehensive set of measures including:
+
+Identify suspect cases as quickly as possible, test, and isolate all cases (infected people) in appropriate facilities;
+Identify and quarantine all close contacts of infected people and test those who develop symptoms so that they can be isolated if they are infected and require care;
+Use fabric masks in specific situations, for example, in public places where there is community transmission and where other prevention measures, such as physical distancing, are not possible;
+Use of contact and droplet precautions by health workers caring for suspected and confirmed COVID-19 patients, and use of airborne precautions when aerosol generating procedures are performed;
+Continuous use of a medical mask by health workers and caregivers working in all clinical areas, during all routine activities throughout the entire shift;
+At all times, practice frequent hand hygiene, physical distancing from others when possible, and respiratory etiquette; avoid crowded places, close-contact settings and confined and enclosed spaces with poor ventilation; wear fabric masks when in closed, overcrowded spaces to protect others; and ensure good environmental ventilation in all closed settings and appropriate environmental cleaning and disinfection.
+
+#### Dây chuyền lây
+
+```{r, fig.cap="Hình 23. Dây chuyền lây", echo=FALSE}
+knitr::include_graphics("figures/DTHBHH_COI.png")
+```
+
+https://www.safetyandquality.gov.au/publications-and-resources/resource-library/break-chain-poster-a3
+
+Lịch sử tự nhiên và dây chuyền lây
+
+#### Test nhanh
+
+```{r, fig.cap="Hình 24. Test nhanh [@mina_rethinking_2020]", echo=FALSE}
+knitr::include_graphics("figures/COVID_rapidtest.png")
+```
+
+#### 5K
+
+```{r, fig.cap="Hình 25. 5K", echo=FALSE}
+knitr::include_graphics("figures/DTHBHH_COVID5K.jpg")
+```
+
+#### Khẩu trang
+
+```{r, fig.cap="Hình 26. Khẩu trang [@abaluck_impact_2021]", echo=FALSE}
+knitr::include_graphics("figures/NORM_01.png")
+```
+
+#### Vaccine
+
+```{r, fig.cap="Hình 27. Vaccine", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_vaccine_02.jpg")
+```
+
+```{r, fig.cap="Hình 28. Vaccine [@kyriakidis_sars-cov-2_2021]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_vaccine_03.png")
+```
+
+```{r, fig.cap="Hình 29. Vaccine [@tregoning_progress_2021]", echo=FALSE}
+knitr::include_graphics("figures/DTHBTN_BHH_vaccine_04.png")
+```
+:::
+
+## Tóm tắt
+
+Bệnh lây qua đường hô hấp 
+
+* Cách thức lây:
+    + Gần vs. Xa
+    + Trực tiếp vs. gián tiếp
+    + Tiếp xúc, giọt bắn, sol khí
+    
+* Biện pháp kiểm soát
+    + Không dùng thuốc:
+        - PPE & vệ sinh
+        - Làm sạch không khí
+    + Vaccine
+
+* COVID-19
+    + Tác nhân
+    + Dây chuyền lây
+    + Biện pháp kiểm soát: 5K, vaccine
+
+## Tài liệu tham khảo
+
+::: {#refs}
+:::
+
+<p><br><br></p>
+
+<!-- Print button -->
+
+<p><input type="button" value="In trang này" onClick="window.print()"></p>

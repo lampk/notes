@@ -44,6 +44,328 @@ Lưu ý !!!
 
 ## Thu thập dữ liệu nghiên cứu
 
+### Mục tiêu
+
+* Thu thập dữ liệu mà bạn cần (không nhất thiết là dữ liệu mà bạn muốn). Tránh việc thu thập quá nhiều dữ liệu không cần thiết
+
+* Thu thập dữ liệu đáng tin cậy
+
+* Tối đa hoá sự chính xác của dữ liệu, giảm thiểu sai sót. Sai sót có thể đến từ cách đặt và thiết kế bộ câu hỏi, người được phỏng vấn không hiểu câu hỏi, và/hoặc sai sót khi nhập liệu.
+
+Xem xét cân đối giữa mức độ phong phú và đầy đủ của dữ liệu với độ chính xác của dữ liệu
+
+### Các nguồn dữ liệu thông dụng
+
+* Bộ câu hỏi
+* Hồ sơ bệnh án lâm sàng
+* Dữ liệu xét nghiệm, dữ liệu lâm sàng
+* Dữ liệu từ các thủ thuật lâm sàng (siêu âm tim)
+* Dữ liệu điều tra dân số
+* Giải băng phỏng vấn định tính
+
+### Sự thật và cái được đo lường
+
+Giá trị bên ngoài: mức độ mà chỉ số đo lường được chọn có thể nắm bắt được hiện tượng quan tâm
+
+Giá trị bên trong: mức độ mà các con số đo lường được trên thực tế phản ánh được chỉ số đo lường mong muốn
+
+Không phải lúc nào các chỉ số đo lường mà chúng ta chọn lựa cũng có thể phản ánh chính xác cái mà chúng ta muốn đo lường. Luôn có sai số đo lường (measurement error).
+
+### Bộ câu hỏi
+
+Bộ câu hỏi (questionnaire) là một loạt các câu hỏi được sắp xếp nhằm đo lường các đặc tính, trải nghiệm, thái độ và các hành vi tự báo cáo.
+
+Khảo sát (survey): là bộ câu hỏi dạng viết được điền bởi người được phỏng vấn
+
+Phỏng vấn (interview): bộ câu hỏi được điền bởi người khác với người được phỏng vấn
+
+### Các thuật ngữ thông dụng
+
+* Cấu trúc (construct): hiện tượng hay khái niệm ẩn mà bạn cố gắng đo lường, không thể quan sát trực tiếp được (còn gọi là biến số tiềm ẩn (latent variable))
+
+* Mục (item): một câu hỏi
+
+* Số đo (measure): một mục hay một nhóm các mục được dùng để đo lường một cấu trúc
+
+* Thang đo (scale): một nhóm các mục được dùng để đo lường một cấu trúc hoặc một nhóm các cấu trúc có liên quan với nhau. Chính cấu trúc được đo lường quyết định đến giá trị của các mục
+
+* Chỉ số (index): một nhóm các mục có chung một tác động, các mục này quyết định đến mức độ của tác động
+
+Ví dụ:
+
+* Thang đo trầm cảm
+* Chỉ số kinh tế xã hội (SES)
+
+* Lời hướng dẫn (prompt): một phát biểu trong một bộ câu hỏi nhằm hướng dẫn hoặc giải thích một điều gì đó, không phải là câu hỏi cần được trả lời.
+
+* Thang trả lời (response scale): các lựa chọn trả lời cho một mục. Các lựa chọn có thể là nhị giá (có/không), thang Likert, liên tục, hoặc mở
+
+* Bảng mã (codebook): tài liệu liệt kê các cấu trúc, câu từ của các mục và thang trả lời cho một bộ câu hỏi nhất định. Các kiểu logic và bỏ qua cũng nên được đưa vào.
+
+APA Dictionary of Psychology (2nd edition):
+
+* **measure** n. an item or set of items that provides an indication of the quantity or nature of the phenomenon under study. It is sometimes necessary in research to have more than one measure for each of the main variables of interest.
+
+* **measurement** n. the act of appraising the extent of some amount, dimension, or criterion—or the resultant descriptive or quantified appraisal itself. A measurement is often, but not always, expressed as a numerical value.
+
+* **measurement level** the degree of specificity, accuracy, and precision in a particular set of observations or scores, as reflected in the measurement scale used.
+
+* **measurement scale**   any of four common methods for quantifying attributes of variables during the course of research, listed in order of increasing power and complexity: nominal scale, ordinal scale, interval scale, and ratio scale. More specifically, nominal scales consist of named categories with no numerical meaning (e.g., gender, birthplace), ordinal scales comprise rankings from highest to
+lowest or vice versa (e.g., birth order, contest winners), interval scales provide equal distance between numerical values but have an arbitrary zero point (e.g., degrees Fahrenheit, checkbook balance), and ratio scales provide equal distance between numerical values with an exact zero point (e.g., height, weight)
+
+* **scale** n. 1. a system for ordering test responses in a progressive series, so as to measure a trait, ability, attitude, or the like. For example, an agreement scale used on an attitude survey might have seven response options ranging from strongly disagree (1) to strongly agree (7), with neither disagree nor agree (4) as the middle point. See likert scale; rating scale. 2. a sequence of ordered values used as a reference in measuring a physical property (e.g., weight, temperature). See interval scale; ratio scale. See also measurement level. 3. more generally, any test or other assessment instrument as a whole
+
+A dictionary of Epidemiology
+
+* **measurement scale** The range of possible values for a measurement (e.g., the set of possible responses to a question, the physically possible range for a set of body weights). Measurement scales can be classified according to the quantitative character of the scale:
+1. dichotomous scale (Syn: binary scale): One that arranges items into either of two
+mutually exclusive categories; e.g., Yes/No, Alive/Dead.
+2. nominal scale (Syn: polytomous scale, polytomy): Classification into unordered
+qualitative categories; e.g., race, religion, and country of birth. Measurements of
+individual attributes are purely nominal scales, as there is no inherent order to their categories.
+3. ordinal scale: Classification into ordered qualitative categories, e.g., social class (I, II, III, etc.), where the values have a distinct order but their categories are qualitative
+in that there is no natural (numerical) distance between their possible values. See
+also ranking scale.
+4. interval scale: An (equal) interval involves assignment of values with a natural
+distance between them, so that a particular distance (interval) between two values
+in one region of the scale meaningfully represents the same distance between two
+values in another region of the scale. Examples include Celsius and Fahrenheit
+temperature, date of birth.
+5. ratio scale: A ratio is an interval scale with a true zero point, so that ratios between values are meaningfully defined. Examples are absolute (Kelvin) temperature,
+weight, height, blood count, and income, as in each case it is meaningful to speak of one value as being so many times greater or less than another value.
+Dichotomous, nominal, and ordinal scales are sometimes called qualitative or
+“categorical,” but the latter term has other meanings, such as discrete (as opposed to continuous). An example of a categorical scale that is also a ratio scale is household size (1, 2, 3,...). Interval and ratio scales are sometimes called quantitative scales. See also qualitative data; quantitative data
+
+* **scale** A device or system for measuring a characteristic or property. See also
+measurement scale.
+
+### Cách hoàn tất các bộ câu hỏi
+
+* Bộ câu hỏi hỗ trợ bởi người phỏng vấn (interview): giấy, máy tính bảng, máy tính
+* Tự phỏng vấn được hỗ trợ của máy tính (CASI)
+* Tự phỏng vấn được hỗ trợ của máy tính bằng âm thanh (ACASI)
+* Phỏng vấn qua điện thoại (telephone interview)
+* Tự phỏng vấn được hỗ trợ của máy tính qua điện thoại (TCASI)
+* Khảo sát trực tiếp 
+* Khảo sát qua internet
+* Khảo sát qua thư
+
+### Phỏng vấn so với khảo sát
+
+Phỏng vấn
+
+* Rõ ràng: xác định, giải thích
+* Thông tin phong phú: bán cấu trúc
+* Đầy đủ: ít thiếu dữ liệu
+* Kiểm soát: thiết lập thứ tự
+
+Khảo sát
+
+* Chi phí thấp
+* Chuẩn hoá: tránh sai lệch do người phỏng vấn
+* Ẩn danh
+
+### Chuyển các mục tiêu thành các đo lường
+
+Nghiên cứu của bạn có các mục tiêu cụ thể
+
+Mục đích của các số đo nghiên cứu là thu thập được dữ liệu cần thiết để trả lời mục tiêu
+
+* Cần xác định/định nghĩa các kết cuộc (outcome), yếu tố phơi nhiễm (exposures), yếu tố gây nhiễu (confounders), các yếu tố trung gian (mediators) quan tâm
+
+* Cần xem xét kỹ lưỡng dạng thức của từng biến số
+
+Nếu câu hỏi nghiên cứu (hay mục tiêu) không rõ ràng, bạn sẽ không thể chắc chắn rằng bạn sẽ thu thập được dữ liệu mà bạn cần ở dạng mà bạn cần.
+
+Câu hỏi nghiên cứu cần phải rất rõ ràng và chính xác.
+
+Các bước chuyển mục tiêu thành các đo lường
+
+* Xác định các kết cuộc
+* Xác định các yếu tố phơi nhiễm quan tâm
+* Xác định các biến số quan tâm khác
+    + Tạo danh mục các biến số có thể thu thập
+    + Xem xét dạng thức của biến số (liên tục, phân nhóm, nhiều cách tiếp cận khác nhau để thu thập được cùng một dữ liệu)
+    + Thu thập các đo lường đã có, xem xét đo lường chỉ 1 mục, thang đo, chỉ số phù hợp
+    + Xác định các đo lường/mục mà bạn sẽ xây dựng
+    + Tạo bảng tương ứng 1-1 giữa từng cấu trúc mà bạn muốn đo lường và các biến số có thể phân tích mà bạn sẽ đo lường
+    
+Thu thập các đo lường đã có
+
+* Hầu hết các cấu trúc mà chúng ta quan tâm hiện nay đều đã từng được đo lường trước đây
+* Tìm các mục và thang đo từ
+    + Đồng nghiệp
+    + Nghiên cứu trước
+    + Bài báo khoa học (trên PubMed, Google Scholar)
+    + Các tổng hợp trực tuyến: CDC, NIH, UNC: CFAR, tài nguyên khác
+    
+https://guides.lib.unc.edu/c.php?g=8411 (a nice guide to help you get started)
+NIH (NIAAA) compendium of measures:
+https://nda.nih.gov/data_dictionary.html?source=NDA&submission=ALL
+UNC CFAR Social and Behavioral Core compendium of measures:
+https://sabi.unc.edu/
+
+Xem xét chọn lựa đo lường
+
+* Bộ câu hỏi sẽ được áp dụng như thế nào?
+* Bộ câu hỏi cuối cùng sẽ dài bao lâu? Liệu có các phiên bản thang đo ngắn gọn hơn không?
+* Các đo lường có giải quyết được các vấn đề mà bạn cần chúng giải quyết không?
+* Các đo lường có bằng chứng tốt về độ tin cậy (reliability) và giá trị (validity) không?
+* Công cụ đo lường này đã được dùng cho ai?
+    + Tuổi/giới/trình độ học vấn có phù hợp không?
+    + Ngôn ngữ/văn hoá có phù hợp không?
+    
+### Tiêu chuẩn của một công cụ đo lường tốt
+
+Khả năng lặp lại được (reproducibility)
+
+* Độ tin cậy (reliability): kết quả lặp lại được khi được sử dụng lặp lại một cách ngẫu nhiên
+    + Các lần sử dụng khác nhau: Test-retest (công cụ)
+    + Người sử dụng khác nhau: Inter-observer (người sử dụng)
+    
+Sự nhất quán (consistency)
+
+* Độ nhất quán nội tại (internal consistency): các mục torng cùng một thang đo đo lường cùng một cấu trúc
+    + Chỉ số Cronbach's alpha (tương quan giữa các mục)
+    
+Tính giá trị (validity)
+
+* Giá trị nội dung (content validity): liệu công cụ có đo lường được mọi khía cạnh của một cấu trúc?
+    + Giá trị bề mặt (face validity): liệu bộ công cụ có hợp lý hay không?
+
+* Giá trị tiêu chí (criterion validity): liệu kết quả đo từ công cụ này có tương quan với bộ công cụ khác đã sử dụng để đo cùng cấu trúc?
+
+* Giá trị cấu trúc (construct validity): liệu công cụ có giúp phân biệt các nhóm dân số khác nhau hay không?
+
+Độ thay đổi (variability)
+
+Độ đáp ứng (responsiveness): liệu kết quả đo từ công cụ có thay đổi khi tình trạng của bệnh nhân thay đổi không?
+
+Tính khả thi (feasibility): tính khả thi để sử dụng trên dân số đích
+
+### Cách cải thiện chất lượng công cụ đo lường
+
+* Áp dụng với quy trình chuẩn
+* Đào tạo cho nhân viên
+* Tự động hoá/chuẩn hoá bộ câu hỏi khi sử dụng trên thực tế
+* Repeating measures (similar items)
+* Điều chỉnh phù hợp với bối cảnh
+
+### Tiêu chuẩn của một mục tốt
+
+* Rõ ràng (clarity): dễ hiểu, chỉ có một cách diễn giải, cụ thể
+* Đơn giản (simplicity): sử dụng ngôn ngữ và cấu trúc câu đơn giản, trình độ văn hoá phù hợp
+* Trung lập (neutrality): dựa trên sự kiện thực tế, không phán xét
+* Thời gian (temporality): xác định rõ ràng
+* Không hỏi đôi (double-barrel): không dùng các từ kết hợp như "và" hay "hoặc"
+* Khả dụng (applicability): phù hợp đối với đối tượng
+
+### Câu hỏi mở và câu hỏi đóng
+
+Câu hỏi đóng
+
+Ví dụ: rào cản quan trọng nhất đối với việc chăm sóc sức khoẻ với chất lượng tốt ở phòng khám này là:
+(A) Thời gian chờ
+(B) Thiếu nhân lực
+(C) Nhân viên không được đào tạo đầy đủ
+(D) Thiếu vật tư
+
+Câu hỏi mở
+
+Rào cản quan trọng nhất đối với việc chăm sóc sức khoẻ với chất lượng tốt ở phòng khám này là gì?
+
+Câu hỏi mở
+
+* Mục tiêu: quan trọng là câu trả lời bằng chính ngôn ngữ của người được hỏi
+* Đặc tính của người trả lời: người trả lời có khả năng và sẵn lòng chia sẻ bằng lời của họ
+* Đặt câu hỏi: có thể không biết câu trả lời phù hợp
+* Phân tích: cần kỹ năng phân tích định tính
+* Báo cáo kết quả: trả lời của cá nhân hay nhóm thể hiện các chủ đề được tìm thấy
+* Với câu hỏi mở, bạn cần có đủ thời gian và nguồn lực để phân tích kết quả
+
+Các phân nhóm câu hỏi về sức khoẻ
+
+* Dân số và xã hội học (ví dụ: tuổi)
+* Hành vi (ví dụ: sử dụng bao cao su)
+* Kiến thức (ví dụ: sự lây truyền của HIV)
+* Thái độ (ví dụ: đối với người bị nhiễm HIV)
+
+Định nghĩa của kiến thức và hành vi
+
+* Kiến thức (knowledge): khách quan hơn vì một câu trả lời đúng được giả định là có
+* Ý kiến (opinion): góc nhìn về một sự vật/chủ đề cụ thể
+* Thái độ (attitude): một nhóm các ý kiến mạch lạc về một sự vật phức tạp
+
+### Loại câu hỏi
+
+Khách quan hay chủ quan
+
+* Khách quan: bạn bao nhiêu tuổi?
+* Chủ quan: Mọi người dân trên 65 tuổi nên được nhận lương hưu. Đồng ý/Không đồng ý
+
+Đe doạ hay không đe doạ
+
+* Đe doạ: Bạn có từng bao giờ đe doạ bạn đời của bạn chưa? Có/Không
+* Không đe doạ: Bạn đã từng bao giờ đọc thông tin về lạm dụng bạn đời chưa? Có/Không
+
+Phân nhóm loại câu hỏi
+
+* Khách quan, đe doạ: hành vi
+* Khách quan, không đe doạ: hành vi, dân số - xã hội
+* Chủ quan, đe doạ: kiến thức, thái độ
+* Chủ quan, không đe doạ: kiến thức, thái độ
+
+### Cấu trúc của bộ câu hỏi
+
+* Số nhận diện duy nhất
+    + Mọi bộ câu hỏi/bộ dữ liệu đều phải kết nối được với người mà dữ liệu đuco75 thu thập
+    + Cần xem xét cẩn thận dạng thức của số nhận diện người tham gia
+    + Thường nên
+        > Sử dụng ký tự và số
+        > Sử dụng số không liên tục (với nhập liệu bằng tay)
+        > nhận diện được địa điểm nghiên cứu và số lần tái khám trên số nhận diện
+
+* Người phỏng vấn
+    + Nếu thu thập dữ liệu bằng cách phỏng vấn, cần lưu lại thông tin người phỏng vấn bằng mã số hoặc bằng ký tự đầu của tên
+    + Lý do:
+        > Kiểm tra đảm bảo chất lượng (dữ liệu đầy đủ/thiếu, kiểu dữ liệu bất thường)
+        > Giả dữ liệu
+
+* Tuổi
+    + Nguyên tắc chung
+        > Ghi nhận ngày sinh, sau đó tính ra tuổi khi phân tích
+        > Với trẻ nhỏ cần tính tuổi chính xác
+        > Với dân số có năng lực về số học thấp, thu thập thông tin về tuổi có thể phù hợp hơn 
+        
+Lựa chọn nào tốt hơn?
+
+* Bạn có bao nhiêu con?
+    > 0
+    > 1-2
+    > 3-4
+    > 5 hoặc hơn
+    
+* Bạn có bao nhiêu con? ____ trẻ
+
+Số liên tục và phân nhóm
+
+* Trong hầu hết các trường hợp, số liên tục luôn tốt hơn số phân nhóm
+    > Sự phân nhóm ám chỉ cấu trúc trước khi phân tích
+    > Sự phân nhóm giả định các phân nhóm có ý nghĩa
+    
+* Bạn không thể quay lại số liên tục khi đã thu thập dữ liệu dạng phân nhóm. Bạn luôn có thể phân nhóm từ dữ liệu liên tục.
+
+Lựa chọn nào tốt hơn?
+    
+* Bạn có bao nhiêu con? ____ trẻ
+
+* Bạn có bao nhiêu con đang sống? ___ trẻ
+
+Cẩn trọng khi dùng từ ngữ
+
+* Đảm bảo rằng câu hỏi sẽ trả lời đúng cấu trúc mà bạn muốn đo lường
+* Đừng giả định rằng người đọc sẽ phiên giải cùng cách mà bạn phiên giải
+
 ### Thiết kế công cụ thu thập dữ liệu
 
 ### Thu thập dữ liệu

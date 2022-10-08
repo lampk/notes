@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Inconsolata:monospace&display=swap);
+
+/*-- scss:defaults --*/
+
+// Override theme settings (see ../template/settings.scss)
+
+// fonts
+$font-family-sans-serif: "Yanone Kaffeesatz";
+
+// colors
+$body-bg: #E5E8EC !default;
+$body-color: #002147 !default;
+$link-color: #51483d !default;
+$selection-bg: #26351c !default;
+
+// headings
+$presentation-heading-font: "Yanone Kaffeesatz", sans-serif;
+$presentation-heading-color: #002147;
+
+
+
+
+/*-- scss:rules --*/
+
+.reveal a {
+  line-height: 1.3em;
+}
+
+.reveal .slide-number {
+  color: #002147;
+}

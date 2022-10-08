@@ -1,0 +1,18 @@
+---
+title: "Calibration and Post-stratification"
+---
+
+## Overview
+
+[@lumley_post-stratication_2008]
+
+Post-stratification and calibration are: 
+
+* ways to use auxiliary information on the population (or the phase-one sample) to improve precision
+* closely related to the Augmented Inverse-Probability Weighted estimators of Jamie Robins et al.
+
+Chapter 4 (Ratio and Regression estimation) [@lohr_sampling_2022]
+
+
+
+## Application on SPEAR

@@ -1,0 +1,59 @@
+---
+title: "Đọc và đánh giá bài báo khoa học"
+subtitle: "Subtitle"
+author: "Phùng Khánh Lâm"
+date: "01/10/2022"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    width: 1600
+    height: 900
+    chalkboard: true
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+# Mục tiêu 
+
+## Mục tiêu bài giảng
+
+* Mục tiêu 1
+
+* Mục tiêu 2
+
+* Mục tiêu 3
+
+# Phần 1
+
+## Nội dung phần 1
+
+ABC
+
+# Phần 2
+
+## Nội dung phần 2
+
+DEF
+
+# Kết luận
+
+## Kết luận
+
+* Kết luận 1
+
+* Kết luận 2
+
+* Kết luận 3
+
+
+

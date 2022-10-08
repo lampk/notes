@@ -1,0 +1,431 @@
+---
+title: "DỊCH TỄ HỌC CAN THIỆP"
+author: "Phùng Khánh Lâm"
+date: "`r Sys.Date()`"
+#language: vn.yml
+format: 
+  html:
+    css: [css/style.css, css/webex.css]
+    toc: true
+    toc-float: true
+    toc-depth: 2
+    number-sections: true
+    number-depth: 3
+    include-after-body: js/webex.js
+    self-contained: true
+bibliography: references.bib
+csl: the-new-england-journal-of-medicine.csl
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(shiny)
+library(tidyverse)
+library(webexercises)
+library(gt)
+library(glue)
+library(kableExtra)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  results = "hold",
+  out.width = '100%',
+  fig.width = 8,
+  fig.height = 5,
+  fig.align = 'center',
+  fig.cap = TRUE
+)
+```
+
+## Mục tiêu
+
+1.  Phân biệt được các loại can thiệp trong y tế công cộng và y học lâm sàng
+2.  Nguyên tắc đánh giá hiệu quả can thiệp
+3.  Cách đánh giá hiệu quả can thiệp
+
+## Các loại can thiệp
+
+::: panel-tabset
+### Nội dung
+
+Can thiệp (can thiệp về sức khoẻ)
+
+> bất kỳ hoạt động nào được thực hiện với mục tiêu cải thiện sức khoẻ con người bằng cách phòng ngừa bệnh tật, chữa khỏi hoặc giảm độ nặng hay thời gian mắc bệnh, hoặc bằng cách phục hồi các chức năng bị mất do bệnh hay chấn thương.
+
+Có nhiều can thiệp mới, chiến lược mới để sử dụng can thiệp đã được phát triển nhằm chống lại các bệnh thường gặp tại các nước thu nhập thấp và trung bình. Bao gồm các biện pháp về y tế công cộng, y học lâm sàng; và bao gồm:
+
+-   Thuốc cho bệnh cấp tính và mạn tính
+-   Vaccine
+-   Kiểm soát vector
+-   Giáo dục sức khoẻ
+-   Chiến lược thay đổi hành vi
+-   Phòng ngừa chấn thương
+-   Các phương pháp lập kế hoạch và quản trị tốt hơn các vấn đề về sức khoẻ
+
+Các biện pháp can thiệp về sức khoẻ có thể được phân vào hai nhóm chính:
+
+-   Can thiệp phòng ngừa: ngừa bệnh xuất hiện, từ đó làm giảm số ca mới mắc
+-   Can thiệp điều trị: điều trị, hạn chế hậu quả, từ đó làm giảm số ca tử vong, số ca chịu ảnh hưởng của bệnh
+
+(một số biện pháp can thiệp có cả hai tác dụng)
+
+#### Các biện pháp phòng ngừa
+
+##### Vaccine
+
+-   Sử dụng trên từng cá nhân; thường sử dụng trước khi tiếp xúc với tác nhân gây bệnh, để có thể bảo vệ người được chủng ngừa khi phải tiếp xúc với tác nhân gây bệnh.
+-   Một số được xem là can thiêp hiệu quả nhất (xét về chi phí-hiệu quả): chỉ cần 1 liều mà có bảo vệ lâu dài.
+-   Tác dụng thông qua nhiều cơ chế khác nhau: miễn dịch dịch thể và miễn dịch tế bào.
+-   Bệnh truyền nhiễm:
+    -   Tại cả nước thu nhập cao & nước thu nhập trung bình - thấp: thường được nghiên cứu phát triển tại các nước thu nhập cao & được thử nghiệm đầu tiên tại các nước thu nhập cao, nhưng kết quả có thể không ứng dụng được ở các nước thu nhập thấp.
+    -   Tại các nước thu nhập thấp: thử nghiệm tại các nước thu nhập thấp.
+
+##### Can thiệp về dinh dưỡng
+
+##### Can thiệp về bà mẹ & trẻ em
+
+##### Can thiệp về giáp dục và thay đổi hành vi
+
+##### Can thiệp về thay đổi môi trường
+
+##### Can thiệp về kiểm soát vecto & vật chủ trung gian
+
+##### Can thiệp phòng ngừa bằng thuốc
+
+##### Phòng ngừa chấn thương
+
+#### Các biện pháp điều trị
+
+##### Điều trị bệnh truyền nhiễm
+
+##### Điều trị bằng phẫu thuật & xạ trị
+
+##### Chẩn đoán hướng dẫn điều trị
+
+##### Kiểm soát bệnh mạn tính
+
+#### Khác
+
+##### Luật, lập pháp, thuế, trợ cấp
+
+##### Can thiệp trên hệ thống y tế
+
+##### Nghiên cứu triển khai
+
+##### Can thiệp phức tạp
+
+### Các giai đoạn phát triển và nghiên cứu
+
+-   In vitro (within the glass, ngoài vật thể sống)
+
+-   In vivo (within the living, trong vật thể sống)
+
+-   In situ (on site, trong bối cảnh tự nhiên)
+
+-   In silico (giả lập trên máy tính)
+
+-   Thử nghiệm lâm sàng (phase 1-4)
+
+-   Thử nghiệm explanatory/proof of principle và pragmatic
+
+```{r}
+shiny::textAreaInput(
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+:::
+
+### Sách bộ môn
+
+Nghiên cứu can thiệp:
+
+-   giúp xác định hiệu lực của một biện pháp can thiệp
+
+-   bản chất là đaon2 hệ tiến cứu
+
+-   Khác nghiên cứu đoàn hệ: tình trạng phơi nhiễm được phân bổ cho đối tượng nghiên cứu
+
+-   3 loại:
+
+    -   Thử nghiệm lâm sàng: điều trị, người mắc bệnh
+
+    -   Thử nghiệm thực địa: dự phòng, cá nhân người không có bệnh
+
+    -   Can thiệp cộng đồng: dự phòng, cộng đồng
+
+-   Y đức
+
+    -   Lý do tiến hành nghiên cứu
+
+    -   Tổn hại trên đối tượng nghiên cứu
+
+    -   Nhóm chứng phù hợp
+
+    -   Ngưng nghiên cứu
+
+-   Các bước tiến hành
+
+    -   Chọn nhóm nghiên cứu
+
+    -   Phân nhóm nghiên cứu
+
+    -   Thu thập dữ kiện
+
+    -   Phân tích dữ kiện và lý giải kết quả
+
+    -   Đo lường trong nghiên cứu can thiệp
+
+### Kế hoạch giảng (13:30 - 15:00)
+
+13:30 - 14:00: Thảo luận: can thiệp trong y tế công cộng/y học dự phòng là gì? Cho ví dụ
+
+14:00 - 14:15: Can thiệp trong y tế công cộng/y học dự phòng
+
+-   Mục tiêu? \[Dự phòng, Điều trị, cả hai\]
+
+-   Đối tượng: cá nhân/cộng đồng/cả hai
+
+-   Loại hình: biện pháp can thiệp, biện pháp triển khai
+
+-   Giai đoạn phát triển
+
+14:15 - 14:30: PICO
+
+14:30 - 14:45: Phương pháp đánh giá/thiết kế nghiên cứu
+
+-   Nguyên tắc chung: so sánh
+
+-   Phân loại: thực nghiệm, giả thực nghiệm, quan sát
+
+-   Vai trò của nhóm chứng
+
+-   Vai trò của phân bổ ngẫu nhiên
+
+-   Vai trò của thực nghiệm
+
+-   Vai trò của che dấu phân bổ và làm mù
+
+14:45 - 15:00: Tóm tắt/Kết luận
+
+::: panel-tabset
+### Ví dụ
+
+```{r, fig.cap="Hình 1. Hình vẽ bởi Jim Borgman, công bố lần đầu trên Cincinnati Inquirer và King Features Syndicate ngày 27/04/1997 và tái bản trên The New York Times ngày 27/04/1997", echo=FALSE}
+knitr::include_graphics("figures/RandomMedicalNews.jpeg")
+```
+
+Năm 1994, GS Douglas G. Altman là một trong những người đã công khai đề cập đến sự khủng hoảng về chất lượng các bài báo khoa học trong lĩnh vực y học [@altman_1994b]. Theo GS Altman, sức ép của việc sử dụng số lượng bài báo xuất bản như một thước đo năng lực nghiên cứu và việc thiếu các cơ chế kiểm soát đã khiến cho nhiều bài báo đăng trên các tạp chí y khoa có chất lượng kém và đưa ra các kết luận sai lầm. Việc lạm dụng các phép kiểm định thống kê khiến nhiều kết quả được đăng tải trên các tạp chí y khoa là do yếu tố cơ hội (ngẫu nhiên) chứ không phải do mối liên quan thật sự giữa các yếu tố được khảo sát [@sterne2001] (Hình 1).
+
+> Đầu tư cho nghiên cứu y sinh trong năm 2010 là 240 tỉ USD nhưng 80% nghiên cứu không tạo ra giá trị mới"
+
+Năm 2009, Iain Chalmers và Paul Glasziou ước tính 85% nguồn lực đầu tư cho nghiên cứu y sinh bị lãng phí [@chalmers2009]. Sự lãng phí này đến từ nhiều khâu khác nhau [@macleod2014] (Hình 2):
+
+-   lựa chọn câu hỏi nghiên cứu không phù hợp,
+-   sử dụng phương pháp thiết kế và phân tích không phù hợp,
+-   quản lý và điều phối nghiên cứu không hiệu quả,
+-   không tiếp cận được kết quả nghiên cứu,
+-   kết quả nghiên cứu bị sai lệch và không sử dụng được
+
+```{r, fig.cap="Hình 2. Sự lãng phí nguồn lực trong NCKH [@macleod2014]", echo=FALSE}
+knitr::include_graphics("figures/STROBEnut_030.png")
+```
+
+Tất cả những ví dụ trên cho thấy, trong bối cảnh hiện nay, việc đánh giá các bài báo khoa học trước khi sử dụng các kết quả được trình bày trong các bài báo khoa học đó là hết sức cần thiết.
+:::
+
+## Đọc bài báo khoa học
+
+::: panel-tabset
+### Nội dung
+
+#### Cấu trúc thông thường của bài báo khoa học
+
+Trước 1945, các bài báo khoa học thường được trình bày như các chương sách và thường không có các đề mục thống nhất. Từ những năm 1950, bài báo trên các tạp chí y khoa lớn bắt đầu sử dụng cấu trúc IMRAD (**I**ntroduction - **M**ethods - **R**esults - **A**nd - **D**iscussion) [@sollaci2004]. Từ những năm 1980, cấu trúc IMRAD đã trở nên rất phổ biến và hầu hết các bài báo đăng trên các tạp chí y khoa lớn đều sử dụng cấu trúc này \[Hình 3\].
+
+```{r, fig.cap="Hình 3. Tỉ lệ bài báo sử dụng cấu trúc IMRAD ở 4 tạp chí y khoa hàng đầu trong giai đoạn 1935-1985 [@sollaci2004]", echo=FALSE}
+knitr::include_graphics("figures/imrad_adoption.jpeg")
+```
+
+Trong cấu trúc IMRAD, một bài báo sẽ bao gồm các phần chính sau:
+
+-   Mở đầu (Introduction): trong phần này, tác giả sẽ giới thiệu về chủ đề nghiên cứu, tầm quan trọng của chủ đề nghiên cứu, lý do thực hiện nghiên cứu và câu hỏi cụ thể của nghiên cứu. Thông thường, câu hỏi nghiên cứu cụ thể sẽ được trình bày ở đoạn cuối của phần mở đầu này.
+
+-   Phương pháp (Methods): trong phần này, tác giả sẽ trình bày cách thức nghiên cứu được thực hiện, với các đề mục nhỏ hơn trình bày về đối tượng nghiên cứu, thời gian - địa điểm nghiên cứu, thiết kế nghiên cứu, cách chọn mẫu, cách đo lường và thu thập dữ liệu, cũng như cách phân tích dữ liệu.
+
+-   Kết quả (Results): trong phần này, tác giả sẽ trình bày kết quả có được từ nghiên cứu. Phần kết quả thường bắt đầu với những thông tin thực tế về quá trình thu nhận đối tượng tham gia nghiên cứu và các đặc điểm nền của đối tượng tham gia. Các kết quả chi tiết thường được trình bày theo mục tiêu nghiên cứu, trong đó các kết quả chính yếu thường được trình bày dưới dạng bảng và biểu đồ.
+
+-   Bàn luận (Discussion): trong phần này, tác giả sẽ bàn luận về kết quả có được từ nghiên cứu. Phần này thường được bắt đầu bằng một đoạn tóm tắt lại các kết quả nghiên cứu chính. Nội dung bàn luận tiếp theo thường tập trung vào: giá trị và độ tin cậy của kết quả nghiên cứu, so sánh kết quả nghiên cứu với các nghiên cứu tương tự trước đây, lý giải kết quả nghiên cứu, tính ứng dụng của kết quả nghiên cứu. Phần bàn luận thường bao gồm cả nhận định của tác giả về điểm mạnh và điểm yếu của nghiên cứu. Đoạn cuối của phần bàn luận thường tóm tắt về những ứng dụng và giá trị chính mà nghiên cứu mang lại.
+
+Tuy nhiên, không phải tất cả các bài báo khoa học trong lĩnh vực y sinh đều theo cấu trúc này. Các tạp chí với độc giả đến từ nhiều lĩnh vực khác nhau có thể sử dụng các cấu trúc khác. Bài đăng trên tạp chí Science và Nature thường có cấu trúc: tóm tắt, kết quả, bàn luận, phương pháp.
+
+Bên cạnh các phần chính trên, bài báo khoa học còn có những phần nội dung khác, bao gồm:
+
+-   Tóm tắt (Abstract): tóm tắt ngắn gọn nội dung bài báo. Thường giới hạn trong khoảng 300-500 chữ, có thể theo cấu trúc IMRAD hoặc không.
+
+-   Phụ lục - Thông tin bổ sung (Appendix, Additional information): bao gồm các thông tin chi tiết hơn về phương pháp và kết quả nghiên cứu không được trình bày ở phần nội dung chính.
+
+-   Lời cảm ơn (Acknowledgements): lời cảm ơn đến những người có đóng góp cho nghiên cứu nhưng chưa đủ điều kiện để nằm trong danh sách tác giả.
+
+-   Xung đột lợi ích (Competing interests): tự báo cáo của tác giả về những yếu tố liên quan đến lợi ích (thường là về tài chính) có thể ảnh hưởng đến việc diễn giải kết quả.
+
+-   Công khai dữ liệu và/hoặc code phân tích (Data/Code availability): dữ liệu và code phân tích của bài báo có được công khai không, và cách tiếp cận.
+
+#### Hướng dẫn viết bài báo khoa học
+
+Xuất phát từ việc ghi nhận chất lượng kém của các bài báo đăng trên tạp chí y sinh, dự án EQUATOR được ra đời từ năm 2006 với sứ mệnh xây dựng, tập hợp và phổ biến các hướng dẫn viết bài báo khoa học. Đến thời điểm hiện tại, website của dự án <https://www.equator-network.org> đã tập hợp được 528 hướng dẫn viết bài báo khoa học cho rất nhiều loại thiết kế nghiên cứu và chủ đề khác nhau.
+
+```{r, fig.cap="Hình 4. equator-network", echo=FALSE}
+knitr::include_graphics("figures/PBYV_2021_07.png")
+```
+
+Mỗi hướng dẫn thường sẽ bao gồm 3 thông tin chính:
+
+-   01 bài báo giải thích lý do xây dựng hướng dẫn, cách thức hướng dẫn được xây dựng và tóm tắt các nội dung chính của hướng dẫn.
+
+-   01 bài báo giải thích chi tiết về từng nội dung trong hướng dẫn: vì sao cần trình bày nội dung đó, cách trình bày và ví dụ minh hoạ cho cách trình bày nội dung đó trong bài báo.
+
+-   01 bảng kiểm trình bày ngắn gọn thông tin cần trình bày trong bài báo, đề mục tương ứng và vị trí trình bày trong bài báo.
+
+Trong hơn 500 hướng dẫn khác nhau ở thời điểm hiện tại, các hướng dẫn quan trọng và thường được sử dụng nhiều nhất là CONSORT (cho thử nghiệm lâm sàng), STROBE (cho nghiên cứu quan sát) và PRISMA (cho tổng quan có hệ thống).
+
+#### Lấy thông tin chính từ bài báo
+
+Trong thực tế, không phải ai cũng có thời gian để đọc toàn bộ bài báo khoa học ngay ở lần đọc đầu tiên. Thông thường, người đọc sẽ đọc lướt qua bài báo để lấy một số thông tin chính về bài báo. Những thông tin chính này sẽ góp phần giúp người đọc quyết định xem họ có nên dành thời gian để đọc kỹ lại bài báo này hay không? và nếu có thì nên tập trung vào đọc nội dung gì?
+
+Mỗi người sẽ có một quan điểm khác nhau về những thông tin chính chính yếu mà họ cần nắm về bài báo khi đọc lướt. Với cá nhân tôi, 3 thông tin sau là những thông tin quan trọng nhất:
+
+-   Câu hỏi nghiên cứu: PICO
+-   Phương pháp: đối tượng và thiết kế nghiên cứu
+-   Kết quả/Kết luận chính
+
+Việc xác định câu hỏi nghiên cứu của một bài báo là hết sức quan trọng, vì chính câu hỏi nghiên cứu sẽ giúp định hướng phương pháp nghiên cứu, và sẽ là cơ sở để người đọc đánh giá sự phù hợp của phương pháp nghiên cứu được chọn lựa.
+
+Câu hỏi nghiên cứu có thể được trình bày ở nhiều dạng khác nhau, tuy nhiên, có một cách thể hiện đơn giản và đầy đủ các thành phần chính trong một câu hỏi nghiên cứu là cấu trúc PICO:
+
+-   Participant: đối tượng nghiên cứu
+-   Intervention/Exposure: can thiệp hoặc yếu tố phơi nhiễm được quan tâm
+-   Comparison: nhóm so sánh
+-   Outcome: vấn đề sức khoẻ hoặc tiêu chí để so sánh giữa các nhóm
+
+Không phải câu hỏi nghiên cứu nào cũng bao gồm đầy đủ 4 thành phần trên. Với những nghiên cứu mô tả đơn thuần, cấu trúc thông thường của câu hỏi nghiên cứu là PO, với hai thành phần là đối tượng nghiên cứu (P) và vấn đề sức khoẻ quan tâm (O). Với những nghiên cứu có so sánh, cấu trúc thông thường của câu hỏi nghiên cứu là PICO, với đầy đủ 4 thành phần trên.
+
+Khi xác định câu hỏi nghiên cứu của một bài báo, nên tìm hiểu từ những lập luận của tác giả về tầm quan trọng của vấn đề nghiên cứu, lý do thực hiện nghiên cứu và các mục tiêu cụ thể của nghiên cứu (thường được trình bày ở phần Introduction), chứ không nên suy diễn từ phương pháp tiến hành nghiên cứu cụ thể mà tác giả đã sử dụng.
+
+Người đọc có thể tìm những thông tin chính yếu về câu hỏi nghiên cứu, phương pháp thực hiện và kết quả chính từ phần tóm tắt của bài báo. Một số tạp chí hiện nay đã bổ sung thêm công cụ tóm tắt bằng hình ảnh (visual abstract) để mô tả một cách sinh động các thông tin trên trong một hình ảnh duy nhất (Hình 5).
+
+```{r, fig.cap="Hình 5. Minh hoạ về tóm tắt bằng hình ảnh (visual abstract) trên tạp chí NEJM", echo=FALSE}
+knitr::include_graphics("figures/10.1056_NEJMdo006254.jpg")
+```
+
+#### Đọc "bị động" vs. Đọc "chủ động"
+
+```{r, fig.cap="Hình 6. Đọc 'bị động' vs. Đọc 'chủ động' [@sunActivePassiveReading2020]", echo=FALSE}
+knitr::include_graphics("figures/PBYV_09.png")
+```
+
+Nhiều người đọc hay đọc bài báo khoa học theo trình tự từ đầu đến cuối và chỉ đơn thuần nhận thông tin được cung cấp từ bài báo (Hình 6). Đây là cách đọc "bị động", trong đó người đọc hoàn toàn bị dẫn dắt bởi bài báo. Với cách đọc này, quá trình đọc bài báo thường kéo dài, gây ra sự chán nản và mệt mỏi. Khi hoàn tất việc đọc, người đọc thường có cảm giác như được giải thoát, tuy nhiên thường không có ấn tượng sâu đậm về nội dung của bài báo, không hiểu được bản chất của bài báo, và không tự đưa ra được những nhận định hay đánh giá về bài báo đã đọc [@sunActivePassiveReading2020] (Bảng 1).
+
+Một cách đọc khác do tác giả Sun giới thiệu là đọc chủ động, còn gọi là phương pháp đọc Q-P/C (Hình 6). Với cách đọc này, người đọc không thụ động tiếp nhận thông tin mà chủ động lựa chọn và tìm kiếm thông tin để đọc bằng việc kết hợp việc đọc báo với việc đặt ra các câu hỏi, đưa ra các dự đoán và so sánh trong quá trình đọc. Đọc bài báo khoa học theo cách này có thể giúp việc đọc báo trở nên nhanh và hiệu quả hơn, đồng thời sẽ là một trải nghiệm trí tuệ thú vị. Kết thúc việc đọc bài báo, người đọc sẽ hiểu sâu hơn về bản chất nghiên cứu, học được những điểm mới từ cả cái hay và hạn chế của bài báo, và có thể tự đưa ra các nhận định và đánh giá về bài báo [@sunActivePassiveReading2020] (Bảng 1).
+
+```{r, echo = FALSE}
+data.frame(
+  passive = c("Vâng lời không mục đích", "Không phê phán, tin tưởng tuyệt đối vào tác giả", "Tư tưởng kiểu hoàn tất công việc", "Chán, mệt mỏi", "Không hiểu bản chất của nghiên cứu", "Ấn tượng hời hợt"),
+  active = c("Đọc với câu hỏi có sẵn trong đầu", "Tôn trọng tác giả nhưng không xem họ không thể sai lầm", "Hoạt động trí tuệ thú vị", "Tập trung, chọn lọc, hiệu quả", "Hiểu sâu hơn về bản chất nghiên cứu", "Ấn tượng sâu đậm")
+) %>%
+  kbl(caption = "Bảng 1. So sánh đọc bị động và đọc chủ động [@sunActivePassiveReading2020]",
+      col.names = c("Đọc bị động", "Đọc chủ động")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+Một cách đọc đơn giản theo phương pháp này có thể theo trình tự như sau:
+
+-   Đặt và trả lời câu hỏi: câu hỏi nghiên cứu của bài báo này là gì? Vì sao nó quan trọng? bằng cách đọc phần tóm tắt và mở đầu.
+-   Đặt và trả lời câu hỏi: nếu tôi là nghiên cứu viên chính của nghiên cứu này, tôi sẽ làm như thế nào để trả lời câu hỏi nghiên cứu đó?
+-   Đọc phần phương pháp và so sánh phương pháp mà bạn lựa chọn với phương pháp mà tác giả đã sử dụng. Suy nghĩ về những điểm giống và khác nhau giữa hai phương pháp. Đưa ra một vài nhận định về lý do vì sao tác giả đã lựa chọn phương pháp mà họ đã thực hiện.
+-   Đặt và trả lời câu hỏi: Nếu chấp nhận thực hiện nghiên cứu theo phương pháp của tác giả, tôi sẽ mong đợi những kết quả gì?
+-   Đọc phần kết quả và so sánh kết quả mà bạn mong đợi với kết quả được trình bày. Đưa ra một vài nhận định về sự giống và khác nhau.
+-   Đặt và trả lời câu hỏi: Nếu chấp nhận những kết quả đã được trình bày, tôi sẽ mong đợi những nội dung gì trong phần bàn luận?
+-   Đọc phần kết quả và so sánh phần bàn luận mà bạn mong đợi với bàn luận được trình bày. Đưa ra một vài nhận định về sự giống và khác nhau.
+-   Tóm tắt những thông tin thu nhận được trong quá trình đọc và đưa ra một vài nhận định và đánh giá về bài báo.
+
+```{r}
+shiny::textAreaInput(
+  inputId = "note",
+  label = "Ghi chú"
+)
+```
+:::
+
+## Đánh giá bài báo khoa học
+
+::: panel-tabset
+### Nội dung
+
+Một bài báo khoa học có thể được đánh giá về hình thức (đánh giá "bài báo") và/hoặc nội dung (đánh giá "nghiên cứu" đằng sau bài báo). Trước khi đánh giá bài báo, cần xác định rõ mục tiêu của việc bài báo này là để đánh giá hình thức hay nội dung, vì điều này sẽ ảnh hưởng đến việc chọn lựa công cụ đánh giá phù hợp.
+
+#### Đánh giá hình thức
+
+Mục tiêu của việc đánh giá này là kiểm tra xem bài báo có trình bày đầy đủ và rõ ràng các thông tin cần thiết để người đọc có thể đánh giá về nội dung không. Với người đọc thông thường, ít khi nào việc đánh giá bài báo lại tập trung chủ yếu vào mục tiêu này. Tuy nhiên, trong một số trường hợp, như khi bạn muốn tiến hành một nghiên cứu nhằm mô tả chất lượng trình bày của các bài báo khoa học trong một lĩnh vực cụ thể, người thực hiện nghiên cứu sẽ cần đánh giá hình thức trình bày của các bài báo khoa học.
+
+Để thực hiện mục tiêu này, chúng ta có thể sử dụng các hướng dẫn và bảng kiểm về cách viết bài báo khoa học đã trình bày ở mục "Hướng dẫn viết bài báo khoa học" để đánh giá.
+
+#### Đánh giá nội dung
+
+Mục tiêu của việc đánh giá này là kiểm tra tính giá trị và khả năng áp dụng của kết quả nghiên cứu. Đây là mục tiêu phổ biến khi chúng ta đọc và đánh giá các bài báo khoa học.
+
+Với mục tiêu này, công cụ cần thiết sẽ là các công cụ giúp đánh giá nguy cơ sai lệch của kết quả nghiên cứu. Hiện nay có nhiều công cụ như vậy, một số được liệt kê tại Bảng 2:
+
+```{r, echo = FALSE, results = "markup"}
+data.frame(
+  design = c("Nghiên cứu cắt ngang", "Nghiên cứu về can thiệp trên sức khoẻ", "Nghiên cứu tiên lượng", "Thử nghiệm lâm sàng có nhóm chứng phân nhóm ngẫu nhiên", "Nghiên cứu không phân nhóm ngẫu nhiên", "Nghiên cứu quan sát"),
+  tool = c("Appraisal tool for cross-sectional studies (AXIS tool)", "Downs-Black tool", "Quality in Prognosis Studies (QUIPS) tool", "Cochrane risk of bias tool for randomised trials (RoB)", "Risk Of Bias In Non-randomized Studies - of Interventions (ROBINS-I), Risk Of Bias In Non-randomized Studies - of Exposures (ROBINS-E)", "Research Triangle Institute item bank"),
+  source = c("https://bmjopen.bmj.com/content/6/12/e011458", "https://jech.bmj.com/content/52/6/377", "https://www.acpjournals.org/doi/10.7326/0003-4819-158-4-201302190-00009", "https://sites.google.com/site/riskofbiastool/welcome/rob-2-0-tool/current-version-of-rob-2", "https://sites.google.com/site/riskofbiastool/welcome/home và https://sites.google.com/site/riskofbiastool/welcome/robins-e-tool", "https://www.ncbi.nlm.nih.gov/books/NBK82258/")
+) %>%
+  kbl(caption = "Bảng 2. Các công cụ đánh giá nguy cơ sai lệch của kết quả nghiên cứu",
+      col.names = c("Loại nghiên cứu", "Công cụ", "Link")) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+#### Hướng dẫn thuyết trình bài báo
+
+Để hỗ trợ học viên trong quá trình đọc và đánh giá bài báo khoa học, bộ môn Dịch tễ học đã xây dựng một bảng kiểm gồm 20 câu hỏi nhằm đánh giá bài báo tại các giai đoạn khác nhau trong quá trình nghiên cứu được thực hiện. Tóm tắt về 20 câu hỏi này trong chu trình nghiên cứu được trình bày ở Hình 7 dưới đây:
+
+```{r, fig.cap="Hình 7. Tóm tắt về các câu hỏi đánh giá bài báo trong chu trình nghiên cứu", echo=FALSE}
+knitr::include_graphics("figures/DesignCR_16.png")
+```
+
+```{r}
+shiny::textAreaInput(
+  inputId = "note",
+  label = "Ghi chú"
+)
+```
+:::
+
+## Tóm tắt
+
+::: {.infobox .caution data-latex="{caution}"}
+Việc đọc & đánh giá bài báo khoa học là rất cần thiết.
+
+Nên đọc bài báo khoa học theo phương pháp đọc chủ động (phương pháp Q-PC)
+
+Cần xác định rõ mục tiêu đánh giá bài báo khoa học để lựa chọn được công cụ phù hợp
+
+-   Đánh giá hình thức: hướng dẫn viết bài báo
+-   Đánh giá nội dung: công cụ đánh giá sai lệch
+
+Hướng dẫn thuyết trình bài báo của bộ môn
+:::
+
+## Tài liệu tham khảo
+
+::: {#refs}
+:::
+
+<p><br><br></p>
+
+<!-- Print button -->
+
+<p><input type="button" value="In trang này" onClick="window.print()"></p>

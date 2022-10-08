@@ -1,0 +1,111 @@
+---
+title: "Sample Size"
+format: 
+  html:
+    css: [css/style.css, css/webex.css]
+    toc: true
+    toc-float: true
+    toc-depth: 2
+    number-sections: true
+    number-depth: 3
+    include-after-body: js/webex.js
+    self-contained: true
+bibliography: references.bib
+csl: the-new-england-journal-of-medicine.csl
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(shiny)
+library(tidyverse)
+library(webexercises)
+library(gt)
+library(glue)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  results = "hold",
+  out.width = '100%',
+  fig.width = 8,
+  fig.height = 5,
+  fig.align = 'center',
+  fig.cap = TRUE
+)
+```
+
+## Mục tiêu
+
+::: {.infobox .caution data-latex="{caution}"}
+Lưu ý !!!
+:::
+
+## Nội dung 1
+
+::: panel-tabset
+### Hoạt động 1.1
+
+```{r}
+shiny::textAreaInput(
+  value = "",
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+
+### Hoạt động 1.2
+
+**Bài tập 1:**
+
+```{r, echo = FALSE}
+opts <- c("A",
+          "B",
+          "C",
+          answer = "D")
+```
+
+`r longmcq(opts)`
+
+`r hide("Xem giải thích")`
+
+Giải thích
+
+`r unhide()`
+:::
+
+## Nội dung 2
+
+::: panel-tabset
+### Hoạt động 2.1
+
+```{r}
+shiny::textAreaInput(
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+
+### Hoạt động 2.2
+
+```{r}
+shiny::textAreaInput(
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+:::
+
+## Tóm tắt
+
+## Tài liệu tham khảo
+
+::: {#refs}
+:::
+
+<p><br><br></p>
+
+<!-- Print button -->
+
+<p><input type="button" value="In trang này" onClick="window.print()"></p>

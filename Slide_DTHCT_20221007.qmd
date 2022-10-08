@@ -1,0 +1,405 @@
+---
+title: "DỊCH TỄ HỌC CAN THIỆP: NGHIÊN CỨU CAN THIỆP"
+subtitle: ""
+author: "TS. BS. Phùng Khánh Lâm"
+date: "07/10/2022"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    width: 1050
+    height: 700
+    chalkboard: false
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+## Mục tiêu bài giảng
+
+* Phân tích các đặc tính của can thiệp trong YTCC/YHDP
+
+* Phân tích các phương pháp đánh giá hiệu quả can thiệp
+
+* Trình bày nguyên tắc đạo đức trong thực hiện nghiên cứu thực nghiệm
+
+## Thảo luận nhóm (8 nhóm)
+
+Trong vòng 15 phút, đọc tình huống và thảo luận các nội dung sau:
+
+1. Vấn đề cần can thiệp là gì?
+2. Mục tiêu can thiệp là gì?
+3. Đối tượng cần can thiệp là ai?
+4. Đề xuất biện pháp can thiệp phù hợp?
+5. Đánh giá hiệu quả can thiệp như thế nào?
+
+Sau đó đại diện mỗi nhóm trình bày trước lớp kết quả thảo luận (3 phút/nhóm)
+
+## Tình huống 1
+
+Nhiều nơi khuyến cáo rằng việc người bệnh đeo khẩu trang có thể giúp ngăn ngừa việc lây truyền bệnh (kiểm soát nguồn bệnh). Tuy nhiên, hầu hết chứng cứ hiện tại về hiệu quả lọc của khẩu trang là từ các thí nghiệm với vật thể phi sinh học. Có rất ít thông tin về hiệu quả của khẩu trang trong việc lọc virus đưởng hô hấp và giảm thải virus từ người nhiễm bệnh, và hầu hết các nghiên cứu hiện chỉ tập trung trên cúm. Chúng tôi muốn tìm hiểu lượng virus đường hô hấp trong khí thở của người mắc ARI và xác định hiệu lực của khẩu trang y tế trong việc ngăn ngừa lây truyền virus đường hô hấp. 
+
+## Tình huống 2
+
+Có ít bằng chứng ở mức độ cộng đồng về hiệu quả của đeo khẩu trang trong phòng ngừa sự lây truyền của SARS-CoV-2. Một phân tích trên quy mô toàn cầu gần đây tìm thấy hiệu quả nhỏ của quy định đeo khẩu trang bắt buộc trên sự lây truyền SARS-CoV-2 khi các biện pháp phòng ngừa khác cũng đồng thời được thực hiện. Chúng tôi muốn tìm hiểu mối liên quan giữa việc tự báo cáo về việc đeo khẩu trang với sự lây truyền SARS-CoV-2 trong cộng đồng ở Hoa Kỳ.
+
+## Tình huống 3
+
+Bằng chứng từ các nghiên cứu quan sát cho thấy đeo khẩu trang có thể làm giảm sự lây truyền SARS-CoV-2. Tuy nhiên vẫn chưa rõ kết quả này là do khẩu trang bảo vệ người khoẻ mạnh (tác dụng bảo vệ) hay do giảm sự lây truyền khi người bệnh đeo khẩu trang (kiểm soát nguồn bệnh). Chúng tôi muốn đánh giá liệu việc khuyến cáo đeo khẩu trang y tế khi ra khỏi nhà có làm giảm nguy cơ mắc bệnh của người đeo khẩu trang trong bối cảnh các biện pháp y tế công cộng khác đang được thực hiện nhưng việc đeo khẩu trang tại cộng đồng còn chưa phổ biến và chưa được khuyến cáo.  
+
+## Tình huống 4
+
+Nhiều nơi còn ít sử dụng khẩu trang trong đại dịch COVID-19, và các chiến lược nhằm gia tăng việc đeo khẩu trang vẫn chưa được kiểm chứng. Chúng tôi muốn xác định các chiến lược có thể gia tăng việc đeo khẩu trang một cách bền vững và đánh giá tác động của việc gia tăng việc đeo khẩu trang trên số lượng người nhiễm SARS-CoV-2 có triệu chứng.
+
+# Biện pháp can thiệp trong YTCC/YHDP
+
+## Biện pháp can thiệp (về sức khoẻ)
+
+> bất kỳ hoạt động nào được thực hiện với mục tiêu cải thiện sức khoẻ con người bằng cách phòng ngừa bệnh tật, chữa khỏi hoặc giảm độ nặng hay thời gian mắc bệnh, hoặc bằng cách phục hồi các chức năng bị mất do bệnh hay chấn thương.
+
+::: aside
+Smith PG et al. (2015) Field trials of health interventions: a toolbox. 3rd edition. 
+:::
+
+## Biện pháp can thiệp trong YTCC/YHDP
+
+![](figures/DTHCT_01.png){fig-align="center"}
+
+## Biện pháp can thiệp: mục tiêu
+
+![](figures/DTHCT_02.png){fig-align="center"}
+
+## Biện pháp can thiệp: mục tiêu
+
+![](figures/DTHCT_03.png){fig-align="center"}
+
+## Biện pháp can thiệp: mục tiêu
+
+![](figures/DTHCT_04.png){fig-align="center"}
+
+## Biện pháp can thiệp: mục tiêu
+
+![](figures/DTHCT_05.png){fig-align="center"}
+
+## Biện pháp can thiệp: mục tiêu
+
+![](figures/DTHCT_11.png){fig-align="center"}
+
+## Biện pháp can thiệp: giai đoạn
+
+![](figures/DTHCT_06.png){fig-align="center"}
+
+::: aside
+Westfall JM et al. (2007) JAMA. Jan 24;297(4):403–6. 
+:::
+
+## Biện pháp can thiệp: giai đoạn
+
+![](figures/DTHCT_07.png){fig-align="center"}
+
+::: aside
+Westfall JM et al. (2007) JAMA. Jan 24;297(4):403–6. 
+:::
+
+## Biện pháp can thiệp: giai đoạn
+
+![](figures/DTHCT_08.png){fig-align="center"}
+
+::: aside
+Westfall JM et al. (2007) JAMA. Jan 24;297(4):403–6. 
+:::
+
+## Biện pháp can thiệp: giai đoạn
+
+![](figures/DTHCT_09.png){fig-align="center"}
+
+::: aside
+Westfall JM et al. (2007) JAMA. Jan 24;297(4):403–6. 
+:::
+
+## Biện pháp can thiệp: giai đoạn
+
+![](figures/DTHCT_10.png){fig-align="center"}
+
+::: aside
+Westfall JM et al. (2007) JAMA. Jan 24;297(4):403–6. 
+:::
+
+## Biện pháp can thiệp
+
+### Mục tiêu
+
+* Dự phòng?
+* Điều trị?
+* Triển khai?
+
+### Đối tượng
+
+* Cá nhân?
+* Cộng đồng?
+* Cả hai?
+
+### Giai đoạn phát triển
+
+# Phương pháp đánh giá hiệu quả can thiệp
+
+## Nguyên tắc đánh giá hiệu quả can thiệp
+
+![](figures/DTHCT_12.png){fig-align="center"}
+
+## Các phương pháp đánh giá hiệu quả can thiệp
+
+![](figures/DTHCT_13.png){fig-align="center"}
+
+## Thử nghiệm vs. Quan sát
+
+![](figures/DTHCT_14.png){fig-align="center"}
+
+## Thử nghiệm vs. Quan sát
+
+![](figures/DTHCT_15.png){fig-align="center"}
+
+## Thử nghiệm vs. Quan sát
+
+![](figures/DTHCT_16.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/DTHCT_17.png){fig-align="center"}
+
+## Phân nhóm ngẫu nhiên
+
+![](figures/DTHCT_18.png){fig-align="center"}
+
+## Phân nhóm ngẫu nhiên
+
+![](figures/DTHCT_19.png){fig-align="center"}
+
+## Làm mù
+
+![](figures/DTHCT_20.png){fig-align="center"}
+
+# Các tình huống
+
+## Tình huống 1
+
+**Vấn đề**
+
+* Người mắc bệnh ARI đeo khẩu trang y tế có giảm nguy cơ lây truyền bệnh không?
+
+**Mục tiêu**
+
+* Đánh giá hiệu quả của việc đeo khẩu trang cho người mắc bệnh ARI lên lượng virus phát hiện được khi thở 
+
+## Tình huống 1
+
+**PICO**
+
+* P: người mắc bệnh ARI 
+* I: đeo khẩu trang khi thở
+* C: không đeo khẩu trang khi thở
+* O: số lượng virus đường hô hấp phát hiện được khi thở
+
+**Phương pháp**
+
+* Thực nghiệm
+* Thiết kế: thực nghiệm có nhóm chứng
+
+## Tình huống 1
+
+![](figures/DTHCT_21.png){fig-align="center"}
+
+::: aside
+Leung NHL, et al. (2020) Nat Med. 2020 May;26(5):676–80. 
+:::
+
+## Tình huống 2
+
+**Vấn đề**
+
+* Đeo khẩu trang trong cộng đồng có làm thay đổi sự lây truyền của SARS-CoV-2 trong cộng đồng không?
+
+**Mục tiêu**
+
+* Đánh giá hiệu quả của việc đeo khẩu trang với sự lây truyền của SARS-CoV-2 ở mức độ cộng đồng 
+
+## Tình huống 2
+
+**PICO**
+
+* P: dân số chung tại Hoa Kỳ 
+* I: % báo cáo khả năng cao đeo khẩu trang khi mua sắm & đi cùng bạn bè
+* C: 
+* O: khả năng hệ số lây nhiễm hiệu quả $R_t < 1$
+
+**Phương pháp**
+
+* Quan sát
+* Thiết kế: cắt ngang, sinh thái
+
+## Tình huống 2
+
+![](figures/DTHCT_22.png){fig-align="center"}
+
+::: aside
+Rader B et al. (2021) Lancet Digit Health. 2021 Mar;3(3):e148–57. 
+:::
+
+## Tình huống 3
+
+**Vấn đề**
+
+* Khuyến cáo đeo khẩu trang trên nền các biện pháp YTCC khác có tác dụng bảo vệ người khoẻ mạnh không?
+
+**Mục tiêu**
+
+* Đánh giá hiệu quả của khuyến cáo đeo khẩu trang trên nền các biện pháp YTCC khác trên tỉ lệ nhiễm SARS-CoV-2 trên người chưa nhiễm bệnh sau 1 tháng can thiệp 
+
+## Tình huống 3
+
+**PICO**
+
+* P: người chưa nhiễm bệnh, ra khỏi nhà >=3h/ngày, không bị bắt buộc đeo khẩu trang 
+* I: cung cấp khẩu trang & khuyến cáo đeo khẩu trang khi ra khỏi nhà
+* C: không can thiệp
+* O: tỉ lệ nhiễm SARS-CoV-2 qua xét nghiệm kháng thể/PCR/chẩn đoán tại bệnh viện
+
+**Phương pháp**
+
+* Thử nghiệm thực địa
+* Thiết kế: thử nghiệm có nhóm chứng phân nhóm ngẫu nhiên (randomized controlled trial)
+
+## Tình huống 3
+
+![](figures/DTHCT_23.png){fig-align="center"}
+
+::: aside
+Bundgaard H et al. (2021) Ann Intern Med. 2021 Mar;174(3):335–43. 
+:::
+
+## Tình huống 4
+
+**Vấn đề**
+
+* Làm thế nào để gia tăng việc đeo khẩu trang?
+* Kiểm chứng hiệu quả của việc gia tăng đeo khẩu trang trên sự lây truyền của bệnh?
+
+**Mục tiêu**
+
+* Đánh giá hiệu quả các chiến lược trên việc đeo khẩu trang
+* Đánh giá hiệu quả của việc gia tăng đeo khẩu trang trên số ca nhiễm có triệu chứng
+
+## Tình huống 4
+
+**PICO**
+
+* P: người dân sống tại các ngôi làng
+* I: Can thiệp bằng NORM
+* C: Không can thiệp
+* O: tỉ lệ đeo khẩu trang, tỉ lệ mắc COVID-19 có triệu chứng
+
+**Phương pháp**
+
+* Thử nghiệm can thiệp cộng đồng
+* Thiết kế: thử nghiệm phân nhóm ngẫu nhiên theo cụm (cluster-randomized trial)
+
+## Tình huống 4
+
+![](figures/DTHCT_24.png){fig-align="center"}
+
+::: aside
+Abaluck J et al. (2021) Science. 2021 Dec 2;375(6577):eabi9069. 
+:::
+
+# Đạo đức trong nghiên cứu thực nghiệm
+
+## Vì sao?
+
+Nghiên cứu khác với điều trị
+
+:::{.fragment}
+Mục đích của nghiên cứu
+
+* Kiến thức mới
+:::
+
+:::{.fragment}
+Lợi ích của người tham gia nghiên cứu
+
+* Thường không có lợi ích trực tiếp
+:::
+
+## Văn bản
+
+* Nuremberg Code (1947)
+
+* Declaration of Helsinki (2000)
+
+* Belmont Report (1979)
+
+* CIOMS (2002)
+
+## Nguyên tắc
+
+* Công bằng (justice)
+
+* Cân nhắc lợi ích/rủi ro (beneficence)
+
+* Tôn trọng ý kiến cá nhân (respect of autonomy)
+
+*	Không ác ý (non-maleficence)
+
+**Khi áp dụng cần cân nhắc cả các yếu tố về văn hoá, xã hội**
+
+## Áp dụng
+
+:::{.fragment}
+Khi nào tiến hành thử nghiệm lâm sàng?
+
+* Equipoise
+:::
+
+:::{.fragment}
+Thực hiện thử nghiệm lâm sàng như thế nào?
+
+* Đồng thuận tham gia nghiên cứu
+:::
+
+:::{.fragment}
+Khi nào kết thúc thử nghiệm lâm sàng?
+
+* Kết thúc sớm: dữ liệu của nghiên cứu, tiến triển của nghiên cứu, thông tin khác
+:::
+
+# Kết luận
+
+## Kết luận
+
+:::{.fragment}
+Can thiệp trong YTCC/YHDP
+
+* Mục tiêu
+* Đối tượng
+* Giai đoạn
+:::
+
+:::{.fragment}
+Phương pháp đánh giá hiệu quả can thiệp
+
+* Nguyên tắc
+* Phương pháp
+* Đặc tính: thử nghiệm, nhóm chứng, phân nhóm ngẫu nhiên, làm mù
+:::
+
+:::{.fragment}
+Đạo đức khi thực hiện các nghiên cứu thực nghiệm
+:::
+

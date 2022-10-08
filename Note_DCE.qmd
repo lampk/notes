@@ -1,0 +1,399 @@
+---
+title: "DCE"
+format: 
+  html:
+    css: [css/style.css, css/webex.css]
+    toc: true
+    toc-float: true
+    toc-depth: 2
+    number-sections: true
+    number-depth: 3
+    include-after-body: js/webex.js
+    self-contained: true
+bibliography: references.bib
+csl: the-new-england-journal-of-medicine.csl
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(shiny)
+library(tidyverse)
+library(webexercises)
+library(gt)
+library(glue)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  results = "hold",
+  out.width = '100%',
+  fig.width = 8,
+  fig.height = 5,
+  fig.align = 'center',
+  fig.cap = TRUE
+)
+```
+
+## Mục tiêu
+
+::: {.infobox .caution data-latex="{caution}"}
+Lưu ý !!!
+:::
+
+## Nội dung 1
+
+```{r}
+library(support.CEs)
+des1 <- rotation.design(attribute.names = list(
+  A = c("A_1", "A_2", "A_3", "A_4"),
+  B = c("B_1", "B_2"),
+  C = c("C_1", "C_2"),
+  D = c("D_1", "D_2")),
+  nalternatives = 2, nblocks = 1, row.renames = FALSE,
+  randomize = TRUE, seed = 987)
+
+des1
+
+questionnaire(choice.experiment.design = des1)
+```
+
+```{r}
+set.seed(100)
+simdat <- data.frame(
+  ID = 1:100,
+  BLOCK = 1,
+  q1 = rbinom(n = 100, size = 1, prob = 0.1) + 1,
+  q2 = rbinom(n = 100, size = 1, prob = 0.1) + 1,
+  q3 = rbinom(n = 100, size = 1, prob = 0.1) + 1,
+  q4 = rbinom(n = 100, size = 1, prob = 0.1) + 1,
+  q5 = rbinom(n = 100, size = 1, prob = 0.5) + 1,
+  q6 = rbinom(n = 100, size = 1, prob = 0.5) + 1,
+  q7 = rbinom(n = 100, size = 1, prob = 0.5) + 1,
+  q8 = rbinom(n = 100, size = 1, prob = 0.5) + 1,
+  FM = rbinom(n = 100, size = 1, prob = 0.5)
+)
+
+desmat1 <- make.design.matrix(choice.experiment.design = des1,
+                              optout = FALSE, 
+                              categorical.attributes = c("A", "B", "C", "D"),
+                              unlabeled = TRUE)
+
+dataset1 <- make.dataset(
+  respondent.dataset = simdat,
+  choice.indicators = c("q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8"),
+  design.matrix = desmat1)
+
+library(survival)
+clogout1 <- clogit(RES ~ ASC + A_2 + A_3 + A_4 + B_2 + C_2 + D_2 + strata(STR), data = dataset1)
+clogout1
+
+## sample size (de Bekker-Grob 2015)
+### Significance Level (a)
+test_alpha <- 0.05
+z_one_minus_alpha <- qnorm(1 - test_alpha)
+
+### Statistical Power Level (1-b)
+test_beta <- 0.20
+z_one_minus_beta <- qnorm(1 - test_beta)
+
+### Statistical Model Used in the DCE Analysis: conditional logistic regression
+
+### Initial Belief About the Parameter Values
+parameters <- c(1.23 , -0.31 , -0.21 , -0.44 , 0.028 , -1.10 , -0.04 , -0.0015)
+
+### The DCE design
+ncoefficients <- 8
+nalts <- 3
+nchoices <- 16
+
+design <- as.matrix(read.table("….fill in the file name of the DCE design…",header = FALSE));
+
+### Estimation Accuracy
+#compute the information matrix, see Appendix (Electronic Supplementary Material 2) for more details
+# inialize a matrix of size ncoefficients by ncoefficients filled with zeros.
+info_mat <- matrix(rep(0, ncoefficients * ncoefficients), ncoefficients, ncoefficients)
+# compute exp(design matrix mes inial parameter values)
+exputilities <- exp(design%*%parameters)
+# loop over all choice sets
+for (k_set in 1:nchoices) {
+# select alternaves in the choice set
+alternaves=((k_set-1)*nalts+1) : (k_set*nalts)
+# obtain vector of choice shares within the choice set
+p_set=expulies[alternaves]/sum(expulies[alternaves])
+# also put these probabilies on the diagonal of a matrix that only contains zeros
+p_diag=diag(p_set)
+# compute middle term P-pp’ in equaon A.1 of Electronic Supplementary Material 2
+middle_term<-p_diag-p_set%o%p_set
+# pre- and postmulply with the Xs from the design matrix for the alternaves in this choice set
+full_term<-t(design[alternaves,])%*%middle_term%*%design[alternaves,]
+# Add contribuon of this choice set to the informaon matrix
+info_mat<-info_mat+full_term
+} # end of loop over choice sets
+#get the inverse of the informaon matrix (i.e., gets the variance-covariance matrix)
+sigma_beta<-solve(info_mat,diag(ncoefficients))
+
+```
+
+### Dr Huyen
+
+```{r}
+library(tidyverse)
+library(readxl)
+library(support.CEs)
+library(survival)
+
+## analyse pilot data
+### only 2 options
+pilot1 <- read_excel(path = file.path("data", "DCE", "pilot.xlsx")) %>%
+  mutate(BLOCK = 1)
+
+des <- rotation.design(attribute.names = list(
+  nguoi = c("N1", "N2", "N3"),
+  doituong = c("D1", "D2"),
+  thoigian = c("T45", "T90"),
+  phuongtien = c("P1", "P2")),
+  nalternatives = 2, nblocks = 1, row.renames = FALSE,
+  randomize = TRUE, seed = 987)
+
+desmat1 <- make.design.matrix(choice.experiment.design = des,
+                              optout = FALSE, 
+                              categorical.attributes = c("nguoi", "doituong", "thoigian", "phuongtien"),
+                              unlabeled = TRUE)
+
+dataset1 <- make.dataset(
+  respondent.dataset = pilot1,
+  choice.indicators = c("Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10", "Q11", "Q12"),
+  design.matrix = desmat1)
+
+clogout1 <- clogit(RES ~ ASC + N2 + N3 + D2 + T90 + P2 + strata(STR), data = dataset1)
+clogout1
+
+### sample size
+#### Significance Level (a)
+test_alpha <- 0.05
+z_one_minus_alpha <- qnorm(1 - test_alpha)
+
+#### Statistical Power Level (1-b)
+test_beta <- 0.20
+z_one_minus_beta <- qnorm(1 - test_beta)
+
+#### Statistical Model Used in the DCE Analysis: conditional logistic regression
+
+#### Initial Belief About the Parameter Values
+#### Alternative: ASC 0.11
+#### Attribute nguoi: N2 -0.40, N3 -0.87
+#### Attribute doituong: D2 0.32
+#### Attribute thoigian: T90 -0.65
+#### Attribute phuongtien: P2 0.44
+parameters <- c(0.11, -0.40, -0.87, 0.32, -0.65, 0.44)
+
+#### The DCE design
+ncoefficients <- 6
+nalts <- 2
+nchoices <- 12
+
+design <- as.matrix(desmat1[, -c(1:3)])
+
+#### Estimation Accuracy
+#compute the information matrix, see Appendix (Electronic Supplementary Material 2) for more details 
+# initialize a matrix of size ncoefficients by ncoefficients filled with zeros. 
+info_mat <- matrix(rep(0, ncoefficients * ncoefficients), ncoefficients, ncoefficients) 
+# compute exp(design matrix times initial parameter values) 
+exputilities <- exp(design %*% parameters) 
+# loop over all choice sets 
+for (k_set in 1:nchoices) { 
+  # select alternatives in the choice set 
+  alternatives <- ((k_set - 1) * nalts + 1) : (k_set * nalts) 
+  # obtain vector of choice shares within the choice set 
+  p_set <- exputilities[alternatives]/sum(exputilities[alternatives]) 
+  # also put these probabilities on the diagonal of a matrix that only contains zeros 
+  p_diag = diag(p_set) 
+  # compute middle term P-pp’ in equation A.1 of Electronic Supplementary Material 2 
+  middle_term <- p_diag - p_set %o% p_set 
+  # pre- and postmultiply with the Xs from the design matrix for the alternatives in this choice set 
+  full_term <- t(design[alternatives,]) %*% middle_term %*% design[alternatives,] 
+  # Add contribution of this choice set to the information matrix 
+  info_mat <- info_mat + full_term 
+  } 
+# end of loop over choice sets 
+#get the inverse of the information matrix (i.e., gets the variance-covariance matrix) 
+sigma_beta <- solve(info_mat, diag(ncoefficients))
+
+#### Sample size calculation
+# Use the parameter values as effect size. Other values can be used here. 
+effectsize <- parameters 
+# formula for sample size calculation is n>[(z_(beta)+z_(1-alpha))*sqrt(Σγκ)/delta]^2 
+N <- ((z_one_minus_beta + z_one_minus_alpha) * sqrt(diag(sigma_beta))/abs(effectsize))^2 
+# Display results “required sample size for each coefficient” 
+N ## 203.756219  42.105285   9.958245  71.475786   7.813145  36.039524
+
+### 3 options
+pilot2 <- read_excel(path = file.path("data", "DCE", "NBK-KHẢO SÁT 37.xlsx")) %>%
+  transmute(ID = 1:n(),
+         BLOCK = 1,
+         Q1 = ifelse(`Q1. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q1. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)),
+         Q2 = ifelse(`Q2. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q2. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)),
+         Q3 = ifelse(`Q3. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q3. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)),
+         Q4 = ifelse(`Q4. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q4. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)),
+         Q5 = ifelse(`Q5. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q5. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)),
+         Q6 = ifelse(`Q6. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q6. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)),
+         Q7 = ifelse(`Q7. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q7. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)),
+         Q8 = ifelse(`Q8. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q8. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)),
+         Q9 = ifelse(`Q9. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q9. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)),
+         Q10 = ifelse(`Q10. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q10. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)),
+         Q11 = ifelse(`Q11. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q11. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)),
+         Q12 = ifelse(`Q12. Tích vào kịch bản mà bạn chọn` == "Kịch bản A", 1,
+                     ifelse(`Q12. Tích vào kịch bản mà bạn chọn` == "Kịch bản B", 2, 3)))
+
+desmat2 <- make.design.matrix(choice.experiment.design = des,
+                              optout = TRUE, 
+                              categorical.attributes = c("nguoi", "doituong", "thoigian", "phuongtien"),
+                              unlabeled = TRUE)
+
+dataset2 <- make.dataset(
+  respondent.dataset = pilot2,
+  choice.indicators = c("Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8", "Q9", "Q10", "Q11", "Q12"),
+  design.matrix = desmat2)
+
+clogout2 <- clogit(RES ~ ASC + N2 + N3 + D2 + T90 + P2 + strata(STR), data = dataset2)
+clogout2
+
+### sample size
+#### Significance Level (a)
+test_alpha <- 0.05
+z_one_minus_alpha <- qnorm(1 - test_alpha)
+
+#### Statistical Power Level (1-b)
+test_beta <- 0.20
+z_one_minus_beta <- qnorm(1 - test_beta)
+
+#### Statistical Model Used in the DCE Analysis: conditional logistic regression
+
+#### Initial Belief About the Parameter Values
+#### Alternative: ASC 0.82
+#### Attribute nguoi: N2 -0.39, N3 -0.45
+#### Attribute doituong: D2 -0.29
+#### Attribute thoigian: T90 -0.44
+#### Attribute phuongtien: P2 0.28
+parameters <- coef(clogout2)
+
+#### The DCE design
+ncoefficients <- 6
+nalts <- 3
+nchoices <- 12
+
+design <- as.matrix(desmat2[, -c(1:3)])
+
+#### Estimation Accuracy
+#compute the information matrix, see Appendix (Electronic Supplementary Material 2) for more details 
+# initialize a matrix of size ncoefficients by ncoefficients filled with zeros. 
+info_mat <- matrix(rep(0, ncoefficients * ncoefficients), ncoefficients, ncoefficients) 
+# compute exp(design matrix times initial parameter values) 
+exputilities <- exp(design %*% parameters) 
+# loop over all choice sets 
+for (k_set in 1:nchoices) { 
+  # select alternatives in the choice set 
+  alternatives <- ((k_set - 1) * nalts + 1) : (k_set * nalts) 
+  # obtain vector of choice shares within the choice set 
+  p_set <- exputilities[alternatives]/sum(exputilities[alternatives]) 
+  # also put these probabilities on the diagonal of a matrix that only contains zeros 
+  p_diag = diag(p_set) 
+  # compute middle term P-pp’ in equation A.1 of Electronic Supplementary Material 2 
+  middle_term <- p_diag - p_set %o% p_set 
+  # pre- and postmultiply with the Xs from the design matrix for the alternatives in this choice set 
+  full_term <- t(design[alternatives,]) %*% middle_term %*% design[alternatives,] 
+  # Add contribution of this choice set to the information matrix 
+  info_mat <- info_mat + full_term 
+  } 
+# end of loop over choice sets 
+#get the inverse of the information matrix (i.e., gets the variance-covariance matrix) 
+sigma_beta <- solve(info_mat, diag(ncoefficients))
+
+#### Sample size calculation
+# Use the parameter values as effect size. Other values can be used here. 
+effectsize <- parameters 
+# formula for sample size calculation is n>[(z_(beta)+z_(1-alpha))*sqrt(Σγκ)/delta]^2 
+N <- ((z_one_minus_beta + z_one_minus_alpha) * sqrt(diag(sigma_beta))/abs(effectsize))^2 
+# Display results “required sample size for each coefficient” 
+N ## 13.91301 43.28976 33.72301 62.82386 17.61033 64.12190
+```
+
+
+::: panel-tabset
+### Hoạt động 1.1
+
+```{r}
+shiny::textAreaInput(
+  value = "",
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+
+### Hoạt động 1.2
+
+**Bài tập 1:**
+
+```{r, echo = FALSE}
+opts <- c("A",
+          "B",
+          "C",
+          answer = "D")
+```
+
+`r longmcq(opts)`
+
+`r hide("Xem giải thích")`
+
+Giải thích
+
+`r unhide()`
+:::
+
+## Nội dung 2
+
+::: panel-tabset
+### Hoạt động 2.1
+
+```{r}
+shiny::textAreaInput(
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+
+### Hoạt động 2.2
+
+```{r}
+shiny::textAreaInput(
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+:::
+
+## Tóm tắt
+
+## Tài liệu tham khảo
+
+::: {#refs}
+:::
+
+<p><br><br></p>
+
+<!-- Print button -->
+
+<p><input type="button" value="In trang này" onClick="window.print()"></p>

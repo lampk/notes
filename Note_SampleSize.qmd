@@ -1,0 +1,209 @@
+---
+title: "Sample size"
+format: 
+  html:
+    css: [css/style.css, css/webex.css]
+    toc: true
+    toc-float: true
+    toc-depth: 2
+    number-sections: true
+    number-depth: 3
+    include-after-body: js/webex.js
+    self-contained: true
+bibliography: references.bib
+csl: the-new-england-journal-of-medicine.csl
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+library(shiny)
+library(tidyverse)
+library(webexercises)
+library(gt)
+library(glue)
+
+knitr::opts_chunk$set(
+  echo = FALSE,
+  results = "hold",
+  out.width = '100%',
+  fig.width = 8,
+  fig.height = 5,
+  fig.align = 'center',
+  fig.cap = TRUE
+)
+```
+
+## Mục tiêu
+
+::: {.infobox .caution data-latex="{caution}"}
+Lưu ý !!!
+:::
+
+## Nội dung 1
+
+```{r}
+## use power.t.test
+power.t.test(delta = 5, sd = sqrt(2) * 2.3 * sqrt(21), sig.level = 0.05, power = 0.8, type = "paired")
+
+## by hand
+2 * (qnorm(0.975) + qnorm(0.8))^2 * (2.3 * sqrt(21))^2/(10^2)
+sqrt(2 * (qnorm(0.975) + qnorm(0.8))^2 * (2.3 * sqrt(21))^2/45)
+
+dat <- data.frame(
+  d = 5:10,
+  n = 2 * (qnorm(0.975) + qnorm(0.8))^2 * (2.3 * sqrt(21))^2/((5:10)^2)
+)
+
+library(ggplot2)
+ggplot(data = dat, aes(x = n, y = d)) + geom_line() + geom_point() +
+  xlab("Cỡ mẫu") + ylab("Trung bình thay đổi MWT trước-sau điều trị CPAP") +
+  theme_bw()
+```
+
+```{r}
+set.seed(100)
+simdat <- data.frame(
+  ID = 1:100,
+  BLOCK = 1,
+  q1 = rbinom(n = 100, size = 1, prob = 0.1) + 1,
+  q2 = rbinom(n = 100, size = 1, prob = 0.1) + 1,
+  q3 = rbinom(n = 100, size = 1, prob = 0.1) + 1,
+  q4 = rbinom(n = 100, size = 1, prob = 0.1) + 1,
+  q5 = rbinom(n = 100, size = 1, prob = 0.5) + 1,
+  q6 = rbinom(n = 100, size = 1, prob = 0.5) + 1,
+  q7 = rbinom(n = 100, size = 1, prob = 0.5) + 1,
+  q8 = rbinom(n = 100, size = 1, prob = 0.5) + 1,
+  FM = rbinom(n = 100, size = 1, prob = 0.5)
+)
+
+desmat1 <- make.design.matrix(choice.experiment.design = des1,
+                              optout = FALSE, 
+                              categorical.attributes = c("A", "B", "C", "D"),
+                              unlabeled = TRUE)
+
+dataset1 <- make.dataset(
+  respondent.dataset = simdat,
+  choice.indicators = c("q1", "q2", "q3", "q4", "q5", "q6", "q7", "q8"),
+  design.matrix = desmat1)
+
+library(survival)
+clogout1 <- clogit(RES ~ ASC + A_2 + A_3 + A_4 + B_2 + C_2 + D_2 + strata(STR), data = dataset1)
+clogout1
+
+## sample size (de Bekker-Grob 2015)
+### Significance Level (a)
+test_alpha <- 0.05
+z_one_minus_alpha <- qnorm(1 - test_alpha)
+
+### Statistical Power Level (1-b)
+test_beta <- 0.20
+z_one_minus_beta <- qnorm(1 - test_beta)
+
+### Statistical Model Used in the DCE Analysis: conditional logistic regression
+
+### Initial Belief About the Parameter Values
+parameters <- c(1.23 , -0.31 , -0.21 , -0.44 , 0.028 , -1.10 , -0.04 , -0.0015)
+
+### The DCE design
+ncoefficients <- 8
+nalts <- 3
+nchoices <- 16
+
+design <- as.matrix(read.table("….fill in the file name of the DCE design…",header = FALSE));
+
+### Estimation Accuracy
+#compute the information matrix, see Appendix (Electronic Supplementary Material 2) for more details
+# inialize a matrix of size ncoefficients by ncoefficients filled with zeros.
+info_mat <- matrix(rep(0, ncoefficients * ncoefficients), ncoefficients, ncoefficients)
+# compute exp(design matrix mes inial parameter values)
+exputilities <- exp(design%*%parameters)
+# loop over all choice sets
+for (k_set in 1:nchoices) {
+# select alternaves in the choice set
+alternaves=((k_set-1)*nalts+1) : (k_set*nalts)
+# obtain vector of choice shares within the choice set
+p_set=expulies[alternaves]/sum(expulies[alternaves])
+# also put these probabilies on the diagonal of a matrix that only contains zeros
+p_diag=diag(p_set)
+# compute middle term P-pp’ in equaon A.1 of Electronic Supplementary Material 2
+middle_term<-p_diag-p_set%o%p_set
+# pre- and postmulply with the Xs from the design matrix for the alternaves in this choice set
+full_term<-t(design[alternaves,])%*%middle_term%*%design[alternaves,]
+# Add contribuon of this choice set to the informaon matrix
+info_mat<-info_mat+full_term
+} # end of loop over choice sets
+#get the inverse of the informaon matrix (i.e., gets the variance-covariance matrix)
+sigma_beta<-solve(info_mat,diag(ncoefficients))
+
+```
+
+
+
+::: panel-tabset
+### Hoạt động 1.1
+
+```{r}
+shiny::textAreaInput(
+  value = "",
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+
+### Hoạt động 1.2
+
+**Bài tập 1:**
+
+```{r, echo = FALSE}
+opts <- c("A",
+          "B",
+          "C",
+          answer = "D")
+```
+
+`r longmcq(opts)`
+
+`r hide("Xem giải thích")`
+
+Giải thích
+
+`r unhide()`
+:::
+
+## Nội dung 2
+
+::: panel-tabset
+### Hoạt động 2.1
+
+```{r}
+shiny::textAreaInput(
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+
+### Hoạt động 2.2
+
+```{r}
+shiny::textAreaInput(
+  inputId = "note",
+  label = "Ghi chú",
+  rows = 5
+)
+```
+:::
+
+## Tóm tắt
+
+## Tài liệu tham khảo
+
+::: {#refs}
+:::
+
+<p><br><br></p>
+
+<!-- Print button -->
+
+<p><input type="button" value="In trang này" onClick="window.print()"></p>
