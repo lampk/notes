@@ -1,0 +1,328 @@
+---
+title: "ĐỌC VÀ ĐÁNH GIÁ BÀI BÁO KHOA HỌC"
+subtitle: ""
+author: "TS. BS. Phùng Khánh Lâm"
+date: "10/11/2022"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    chalkboard: true
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+    zoom: true
+    menu: false
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+```{r, include = FALSE}
+library(tidyverse)
+library(gt)
+library(gtExtras)
+library(flextable)
+```
+
+## Thảo luận (15 phút)
+
+![](figures/QRCode for Thảo luận trong buổi học Đọc và phê bình bài báo khoa học (CNDD năm 2) (10_11_2022)){fig-align=center}
+
+
+
+## Mục tiêu bài giảng
+
+1. Trình bày được lý do cần đọc và đánh giá bài báo khoa học
+
+2. Trình bày được được phương pháp đọc chủ động
+
+3. Trình bày được nguyên tắc đánh giá bài báo khoa học 
+
+# VÌ SAO CẦN ĐÁNH GIÁ BÀI BÁO KHOA HỌC? {data-background=#002147}
+
+## Nguyên tắc của Y học thực chứng
+
+* Quyết định lâm sàng tối ưu cần dựa vào bằng chứng tốt nhất hiện có (toàn diện)
+* __Các bằng chứng có giá trị khác nhau, và EBM giúp xác định độ tin cậy của bằng chứng__
+* Bằng chứng là điều kiện cần, nhưng chưa phải là điều kiện đủ để đưa ra quyết định lâm sàng tối ưu
+
+::: footer
+Gordon Guyatt et al. (2015) User's guides to the medical literature: a manual for evidence-based clinical practice.
+:::
+
+## Vòng đời một BBKH
+
+. . .
+
+* Bản thảo
+* Gửi đăng cho tạp chí
+* Biên tập viên đánh giá sơ bộ
+* Bình duyệt
+* Chỉnh sửa
+* Đăng chính thức
+* Cộng đồng khoa học phản hồi
+* Retract/Ứng dung/Cơ sở cho các nghiên cứu mới
+
+. . .
+
+::: ered
+Nguy cơ sai lệch
+:::
+
+
+
+## Sự lãng phí nguồn lực trong NCKH
+
+> Đầu tư cho nghiên cứu y sinh trong năm 2010 là 240 tỉ USD nhưng 80% nghiên cứu không tạo ra giá trị mới"
+
+![](figures/STROBEnut_030.png){fig-align=center}
+
+::: footer
+https://www.thelancet.com/series/research
+:::
+
+## Chất lượng nghiên cứu y học???
+
+::: footer
+Altman DG. (1994) The scandal of poor medical research. BMJ, 308(6924):283–4.
+:::
+
+![](figures/PBYV_2021_01.png)
+
+![](figures/PBYV_2021_02.png){width=60%}
+
+## Đọc và phê bình bài báo khoa học
+
+![](figures/PBYV_2021_14.png)
+
+## Đọc và phê bình bài báo khoa học
+
+![](figures/PBYV_2021_15.png)
+
+# PHƯƠNG PHÁP ĐỌC BÀI BÁO KHOA HỌC {data-background=#002147}
+
+## Cấu trúc thông thường của bài báo khoa học
+
+. . .
+
+[I]{.ered .large}ntroduction (đoạn cuối)
+
+. . .
+
+[M]{.ered .large}ethods
+
+. . .
+
+[R]{.ered .large}esults
+
+. . .
+
+[A]{.ered .large}nd
+
+. . .
+
+[D]{.ered .large}iscussion (đoạn đầu, đoạn cuối)
+
+Conclusion
+
+## Lấy thông tin chính từ bài báo
+
+* Câu hỏi nghiên cứu: [PICO]{.ered}
+* Phương pháp: Thiết kế nghiên cứu
+* Kết quả/Kết luận chính
+
+## Joyner MJ et al. (2021)
+
+![](figures/PBYV_03.png){width=50%}
+
+![](figures/PBYV_04.png){.absolute top=0 right=0 width=50%}
+
+::: footer
+Joyner MJ et al. (2021). NEJM, 384(11), 1015–1027. https://doi.org/10.1056/NEJMoa2031893
+:::
+
+## Tóm tắt bằng hình ảnh
+
+![](figures/PBYV_07.jpg){width=80% fig-align=center}
+
+::: footer
+https://www.nejm.org/do/10.1056/NEJMdo006006/full/
+:::
+
+## Đọc "bị động" vs. Đọc "chủ động"
+
+![](figures/PBYV_09.png){width=80% fig-align=center}
+
+::: footer
+Sun, T.-T. (2020). National Science Review, 7(9), 1422–1427. DOI: 10.1093/nsr/nwaa130
+:::
+
+## Phương pháp Q-P/C (Question, Predict, Compare)
+
+. . .
+
+Question (Hỏi)
+
+* Câu hỏi nghiên cứu là gì? Vì sao nó quan trọng?
+* Tôi sẽ làm như thế nào để trả lời câu hỏi đó?
+
+. . .
+
+Predict/Compare (Dự đoán/So sánh)
+
+Trình tự thực hiện nghiên cứu
+
+* Mở đầu --> Phương pháp --> Kết quả --> Bàn luận
+
+::: footer
+Sun, T.-T. (2020). National Science Review, 7(9), 1422–1427. DOI: 10.1093/nsr/nwaa130
+:::
+
+## Đọc "bị động" vs. Đọc "chủ động"
+
+```{r}
+tab <- data.frame(
+  passive = c("Vâng lời không mục đích", "Không phê phán", "Tư tưởng hoàn tất công việc", "Chán, mệt mỏi", "Không hiểu bản chất nghiên cứu", "Ấn tượng hời hợt"),
+  active = c("Đọc với câu hỏi có sẵn trong đầu", "Tôn trọng tác giả nhưng không xem họ không thể sai lầm", "Hoạt động trí tuệ thú vị", "Tập trung, chọn lọc, hiệu quả", "Hiểu sâu hơn về bản chất nghiên cứu", "Ấn tượng sâu đậm")
+)
+```
+
+```{r}
+gt(tab) %>%
+  cols_label(passive = "Đọc bị động",
+             active = "Đọc chủ động") %>%
+  gt_highlight_rows(rows = seq(from = 1, to = nrow(tab), by = 2), fill = "#002147", font_color = "#ffffff") 
+```
+
+::: footer
+Sun, T.-T. (2020). National Science Review, 7(9), 1422–1427. DOI: 10.1093/nsr/nwaa130
+:::
+
+# PHƯƠNG PHÁP ĐÁNH GIÁ BÀI BÁO KHOA HỌC {data-background=#002147}
+
+## Đánh giá bài báo khoa học
+
+. . .
+
+* Đánh giá hình thức (đánh giá "bài báo")
+
+. . .
+
+* Đánh giá nội dung (đánh giá "nghiên cứu")
+
+## Đánh giá hình thức
+
+* Mục tiêu: bài báo có trình bày đầy đủ và rõ ràng các thông tin cần thiết để người đọc có thể đánh giá về nội dung
+
+* Công cụ: hướng dẫn & bảng kiểm về cách viết bài báo khoa học
+
+## equator-network
+
+![](figures/PBYV_2021_07.png)
+
+::: footer
+https://www.equator-network.org/
+:::
+
+## CONSORT
+
+![](figures/PBYV_02.png){width=80% fig-align=center}
+
+::: footer
+http://www.consort-statement.org/
+:::
+
+## STROBE
+
+::: footer
+https://www.strobe-statement.org
+:::
+
+![](figures/PBYV_2021_08.png){width=80% fig-align=center}
+
+## Đánh giá nội dung
+
+* Mục tiêu: đánh giá tính giá trị và khả năng áp dụng của kết quả nghiên cứu
+
+* Công cụ: bảng kiểm đánh giá nguy cơ sai lệch
+
+## Công cụ đánh giá nguy cơ sai lệch
+
+![](figures/PBYV_08.png){width=80% fig-align=center}
+
+::: footer
+Page, M. J., McKenzie, J. E., & Higgins, J. P. T. (2018). BMJ Open, 8(3), e019703.10.1136/bmjopen-2017-019703
+:::
+
+## Cochrane Risk of Bias tool (RoB 2.0)
+
+::: footer
+https://www.riskofbias.info
+:::
+
+![](figures/PBYV_2021_09.png){fig-align=center}
+
+## Cochrane Risk of Bias tool (RoB 2.0)
+
+::: footer
+https://www.riskofbias.info
+:::
+
+![](figures/PBYV_2021_10.png){fig-align=center}
+
+## Critical Appraisal Skills Programme
+
+::: footer
+https://casp-uk.net/casp-tools-checklists/
+:::
+
+![](figures/PBYV_05.png){fig-align=center}
+
+## Hướng dẫn thuyết trình bài báo
+
+![](figures/HDTT.png){width=110% fig-align=center}
+
+## Chu trình nghiên cứu
+
+::: footer
+Stephen B. Hulley et al. (2013). Designing clinical research.
+:::
+
+![](figures/DesignCR_01.png){fig-align=center}
+
+## Chu trình nghiên cứu
+
+![](figures/DesignCR_16.png){fig-align=center}
+
+# KẾT LUẬN {data-background=#002147}
+
+## Kết luận
+
+. . .
+
+Sự cần thiết của việc đọc & đánh giá bài báo khoa học
+
+. . .
+
+Đọc bài báo khoa học: đọc chủ động (phương pháp Q-PC)
+
+. . .
+
+Đánh giá bài báo khoa học
+
+* Đánh giá hình thức: hướng dẫn viết bài báo
+* Đánh giá nội dung: công cụ đánh giá sai lệch
+
+. . .
+
+Hướng dẫn
+
+# CÁM ƠN CÁC EM ĐÃ THAM GIA BUỔI HỌC !
+
+Link bài giảng: https://lampk.github.io/notes/Slide_DocDanhGiaBaiBaoKhoaHoc_20221109.html
