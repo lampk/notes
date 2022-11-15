@@ -287,6 +287,14 @@ Cần xác định rõ mục tiêu đánh giá bài báo khoa học để lựa 
 Hướng dẫn thuyết trình bài báo của bộ môn
 :::
 
+## Slide bài giảng
+
+<div>
+```{=html}
+<iframe class="slide-deck" src="Slide_DocDanhGiaBaiBaoKhoaHoc_20221109.html" width="800" height="500"></iframe>
+```
+</div>
+
 ## Tài liệu tham khảo
 
 ::: {#refs}

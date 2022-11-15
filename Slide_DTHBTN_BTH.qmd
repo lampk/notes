@@ -1,0 +1,275 @@
+---
+title: "DỊCH TỄ HỌC BỆNH TRUYỀN NHIỄM"
+subtitle: "BỆNH LÂY QUA ĐƯỜNG TIÊU HOÁ"
+author: "TS. BS. Phùng Khánh Lâm"
+date: "15/11/2022"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    width: 1050
+    height: 700
+    chalkboard: false
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+![](figures/DTHBTH_Mary.jpg)
+
+Bạn **NHÌN - SUY NGHĨ - TƯỞNG TƯỢNG** thấy điều gì? 
+
+## Mục tiêu bài giảng
+
+1. Mô tả được quá trình lây nhiễm của các bệnh lây theo đường tiêu hóa
+
+2. Trình bày được các biện pháp phòng chống các bệnh lây theo đường tiêu hóa
+
+3. Mô tả được quá trình lây nhiễm và các biện pháp kiểm soát/dự phòng của một số bệnh lây qua đường tiêu hoá (bệnh bại liệt, bệnh thương hàn)
+
+
+# TAM GIÁC DỊCH TỄ HỌC VÀ DÂY CHUYỀN LÂY {data-background="#002147"}
+
+## Tam giác dịch tễ học
+
+::: footer
+CDC (2012) Principles of Epidemiology in Public Health Practice, 3rd
+:::
+
+![](figures/epitriad.png)
+
+. . .
+
+Túc chủ (host): người có khả năng mắc bệnh
+
+“Có khả năng mắc bệnh” (susceptible): cảm nhiễm
+
+## Dây chuyền lây
+
+::: footer
+CDC (2012) Principles of Epidemiology in Public Health Practice, 3rd
+:::
+
+
+![](figures/DCL.png){.absolute top=100 right=0}
+
+
+. . .
+
+
+![](figures/DCL1.png){.absolute top=100 right=0}
+
+. . .
+
+
+![](figures/DCL2.png){.absolute top=100 right=0}
+
+. . .
+
+
+![](figures/DCL3.png){.absolute top=100 right=0}
+
+. . .
+
+
+![](figures/DCL5.png){.absolute top=100 right=0}
+
+# DÂY CHUYỀN LÂY BỆNH LÂY QUA ĐƯỜNG TIÊU HOÁ {data-background="#002147"}
+
+## Thảo luận
+
+15 phút, thảo luận về dây chuyền lây của
+
+* Bệnh tả do Vibrio cholerae
+
+* Ngộ độc do độc tố của Clostridium botulinum
+
+## Dây chuyền lây
+
+Tác nhân
+
+* Virus, vi khuẩn, ký sinh trùng, giun sán, độc tố
+
+. . .
+
+Nguồn bệnh
+
+* Người, động vật, môi trường
+
+. . .
+
+Cách thức lây
+
+* Đường phân - miệng
+
+* Qua động vật, thức ăn nhiễm bệnh
+
+
+## Đường phân miệng
+
+![](figures/DTHBTH_FOR.jpg)
+
+
+## Tiêu chảy do Vibrio cholerae
+
+![](figures/DTHBTH_VC.png)
+
+::: footer
+Nelson, E. J. et al. (2009). Cholera transmission: The host, pathogen and bacteriophage dynamic. Nature Reviews. Microbiology, 7(10). https://doi.org/10.1038/nrmicro2204
+:::
+
+## Tiêu chảy do Vibrio cholerae
+
+![](figures/DTHBTH_Cholera.png){fig-align=center}
+
+::: footer
+Kloss, Brian T. & Bruce, Travis (2019) Graphic guide to infectious disease.
+:::
+
+## Ngộ độc do độc tố của Clostridium botulinum
+
+![](figures/DTHBTH_CloB.png){.absolute left=0 top=100}
+
+. . .
+
+![](figures/DTHBTH_Botulinum_toxin.png){.absolute left=300 top=100 width=30%}
+
+. . .
+
+![](figures/DTHBTH_food.jpg){.absolute right=0 top=100 width=40%}
+
+## Ngộ độc do độc tố của Clostridium botulinum
+
+![](figures/DTHBTH_Botulism.png){fig-align=center}
+
+::: footer
+Kloss, Brian T. & Bruce, Travis (2019) Graphic guide to infectious disease.
+:::
+
+
+# BIỆN PHÁP PHÒNG CHỐNG {data-background="#002147"}
+
+## Thảo luận 
+
+15 phút, về biện pháp phòng chống:
+
+* Bệnh tả do Vibrio cholerae
+
+* Ngộ độc do độc tố của Clostridium botulinum
+
+
+## Biện pháp phòng chống
+
+. . .
+
+Kiểm soát và loại trừ tác nhân gây bệnh tại nguồn lây
+
+* Nguồn bệnh
+
+* Dây chuyền lây
+
+. . .
+
+Tăng cường khả năng chống đỡ của túc chủ
+
+* Dinh dưỡng
+
+* Lối sống
+
+* Chủng ngừa
+
+
+# BỆNH BẠI LIỆT {data-background="#002147"}
+
+## Bệnh bại liệt
+
+![](figures/DTHBTH_polio_COI.png)
+
+## Bệnh bại liệt
+
+![](figures/DTHBTH_Polio.png){fig-align=center}
+
+::: footer
+Kloss, Brian T. & Bruce, Travis (2019) Graphic guide to infectious disease.
+:::
+
+## Bệnh bại liệt
+
+![](figures/DTHBTH_polio.gif)
+
+
+# BỆNH THƯƠNG HÀN {data-background="#002147"}
+
+## Bệnh thương hàn
+
+![](figures/DTHBTH_Typhoid.png){fig-align=center}
+
+::: footer
+Kloss, Brian T. & Bruce, Travis (2019) Graphic guide to infectious disease.
+:::
+
+## Số mới mắc 
+
+![](figures/DTHBTH_Typhoid_incidence_2017.jpg)
+
+::: footer
+Typhoid, GBD 2017, and Paratyphoid Collaborators. 2019. The Lancet Infectious Diseases 19 (4): 369–81.
+:::
+
+## Việt Nam
+
+![](figures/DTHBTH_Typhoid_incidence_Vietnam.gif){fig-align=center}
+
+::: footer
+Nga, TVT, Lan, NPH, Duy, PT. 2018. The American Journal of Tropical Medicine and Hygiene 99 (3 Suppl): 72–78. https://doi.org/10.4269/ajtmh.18-0035.
+:::
+
+## Đề kháng kháng sinh
+
+![](figures/DTHBTH_AMR.png){fig-align=center}
+
+## Sử dụng kháng sinh tại Việt Nam
+
+![](figures/DTHBTH_Pharmacy.png)
+
+::: footer
+Nhi LTQ et al. (2018) J Antimicrob Chemother;73(9):2546-2554. doi: 10.1093/jac/dky231.
+:::
+
+## Sử dụng kháng sinh tại Việt Nam
+
+![](figures/DTHBTH_AMBused.png)
+
+::: footer
+Nhi LTQ et al. (2018) J Antimicrob Chemother;73(9):2546-2554. doi: 10.1093/jac/dky231.
+:::
+
+# KẾT LUẬN {data-background="#002147"}
+
+## Kết luận
+
+Bệnh lây qua đường tiêu hoá (tiêu chảy do Vc, ngộ độc Cb)
+
+* Dây chuyền lây
+
+* Biện pháp phòng chống
+
+. . .
+
+Bệnh bại liệt
+
+. . .
+
+Bệnh thương hàn
+
+# CÁM ƠN CÁC EM ĐÃ THAM GIA BUỔI HỌC !
+
+Link bài giảng: https://lampk.github.io/notes/Slide_DTHBTN_BTH.html

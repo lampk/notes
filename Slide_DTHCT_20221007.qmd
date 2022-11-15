@@ -2,7 +2,7 @@
 title: "DỊCH TỄ HỌC CAN THIỆP: NGHIÊN CỨU CAN THIỆP"
 subtitle: ""
 author: "TS. BS. Phùng Khánh Lâm"
-date: "07/10/2022"
+date: "01/11/2022"
 institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
 format: 
   revealjs:
@@ -45,7 +45,7 @@ Sau đó đại diện mỗi nhóm trình bày trước lớp kết quả thảo
 
 ## Tình huống 1
 
-Nhiều nơi khuyến cáo rằng việc người bệnh đeo khẩu trang có thể giúp ngăn ngừa việc lây truyền bệnh (kiểm soát nguồn bệnh). Tuy nhiên, hầu hết chứng cứ hiện tại về hiệu quả lọc của khẩu trang là từ các thí nghiệm với vật thể phi sinh học. Có rất ít thông tin về hiệu quả của khẩu trang trong việc lọc virus đưởng hô hấp và giảm thải virus từ người nhiễm bệnh, và hầu hết các nghiên cứu hiện chỉ tập trung trên cúm. Chúng tôi muốn tìm hiểu lượng virus đường hô hấp trong khí thở của người mắc ARI và xác định hiệu lực của khẩu trang y tế trong việc ngăn ngừa lây truyền virus đường hô hấp. 
+Nhiều nơi khuyến cáo rằng việc người bệnh đeo khẩu trang có thể giúp ngăn ngừa việc lây truyền bệnh (kiểm soát nguồn bệnh). Tuy nhiên, hầu hết chứng cứ hiện tại về hiệu quả lọc của khẩu trang là từ các thí nghiệm với vật thể phi sinh học. Có rất ít thông tin về hiệu quả của khẩu trang trong việc lọc virus đường hô hấp và giảm thải virus từ người nhiễm bệnh, và hầu hết các nghiên cứu hiện chỉ tập trung trên cúm. Chúng tôi muốn tìm hiểu lượng virus đường hô hấp trong khí thở của người mắc ARI và xác định hiệu lực của khẩu trang y tế trong việc ngăn ngừa lây truyền virus đường hô hấp. 
 
 ## Tình huống 2
 
@@ -59,7 +59,8 @@ Bằng chứng từ các nghiên cứu quan sát cho thấy đeo khẩu trang c�
 
 Nhiều nơi còn ít sử dụng khẩu trang trong đại dịch COVID-19, và các chiến lược nhằm gia tăng việc đeo khẩu trang vẫn chưa được kiểm chứng. Chúng tôi muốn xác định các chiến lược có thể gia tăng việc đeo khẩu trang một cách bền vững và đánh giá tác động của việc gia tăng việc đeo khẩu trang trên số lượng người nhiễm SARS-CoV-2 có triệu chứng.
 
-# Biện pháp can thiệp trong YTCC/YHDP
+
+# Biện pháp can thiệp trong YTCC/YHDP {data-background=#002147}
 
 ## Biện pháp can thiệp (về sức khoẻ)
 
@@ -402,4 +403,5 @@ Phương pháp đánh giá hiệu quả can thiệp
 :::{.fragment}
 Đạo đức khi thực hiện các nghiên cứu thực nghiệm
 :::
+
 
