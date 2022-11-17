@@ -1,0 +1,653 @@
+---
+title: "TỔNG QUAN Y VĂN"
+subtitle: ""
+author: "TS. BS. Phùng Khánh Lâm"
+date: "10/11/2022"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    chalkboard: true
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+    zoom: true
+    menu: false
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+```{r, include = FALSE}
+library(tidyverse)
+library(gt)
+library(gtExtras)
+```
+
+## Mục tiêu bài giảng
+
+1.  Nhận thức được tầm quan trọng của việc thực hiện tổng quan y văn
+2.  Liệt kê được 4 giai đoạn trong quá trình thực hiện tổng quan y văn
+3.  Biết cách lập dàn ý cho tổng quan y văn
+4.  Biết cách tìm tài liệu tham khảo phù hợp cho tổng quan y văn
+5.  Biết cách phân tích và tổng hợp thông tin từ tài liệu tham khảo
+
+## Nội dung
+
+1.  Vì sao cần làm tổng quan y văn?
+2.  Làm tổng quan y văn như thế nào?
+3.  Lập dàn ý cho tổng quan y văn
+4.  Tìm tài liệu tham khảo
+5.  Tổng hợp tài liệu tham khảo
+6.  Viết tổng quan y văn
+7.  Tóm tắt nội dung chính
+
+. . .
+
+Thuyết trình, thảo luận nhóm
+
+## Tài liệu tham khảo
+
+![](figures/TQYV_12.png)
+
+::: footer
+Chasan-Taber, L. (2014). Writing Dissertation and Grant Proposals: Epidemiology, preventive medicine and biostatistics.
+:::
+
+## Làm việc theo nhóm
+
+15 phút
+
+"Tổng quan y văn" về **Sức khoẻ tâm thần ở trẻ vị thành niên nhiễm HIV**
+
+Ghi chép lại quá trình làm việc (làm việc như thế nào?)
+
+# Vì sao cần làm tổng quan y văn? {data-background="#002147"}
+
+## Vì sao cần làm tổng quan y văn?
+
+. . .
+
+![](figures/reinventthewheel.jpeg){width=50%}
+
+. . .
+
+![](figures/standingongiantsshoulders.jpg){.absolute right=0 top=0 width=40%}
+
+. . .
+
+![](figures/triangulation.webp){width=50%}
+
+## Replication crisis
+
+::: footer
+Open Science Collaboration (2015). Science. https://doi.org/10.1126/science.aac4716
+:::
+
+![](figures/TQYV_007.png)
+
+## Precognition
+
+::: footer
+Bem, D. J. (2011). Journal of Personality and Social Psychology, 100(3), 407--425.
+:::
+
+![](figures/TQYV_001.png)
+
+## Precognition
+
+::: footer
+Bem, D. J. (2011). Journal of Personality and Social Psychology, 100(3), 407--425.
+:::
+
+![](figures/TQYV_002.png)
+
+## Precognition
+
+::: footer
+Bem, D. J. (2011). Journal of Personality and Social Psychology, 100(3), 407--425.
+:::
+
+![](figures/TQYV_003.png)
+
+## Precognition
+
+::: footer
+Bem, D. J. (2011). Journal of Personality and Social Psychology, 100(3), 407--425.
+:::
+
+![](figures/TQYV_004.png)
+
+## Precognition
+
+::: footer
+Bem, D. J. (2011). Journal of Personality and Social Psychology, 100(3), 407--425.
+:::
+
+![](figures/TQYV_005.png)
+
+## Precognition
+
+::: footer
+Ritchie, S. J., Wiseman, R., & French, C. C. (2012). PLOS ONE, 7(3), e33423.
+:::
+
+![](figures/TQYV_006.png)
+
+## Y văn
+
+Nghiên cứu đã thực hiện
+
+Nghiên cứu được công bố "không chính thức"
+
+Nghiên cứu được công bố "chính thức"
+
+. . .
+
+[Sai lệch (publication bias)]{.ered}
+
+* Tác giả
+* Tạp chí, nhà xuất bản
+
+## Tổng quan y văn
+
+Là một quá trình lặp đi lặp lại, nhằm:
+
+* Cung cấp một tổng quan toàn diện và cập nhật về một chủ đề nào đó
+* Cung cấp cơ sở nền tảng (nội dung và phương pháp) cho một nghiên cứu
+* Bàn luận
+
+. . .
+
+[Khoảng trống nghiên cứu (research gap)]{.ered}
+
+# Làm tổng quan y văn như thế nào? {data-background="#002147"}
+
+## Các dạng tổng quan y văn
+
+-   Critical review
+-   Literature review
+-   Mapping review/systematic map
+-   Meta-analysis
+-   Mixed studies review/mixed methods review
+-   Overview
+-   Qualitative systematic review/qualitative evidence synthesis
+-   Rapid review
+-   Scoping review
+-   State-of-the-art review
+-   Systematic review
+-   Systematic search and review
+-   Systematized review
+-   Umbrella review
+-   Realist review
+
+::: footer
+Grant, M. J., & Booth, A. (2009). Health Information & Libraries Journal, 26(2), 91--108. https://doi.org/10.1111/j.1471-1842.2009.00848.x
+:::
+
+## Các bước làm tổng quan y văn
+
+. . .
+
+* Lập dàn ý
+
+. . .
+
+* Tìm tài liệu tham khảo
+
+. . .
+
+* Đọc và tổng hợp tài liệu tham khảo
+
+. . .
+
+* Viết
+
+## Lập dàn ý
+
+. . .
+
+* Phụ thuộc vào mục tiêu và câu hỏi nghiên cứu cụ thể
+
+. . .
+
+* Lợi ích
+  + Giúp tập trung, không lan man
+  + Giúp không bị lạc lối giữa rừng thông tin của y văn
+    
+
+## Lập dàn ý: mục tiêu - câu hỏi nghiên cứu
+
+. . .
+
+PICO
+
+. . .
+
+* [P (Population)]{.ered}
+* I/E (Intervention/Exposure)
+* C (Comparison/Control)
+* [O (Outcome)]{.ered}
+
+. . .
+
+Cụ thể
+
+Tập trung (không quá rộng)
+
+## Lập dàn ý: gợi ý (về dịch tễ học)
+
+. . .
+
+* Tầm quan trọng (về khía cạnh y tế công cộng) của bệnh [(WHY?)]{.ered}
+* Cơ chế giải thích cho mối quan hệ giữa phơi nhiễm và bệnh [(HOW?)]{.ered}
+* Các nghiên cứu dịch tễ học về mối quan hệ giữa phơi nhiễm và bệnh [(WHAT? HOW MUCH?)]{.ered}
+* Tóm tắt những điểm mới và nổi bật [(SO WHAT?)]{.ered}
+
+## Lập dàn ý: gợi ý (tiểu luận)
+
+* Tầm quan trọng của bệnh (Dịch tễ học mô tả)
+* Các yếu tố liên quan đến bệnh (Dịch tễ học phân tích)
+* Các biện pháp can thiệp dự phòng, điều trị (Dịch tễ học can thiệp)
+* Điểm mạnh/điểm yếu trong y văn
+
+# Tìm tài liệu tham khảo {data-background="#002147"}
+
+## Lựa chọn cơ sở dữ liệu phù hợp
+
+* Nguồn thông tin gốc (empirical research report): có thông tin chi tiết về số liệu và phương pháp, giúp chứng minh cho khoảng trống nghiên cứu
+
+* Nguồn thông tin thứ cấp (sách, báo tin tức): ít thông tin chi tiết, mô tả tổng quát về kết quả
+
+
+## Loại tài liệu phù hợp
+
+. . .
+
+Tầm quan trọng (về khía cạnh y tế công cộng) của bệnh
+
+* Số hiện mắc/mới mắc hiện nay
+* Sự thay đổi của số hiện mắc/mới mắc theo thời gian
+* Số liệu quốc gia/khu vực/nhóm dân số
+* Hậu quả của bệnh: bệnh đi kèm/tử vong
+* Các yếu tố nguy cơ
+
+. . .
+
+Cơ chế giải thích cho mối quan hệ giữa phơi nhiễm và bệnh
+
+* Cơ chế có thể giải thích cách phơi nhiễm tác động đến bệnh
+* Tránh mô tả phơi nhiễm và bệnh một cách độc lập
+
+. . .
+
+Các nghiên cứu dịch tễ học về mối quan hệ giữa phơi nhiễm và bệnh
+
+* Các nghiên cứu dịch tễ học đã/đang thực hiện có đánh giá về mối quan hệ giữa phơi nhiễm và bệnh
+* Mục tiêu chính/ [mục tiêu phụ]{.ered}
+
+
+## Kết quả tìm kiếm
+
+. . .
+
+Quá ít nghiên cứu:
+
+* mới
+* [không đáng quan tâm]{.ered}
+
+. . .
+
+Quá nhiều nghiên cứu:
+
+* rất đáng quan tâm
+* [không mới]{.ered} --> Tiêu chí Hills: tính nhất quán (consistency)
+
+## Quá ít nghiên cứu
+
+Cần mở rộng phạm vi tìm kiếm
+
+. . .
+
+* Thêm từ đồng nghĩa/các chủ đề liên quan, dùng OR
+* Mở rộng giới hạn về thời gian (trong vòng 10 năm, 20 năm)
+* Nghiên cứu về cùng yếu tố phơi nhiễm nhưng bệnh tương đương
+* Nghiên cứu về cùng bệnh nhưng yếu tố phơi nhiễm tương đương
+
+
+## Quá nhiều nghiên cứu
+
+Cần giới hạn phạm vi tìm kiếm
+
+. . .
+
+* Thêm từ khoá, dùng AND
+* Giới hạn nơi xuất hiện của từ khoá
+* Giới hạn về loại tạp chí
+* Giới hạn về thời gian (trong vòng 5 năm)
+* Tìm các tài liệu chính (các bài tổng quan)
+
+
+## Các bước tìm tài liệu tham khảo
+
+* Lựa chọn cơ sở dữ liệu
+* Lựa chọn chiến lược tìm kiếm
+* Xây dựng câu lệnh tìm kiếm
+* Tìm kiếm
+* Lọc tài liệu
+
+
+## Lựa chọn cơ sở dữ liệu
+
+![](figures/TQYV_02.png)
+
+## Lựa chọn chiến lược tìm kiếm
+
+. . .
+
+Tìm kiếm rộng
+
+* Dùng từ khoá khái quát, không chuyên biệt
+* Dùng từ đồng nghĩa
+* Không sử dung các giới hạn
+* Dùng "OR"
+
+. . .
+
+Tìm kiếm hẹp
+
+* Dùng thuật ngữ, từ khoá chuyên biệt
+* Sử dung các giới hạn
+* Dùng "AND"
+* PubMed: dùng MESH, PubMed Clinical Queries
+* Dùng DOI
+
+
+## Công cụ tìm kiếm
+
+* PubMed
+* Google Scholar
+* EMBASE
+* Scopus
+* Web of Science
+
+## Tìm kiếm tài liệu
+
+MeSH (PubMed)
+
+Trích dẫn trực tiếp
+
+* Danh mục tài liệu tham khảo (backward citation)
+* Được trích dẫn (forward citation)
+
+Tài liệu giống nhau (similar articles)
+
+## MeSH
+
+![](figures/TQYV_03.png)
+
+## MeSH
+
+![](figures/TQYV_04.png)
+
+
+## Trích dẫn trực tiếp
+
+:::: {.columns}
+
+::: {.column width="40%"}
+
+* Danh mục tài liệu tham khảo (backward citation)
+* Được trích dẫn (forward citation)
+:::
+
+::: {.column width="60%"}
+![](figures/TQYV_05.png){.absolute right=0 top=0 width=50%}
+:::
+
+::::
+
+::: footer
+Cecile J.W. Janssens. Literature Review for Student Theses
+:::
+
+## Forward citation
+
+![](figures/TQYV_06.png)
+
+## Forward citation
+
+![](figures/TQYV_07.png)
+
+## Forward citation
+
+![](figures/TQYV_08.png)
+
+## Tài liệu giống nhau (similar articles)
+
+![](figures/TQYV_09.png)
+
+
+## Tài liệu giống nhau (similar articles)
+
+![](figures/TQYV_10.png)
+
+
+## Tài liệu giống nhau (similar articles)
+
+![](figures/TQYV_11.png)
+
+## Lọc tài liệu
+
+Lọc lại các tài liệu thực sự liên quan
+
+Đọc lướt
+
+* Tóm tắt
+* Phần mở đầu (đoạn cuối)
+* Bảng/Biểu đồ
+* Phần bàn luận/kết luận (đoạn đầu, đoạn cuối)
+
+Đảm bảo danh sách tài liệu: đầy đủ, cập nhật
+
+# Tổng hợp tài liệu tham khảo {data-background="#002147"}
+
+## Tổng hợp tài liệu tham khảo
+
+Tạo ra bảng tóm tắt về tài liệu tham khảo
+
+Mục tiêu
+
+* Khuynh hướng, cấu trúc trong y văn
+* Xác định khoảng trống kiến thức/nghiên cứu
+
+## Bảng tóm tắt
+
+Các thông tin chính
+
+* Tác giả
+* Năm xuất bản
+* Thiết kế nghiên cứu
+* Dân số nghiên cứu (cỡ mẫu, địa điểm, đặc điểm)
+* Phơi nhiễm (định nghĩa, cách đo lường)
+* Bệnh (định nghĩa, cách đo lường)
+* Kết quả (số đo, khoảng tin cậy, trị số p)
+* Các biến số liên quan
+
+. . .
+
+Một bệnh - Nhiều yếu tố phơi nhiễm: mỗi yếu tố phơi nhiễm một bảng
+
+Nhiều bệnh - một yếu tố phơi nhiễm: mỗi bệnh một bảng
+
+## Bảng tóm tắt (ví dụ)
+
+![](figures/TQYV_01.png)
+
+## Sử dụng bảng tóm tắt
+
+Synthesis $\neq$ Summary
+
+. . .
+
+Không chỉ để tóm lược thông tin, mục tiêu chính là xác định [khoảng trống nghiên cứu]{.ered}
+
+. . .
+
+Xác định khuynh hướng/điểm chung/điểm yếu qua các tài liệu
+
+* Thiết kế
+* Phương pháp
+* Dân số nghiên cứu
+* Cỡ mẫu
+* Kết quả (tương đồng/khác biệt)
+* Số lượng nghiên cứu
+
+. . .
+
+Mối quan hệ giữa PHƯƠNG PHÁP & KẾT QUẢ
+
+* So sánh kết quả giữa các nhóm tài liệu (thiết kế/phương pháp/dân số/cỡ mẫu)
+
+
+# Viết tổng quan y văn {data-background="#002147"}
+
+## Viết tổng quan y văn
+
+. . .
+
+Tầm quan trọng (về khía cạnh y tế công cộng) của bệnh
+
+* Số đo bệnh trạng
+* Hậu quả
+* Yếu tố nguy cơ
+
+. . .
+
+Cơ chế giải thích cho mối quan hệ giữa phơi nhiễm và bệnh
+
+* Giải thích cơ chế (Sơ đồ tóm tắt)
+
+. . .
+
+Các nghiên cứu dịch tễ học về mối quan hệ giữa phơi nhiễm và bệnh
+
+* Tổng quan về số lượng/thiết kế của các nghiên cứu đã thực hiện
+* Tóm tắt (phương pháp, kết quả), theo nhóm nghiên cứu (Bảng tóm tắt)
+* Mối quan hệ giữa PHƯƠNG PHÁP & KẾT QUẢ
+* Khoảng trống nghiên cứu
+* Hạn chế của các nghiên cứu hiện có
+* Nghiên cứu điển hình (tác giả, phương pháp, kết quả chính, hạn chế)
+
+## Trích dẫn tài liệu tham khảo
+
+. . .
+
+Trích dẫn cái gì?
+
+* Tài liệu được viện dẫn (quote)/diễn đạt lại (paraphrase)/tóm tắt lại (summarise)
+* Những ý tưởng từ người khác
+* Những thông tin/dữ liệu không phải là kiến thức chung (kiến thức chuyên biệt, còn tranh cãi)
+* Không phụ thuộc vào nguồn thông tin/cách thông tin được công bố
+
+. . .
+
+Trích dẫn như thế nào?
+
+* Đầy đủ, chính xác, rõ ràng, có hệ thống
+* Thành phần: lời trích dẫn, in-text citation, danh mục tài liệu tham khảo
+
+## Hệ thống trích dẫn
+
+Trích dẫn đồng thời trong văn bản (in-text citation)
+
+Danh mục tài liệu tham khảo (reference list/bibliography)
+
+. . .
+
+Phong cách trích dẫn
+
+* Hệ thống dùng số: Vancouver
+* Hệ thống dùng tên-năm: APA
+* Hệ thống theo kiểu ghi chú: Chicago
+
+## Vancouver
+
+![](figures/Zotero_Vancouver.png)
+
+## APA
+
+![](figures/Zotero_APA.png)
+
+## Chicago
+
+![](figures/Zotero_Chicago.png)
+
+![](figures/Zotero_Chicago2.png)
+
+## Nguyên tắc trích dẫn
+
+* Trích dẫn các tài liệu có liên quan
+* Đọc các tài liệu mà bạn trích dẫn
+* Trích dẫn ở vị trí có nội dung phù hợp
+* Trích dẫn cần minh bạch, không trung tính
+* Trích dẫn tài liệu của bạn nếu cần thiết
+* Xếp thứ tự ưu tiên tài liệu trích dẫn
+* Đánh giá tài liệu trích dẫn: trong bôi cảnh, được lựa chọn
+* Sự khác biệt về văn hoá trích dẫn
+
+::: footer
+Penders B (2018) PLoS CompBiol, 14(4):e1006036
+:::
+
+## Công cụ trích dẫn
+
+![](figures/Zotero_Sosanh.png)
+
+# Tóm tắt - Kết luận {data-background="#002147"}
+
+## Tóm tắt
+
+. . .
+
+* Tổng quan y văn: khoảng trống nghiên cứu, cơ sở cho nghiên cứu/bàn luận
+
+. . .
+
+* 4 bước làm tổng quan y văn
+    + Lập dàn ý
+    + Tìm tài liệu tham khảo
+    + Tổng hợp tài liệu: bảng tóm tắt - phân tích
+    + Viết - Trích dẫn tài liệu tham khảo
+
+. . .
+
+* Giới hạn: "only as good as the literature available to synthesise"
+
+## Lời khuyên
+
+1.  Xác định rõ chủ đề và người đọc (dùng thuật ngữ phù hợp)
+2.  Tìm đi tìm lại y văn (ghi chú, lưu trữ)
+3.  Ghi chú khi đọc
+4.  Chọn loại tổng quan phù hợp
+5.  Tập trung nhưng tầm nhìn đủ lớn
+6.  Phê bình nghiêm túc và nhất quán
+7.  Có cấu trúc hợp lý
+8.  Lắng nghe phản hồi
+9.  Khách quan (đặc biệt với nghiên cứu của chính bạn)
+10. Cập nhật nhưng không quên các tài liệu cũ
+11. Sử dụng công cụ trực quan (bảng, biểu đồ)
+12. Sử dụng công nghệ (google doc, Zotero, CoCites)
+
+::: footer
+Pautasso, M. (2013). PLoS CompBiol, DOI: 10.1371/journal.pcbi.1003149; Tay, A. (2020). Nature, DOI: 10.1038/d41586-020-03422-x
+:::
+
+# CÁM ƠN CÁC EM ĐÃ THAM GIA BUỔI HỌC !
+
+Link bài giảng: https://lampk.github.io/notes/Slide_TongQuanYVan.html
