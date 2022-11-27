@@ -1,0 +1,340 @@
+---
+title: "TÌM KIẾM - ĐÁNH GIÁ - LỰA CHỌN"
+subtitle: "CHỨNG CỨ KHOA HỌC"
+author: "TS. BS. Phùng Khánh Lâm"
+date: "26/11/2022"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    width: 1050
+    height: 700
+    chalkboard: false
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+## Nội dung
+
+* Chứng cứ khoa học
+
+* Tìm chứng cứ khoa học
+
+* Lựa chọn chứng cứ khoa học
+
+
+# CHỨNG CỨ KHOA HỌC - Y VĂN {data-background="#002147"}
+
+## Chứng cứ khoa học - Y văn là gì?
+
+. . .
+
+Bất kỳ quan sát, báo cáo về triệu chứng hay vấn đề sức khoẻ, bất kể có được thu thập một cách hệ thống hay không
+
+* Quan sát kinh nghiệm của bác sĩ
+* Thông báo về tình trạng sức khoẻ của bệnh nhân
+* Đo lường sinh lý
+* Nghiên cứu lâm sàng
+
+::: footer
+Gordon Guyatt et al. (2015) User's guides to the medical literature: a manual for evidence-based clinical practice.
+:::
+
+## Cấu trúc của bằng chứng trong EBM
+
+![](figures/EBM_05.png)
+
+::: footer
+Gordon Guyatt et al. (2015) User's guides to the medical literature: a manual for evidence-based clinical practice.
+:::
+
+## Tháp chứng cứ
+
+::: {.r-stack}
+![](figures/EBM_14.png){.fragment .absolute top=100 left=0}
+![](figures/EBM_15.png){.fragment .absolute top=100 left=0}
+:::
+
+::: footer
+Murad MH, Asi N, Alsawas M, Alahdab F (2016) BMJ Evidence-Based Medicine; 21(4):125–7. 
+:::
+
+## Cấu trúc của bằng chứng trong EBM
+
+::: {.r-stack}
+
+![](figures/EBM_16.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_17.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_18.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_19.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_20.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_21.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_22.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_23.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_24.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_25.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_26.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_27.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_28.png){.fragment .absolute top=100 left=0}
+:::
+
+
+## PubMed
+
+![](figures/EBM_PubMed.png)
+
+::: footer
+https://pubmed.ncbi.nlm.nih.gov/
+:::
+
+## Google Scholar
+
+![](figures/EBM_GoogleScholar.png)
+
+::: footer
+https://scholar.google.com/
+:::
+
+## Tạp chí khoa học
+
+![](figures/EBM_NEJM.png)
+
+::: footer
+https://www.nejm.org/
+:::
+
+## PubPeer
+
+![](figures/EBM_PubPeer.png)
+
+::: footer
+https://pubpeer.com/
+:::
+
+## Thư viện Cochrane
+
+![](figures/EBM_Cochrane.png)
+
+::: footer
+https://www.cochranelibrary.com/
+:::
+
+## NICE
+
+![](figures/EBM_NICE.png)
+
+
+::: footer
+https://www.nice.org.uk/guidance
+:::
+
+## UpToDate
+
+![](figures/EBM_UpToDate.png){.fragment .absolute top=100 left=0}
+
+
+::: footer
+https://www.uptodate.com/contents/search
+:::
+
+## Mạng xã hội
+
+![](figures/EBM_Twitter.png){.fragment .absolute top=100 left=0}
+
+::: footer
+https://twitter.com
+:::
+
+## Cơ sở dữ liệu chứng cứ khoa học
+
+![](figures/EBM_32.png)
+## TRIP Medical database
+
+![](figures/EBM_34.png)
+
+::: footer
+https://www.tripdatabase.com/
+:::
+
+
+## Tiêu chí lựa chọn nguồn bằng chứng
+
+* Đặc hiệu và bao phủ
+
+* Sẵn có và dễ tiếp cận
+
+::: footer
+Gordon Guyatt et al. (2015) User's guides to the medical literature: a manual for evidence-based clinical practice.
+:::
+
+## Bài báo khoa học - Quy trình xuất bản
+
+::: {.r-stack}
+
+![](figures/EBM_29.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_30.png){.fragment .absolute top=100 left=0}
+
+![](figures/EBM_31.png){.fragment .absolute top=100 left=0}
+
+:::
+
+::: footer
+https://asapbio.org/digital-age; https://wellcomeopenresearch.org/about; https://elifesciences.org
+:::
+
+# TÌM CHỨNG CỨ KHOA HỌC {data-background="#002147"}
+
+## Cái ta biết và cái ta chưa biết
+
+![](figures/EBM_12.png)
+
+## Cái ta biết và cái ta chưa biết
+
+Sử dụng kiến thức đã biết
+
+* Sử dụng bằng chứng
+
+. . .
+
+Cần kiến thức chưa biết, nhưng biết tồn tại
+
+* Tìm bằng chứng
+
+. . .
+
+Cần kiến thức chưa biết, không biết tồn tại
+
+* Cập nhật (Alerts)
+
+## Tìm chứng cứ khoa học
+
+Đặt câu hỏi
+
+Xác định loại chứng cứ khoa học phù hợp
+
+Lựa chọn công cụ tìm kiếm phù hợp
+
+Xây dựng từ khoá tìm kiếm (chiến lược tìm kiếm)
+
+Tìm kiếm bổ sung
+
+## Đặt câu hỏi
+
+Câu hỏi cơ sở và câu hỏi ứng dụng
+
+![](figures/EBM_06.png){fig-align=center}
+
+::: footer
+Sharon E. Straus et al. (2019) Evidence-Based Medicine: How to practice and teach EBM.
+:::
+
+## Câu hỏi ứng dụng
+
+. . .
+
+PICO (Population, Intervention/Exposure, Comparison, Outcome)
+
+. . . 
+
+PEO (Population, Exposure, Outcome)
+
+SPIDER (Sample, Phenomenon of Interest, Design, Evaluation, Research Type)
+
+SPICE (Setting, Perspective, Intervention/Interest/Exposure, Comparison, Evaluation)
+
+ECLIPSE (Expectation, Client group, Location, Impact, Professionals, Service)
+
+## Câu hỏi ứng dụng
+
+![](figures/EBM_13.png){fig-align=center}
+
+::: footer
+Booth A et al (2019) BMJ Glob Health. 2019 Jan 25;4(Suppl 1):e001107. 
+:::
+
+## Từ khoá tìm kiếm
+
+![](figures/EBM_35.png){fig-align=center}
+
+## Từ khoá tìm kiếm
+
+![](figures/EBM_36.png){fig-align=center}
+
+## Từ khoá tìm kiếm
+
+![](figures/EBM_37.png){fig-align=center}
+
+## Boolean operators
+
+![](figures/EBM_38.png){fig-align=center}
+
+# LỰA CHỌN CHỨNG CỨ KHOA HỌC {data-background="#002147"}
+
+## Lựa chọn chứng cứ khoa học
+
+* Sử dụng/không sử dụng
+
+* Xếp thứ tự ưu tiên
+
+## Sử dụng/không sử dụng
+
+Tiêu chí lựa chọn
+
+* Đối tượng
+* Thiết kế
+* Can thiệp/Phơi nhiễm
+* Kết cuộc
+* Bối cảnh
+* Loại ấn phẩm
+* Thời gian công bố
+* Ngôn ngữ
+
+## Xếp thứ tự ưu tiên
+
+* Năm xuất bản 
+
+* Tạp chí
+
+* Tác giả
+
+* Loại bằng chứng
+
+## Lựa chọn chứng cứ khoa học
+
+![](figures/EBM_39.png){fig-align=center}
+
+# KẾT LUẬN {data-background="#002147"}
+
+## Kết luận
+
+* Chứng cứ khoa học
+
+* Tìm chứng cứ khoa học
+
+* Lựa chọn chứng cứ khoa học
+
+# CÁM ƠN CÁC EM ĐÃ THAM GIA!
+
+Link slide: https://lampk.github.io/notes/Slide_KNNCKH_CCKH.html
