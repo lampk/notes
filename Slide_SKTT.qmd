@@ -1,0 +1,340 @@
+---
+title: "SỨC KHOẺ TÂM THẦN"
+subtitle: ""
+author: "TS. BS. Phùng Khánh Lâm"
+date: "23/12/2022"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    chalkboard: true
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+    zoom: true
+    menu: false
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+```{r, include = FALSE}
+library(tidyverse)
+library(gt)
+library(gtExtras)
+```
+
+# ĐỊNH NGHĨA - PHÂN LOẠI {data-background="#002147"}
+
+## Các khái niệm liên quan
+
+::: footer
+Patel V, Saxena S, Lund C, et al. (2018) The Lancet. 2018 Oct;392(10157):1553–98. 
+:::
+
+![](figures/MentalHealth_14.png)
+
+## Mental, Neurological, Substance use, Self-harm disorders (MNSS)
+
+. . .
+
+* Liên quan đến các biểu hiện/rối loạn chức năng não bộ
+* "Social determinants" có vai trò quan trọng
+* Thường xuất hiện cùng với nhau
+* Tác động lớn đến gia đình và xã hội
+* Liên quan đến kỳ thị (stigma) và phân biệt đối xử (discrimination)
+* Thường mạn tính, kéo dài, hay tái phát
+* Chưa được hệ thống y tế quan tâm đúng mức, đặc biệt LMICs 
+
+## Global Burden of Disease 
+
+::: footer
+Whiteford HA et al. (2015). PLOS ONE, 10(2), e0116820. https://doi.org/10.1371/journal.pone.0116820
+:::
+
+![](figures/MentalHealth_01.png){width=80%}
+
+## Sức khoẻ tâm thần và Chẩn đoán 
+
+::: footer
+Fried EI. (2022) Curr Dir Psychol Sci; 31(6):500–8. 
+:::
+
+. . .
+
+Rối loạn trầm cảm nặng (major depressive disorder, MDD)
+
+* DSM-5: thoả ít nhất 5/9 triệu chứng trong 2 tuần và có suy giảm đáng kể về chức năng
+
+. . .
+
+Cơ sở khoa học cho định nghĩa này?
+
+. . .
+
+* Các tiêu chí Feighner (1972): các dấu hiệu & triệu chứng quan sát được của rối loạn tâm thần thường gặp.
+
+* Cassidy và cộng sự (1957): "it sounded about right"
+
+## Sức khoẻ tâm thần và Chẩn đoán 
+
+::: footer
+Fried EI. (2022) Curr Dir Psychol Sci; 31(6):500–8. 
+:::
+
+* Diagnostic Literalism
+* Reductionism
+
+## Sức khoẻ tâm thần và Chẩn đoán 
+
+::: footer
+Fried EI. (2022) Curr Dir Psychol Sci; 31(6):500–8. 
+:::
+
+* Với hầu hết các chẩn đoán, DSM không quan tâm đến nguyên nhân.
+* Cùng một rối loạn có nhiều công cụ đo lường khác nhau (DSM & ICD, ...). 
+* Nhiều chẩn đoán có độ tin cậy giữa những người đánh giá khác nhau thấp. 
+* Người có cùng chẩn đoán thường tương đồng (về nguyên nhân và triệu chứng) nhưng cũng có nhiều khác biệt.
+* Có nhiều chẩn đoán thường đồng mắc với nhau, transdiagnostic risk factors. 
+* Hầu hết các vấn đề SKTT có thể được mô tả theo phổ liên tục.  
+* Equifinality và Multifinality.
+
+. . .
+
+Tăng huyết áp và chẩn đoán tăng huyết áp
+
+## Sức khoẻ tâm thần và Chẩn đoán
+
+::: footer
+Fried EI. (2022) Curr Dir Psychol Sci; 31(6):500–8. 
+:::
+
+![](figures/MentalHealth_12.png)
+
+## Tiếp cận theo hệ thống
+
+::: footer
+Fried EI. (2022) Curr Dir Psychol Sci; 31(6):500–8. 
+:::
+
+![](figures/MentalHealth_13.png)
+
+## Tiếp cận theo giai đoạn (staging approach)
+
+::: footer
+Patel V et al. (2018). The Lancet, 392(10157), 1553–1598. https://doi.org/10.1016/S0140-6736(18)31612-X
+:::
+
+![](figures/MentalHealth_02.png)
+
+## Các ước tính về sự phổ biến
+
+Thường thấp hơn thực tế, do
+
+. . .
+
+* Sự phức tạp của bệnh (trực tiếp, gián tiếp [tâm thể])
+
+* Khó chẩn đoán (thang đo, ảnh hưởng của niềm tin/văn hoá/nhận thức)
+
+* Khó tiếp cận (kỳ thị, phân biệt đối xử)
+
+* Ít dữ liệu (chưa được quan tâm đúng mức)
+
+# NGUYÊN NHÂN {data-background="#002147"}
+
+## Các yếu tố sinh học và xã hội
+
+::: footer
+Patel V et al. (2018). The Lancet, 392(10157), 1553–1598. https://doi.org/10.1016/S0140-6736(18)31612-X
+:::
+
+![](figures/MentalHealth_03.png)
+
+## Các yếu tố xã hội
+
+::: footer
+Patel V et al. (2018). The Lancet, 392(10157), 1553–1598. https://doi.org/10.1016/S0140-6736(18)31612-X
+:::
+
+![](figures/MentalHealth_04.png)
+
+## Social causation & Social drift
+
+::: footer
+Lund C et al. (2011). The Lancet, 378(9801), 1502–1514. https://doi.org/10.1016/S0140-6736(11)60754-X
+:::
+
+![](figures/MentalHealth_05.png)
+
+# YẾU TỐ NGUY CƠ {data-background="#002147"}
+
+## Yếu tố nguy cơ
+
+::: footer
+Patel V et al. (2018). The Lancet, 392(10157), 1553–1598. https://doi.org/10.1016/S0140-6736(18)31612-X
+:::
+
+![](figures/MentalHealth_06.png)
+
+## Tuổi vị thành niên
+
+::: footer
+Patton GC, Sawyer SM, Santelli JS et al. (2016) Lancet; 387(10036). DOI: 10.1016/S0140-6736(16)00579-1
+:::
+
+![](figures/MentalHealth_15.png)
+
+## Tuổi vị thành niên
+
+::: footer
+Paus T, Keshavan M, Giedd JN. (2008) Nat Rev Neurosci; 9(12):947–57. 
+:::
+
+![](figures/MentalHealth_16.png)
+
+# CAN THIỆP {data-background="#002147"}
+
+## Biện pháp can thiệp
+
+* Thuốc/can thiệp về thể chất
+
+* Biện pháp can thiệp về tâm lý xã hội
+
+. . .
+
+* Treatment gap
+
+## Chiến lược mới
+
+* Cải thiện tính sẵn có của các can thiệp về tâm lý xã hội
+
+* Ứng dụng công nghệ kỹ thuật số
+
+* Mô hình chăm sóc cân bằng (balance care model)
+
+* Tăng cường nhu cầu điều trị
+
+## Cải thiện tính sẵn có của can thiệp về tâm lý xã hội
+
+::: footer
+Patel V et al. (2018). The Lancet, 392(10157), 1553–1598. https://doi.org/10.1016/S0140-6736(18)31612-X
+:::
+
+Dựa vào mô hình task sharing/task shifting
+
+. . .
+
+Các yếu tố cơ bản
+
+* Nội dung: phù hợp niềm tin/bản địa
+* Người chuyển giao: CHW, lay counselor
+* Nơi: cộng đồng, chăm sóc sức khoẻ ban đầu
+* Thời gian: vừa phải (6-10 phiên)
+
+. . .
+
+Các mô hình
+
+* Đào tạo trực tuyến (online training, peer supervisor)
+* Tích hợp nhiều lĩnh vực: hành vi, nhận thức, cảm xúc
+* Stepped-care approach: self-deliver --> routine care --> specialized care
+
+## Mental Health Gap Action Programme (mhGAP)
+
+
+::: footer
+https://www.who.int/teams/mental-health-and-substance-use/mental-health-gap-action-programme
+:::
+
+![](figures/MentalHealth_11.png)
+
+## Ứng dụng công nghệ kỹ thuật số
+
+::: footer
+Patel V et al. (2018). The Lancet, 392(10157), 1553–1598. https://doi.org/10.1016/S0140-6736(18)31612-X
+:::
+
+Ứng dụng
+
+* Giáo dục sức khoẻ, cung cấp thông tin
+* Tầm soát, chẩn đoán
+* Điều trị, chăm sóc
+* Đào tạo, giám sát nhân viên y tế
+* Hỗ trợ hệ thống y tế
+
+## Ứng dụng công nghệ kỹ thuật số
+
+::: footer
+Patel V et al. (2018). The Lancet, 392(10157), 1553–1598. https://doi.org/10.1016/S0140-6736(18)31612-X
+:::
+
+Nguy cơ
+
+* Giảm yếu tố con người
+* Cyberbullying
+* Rối loạn do nghiện internet
+* Độ chuẩn xác của thông tin
+* Y đức (bảo mật, quyền riêng tư, lạm dụng)
+
+## Mô hình chăm sóc cân bằng (balance care model)
+
+::: footer
+Patel V et al. (2018). The Lancet, 392(10157), 1553–1598. https://doi.org/10.1016/S0140-6736(18)31612-X
+:::
+
+![](figures/MentalHealth_07.png)
+
+## Mô hình chăm sóc cân bằng (balance care model)
+
+::: footer
+Patel V et al. (2018). The Lancet, 392(10157), 1553–1598. https://doi.org/10.1016/S0140-6736(18)31612-X
+:::
+
+* Nguồn lực ít: tăng độ bao phủ (cộng đồng & chăm sóc sức khoẻ ban đầu)
+* Nguồn lực trung bình: tăng chuyên môn (cộng đồng & chăm sóc sức khoẻ ban đầu)
+* Nguồn lực nhiều: tăng độ bao phủ và chuyên môn ở tất cả các tuyến
+
+## Tăng cường nhu cầu điều trị
+
+::: footer
+Patel V et al. (2018). The Lancet, 392(10157), 1553–1598. https://doi.org/10.1016/S0140-6736(18)31612-X
+:::
+
+* Tương tác xã hội (social contact)
+* "nothing about us without us"
+
+## Tương tác xã hội (social contact)
+
+::: footer
+https://www.time-to-change.org.uk/
+:::
+
+![](figures/MentalHealth_08.png)
+
+## Tài liệu đọc thêm
+
+::: footer
+https://openknowledge.worldbank.org/handle/10986/23832, 
+https://globalmentalhealthcommission.org/the-report/
+Fried EI. (2022) Curr Dir Psychol Sci; 31(6):500–8. 
+:::
+
+::: {layout-nrow=2}
+
+![](figures/MentalHealth_10.png){width=20%}
+
+![](figures/MentalHealth_09.png){width=20%}
+
+![](figures/MentalHealth_17.png)
+
+:::
+
+# CÁM ƠN CÁC EM ĐÃ THAM GIA BUỔI HỌC !
+
+Link bài giảng: https://lampk.github.io/notes/Slide_SKTT.html
