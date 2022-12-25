@@ -1,0 +1,415 @@
+---
+title: "THIẾT KẾ NGHIÊN CỨU"
+subtitle: ""
+author: "TS. BS. Phùng Khánh Lâm"
+date: "25/12/2022"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    chalkboard: true
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+    zoom: true
+    menu: false
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+```{r, include = FALSE}
+library(tidyverse)
+library(gt)
+library(gtExtras)
+```
+
+## Mục tiêu bài giảng
+
+1. Trình bày được mục tiêu của thiết kế nghiên cứu
+2. Trình bày được đặc điểm các thiết kế nghiên cứu thường gặp
+3. Trình bày được nguyên tắc lựa chọn thiết kế nghiên cứu
+4. Trình bày được cách mô tả thiết kế nghiên cứu trong đề cương nghiên cứu
+
+## Ông già Noel, khẩu trang, COVID-19
+
+![](figures/santa_01.png)
+
+## Ông già Noel, khẩu trang, COVID-19
+
+![](figures/santa_02.png)
+
+. . .
+
+Thiết kế nghiên cứu nào?
+
+# Mục tiêu của thiết kế nghiên cứu {data-background="#002147"}
+
+## Mục tiêu của thiết kế nghiên cứu
+
+::: footer
+Stephen B. Hulley et al. (2013). Designing clinical research. 
+:::
+
+![](figures/StudyDesign_01.png)
+
+## Mục tiêu của thiết kế nghiên cứu
+
+. . .
+
+* Trả lời được câu hỏi nghiên cứu
+    + Hiểu biết khoa học
+    + Ứng dụng
+
+* Đảm bảo được giá trị của nghiên cứu
+    + Giá trị bên trong
+    + Giá trị bên ngoài
+    
+## Giá trị bên ngoài 
+
+* Suy diễn khoa học vs. Suy diễn thống kê
+
+* Khả năng khái quát hoá vs. Tính đại diện của mẫu
+    
+::: footer
+Rothman KJ, Gallacher JE, Hatch EE (2013) International Journal of Epidemiology; 42(4):1012–4. 
+:::
+    
+## Các yếu tố ảnh hưởng đến giá trị của nghiên cứu
+
+::: {.r-stack}
+
+![](figures/StudyDesign_03.png){.fragment}
+
+![](figures/StudyDesign_04.png){.fragment}
+
+:::
+
+# Các thiết kế nghiên cứu thường gặp {data-background="#002147"}
+
+## Các thiết kế nghiên cứu thường gặp
+
+::: footer
+Schulz KF & Grimes DA (2019) Essential Concepts in Clinical Research.
+:::
+
+![](figures/StudyDesign_02.png){fig-align=center}
+
+## Các thiết kế nghiên cứu thường gặp
+
+Phân loại dựa vào:
+
+* NCV có thể quyết định phơi nhiễm hay không?
+    + Cách phân nhóm phơi nhiễm
+    + Đối tượng nghiên cứu
+    
+* Có so sánh giữa các nhóm hay không?
+
+* Trình tự khảo sát phơi nhiễm - kết cuộc
+
+## NCV có thể quyết định phơi nhiễm hay không?
+
+Thử nghiệm (thực nghiệm)
+
+Nghiên cứu quan sát
+
+. . .
+
+[Nghiên cứu (về) can thiệp]{.ered}
+
+## Thử nghiệm vs. Quan sát
+
+::: {.r-stack}
+
+![](figures/StudyDesign_05.png){.fragment fig-align=center}
+
+![](figures/StudyDesign_06.png){.fragment fig-align=center}
+
+![](figures/StudyDesign_07.png){.fragment fig-align=center}
+
+:::
+
+## Thử nghiệm
+
+. . .
+
+Nhóm chứng vs. Không nhóm chứng
+
+. . .
+
+Phân nhóm ngẫu nhiên vs. không ngẫu nhiên (quasi-experiment)
+
+. . .
+
+Làm mù vs. Không làm mù
+
+. . .
+
+Đối tượng
+
+* Thử nghiệm lâm sàng (clinical trials)
+* Thử nghiệm thực địa (field trials)
+* Thử nghiệm can thiệp cộng đồng (community trials/cluster-randomized trials)
+
+## Thử nghiệm - Nhóm chứng
+
+::: footer
+Fletcher RH, Fletcher SW, Fletcher GS (2014) Clinical epidemiology: the essentials. 5th ed. 
+:::
+
+![](figures/DTHCT_17.png){fig-align=center}
+
+## Thử nghiệm - Phân nhóm ngẫu nhiên
+
+![](figures/DTHCT_18.png){fig-align=center}
+
+## Thử nghiệm - Phân nhóm ngẫu nhiên
+
+![](figures/DTHCT_19.png){fig-align=center}
+
+
+## Thử nghiệm - Làm mù
+
+![](figures/StudyDesign_08.png){.fragment fig-align=center width=70%}
+
+![](figures/DTHCT_20.png){.fragment fig-align=center width=70%}
+
+## Thử nghiệm - Đối tượng
+
+![](figures/StudyDesign_09.png){fig-align=center}
+
+## Nghiên cứu quan sát
+
+Mô tả vs. So sánh
+
+Trình tự khảo sát phơi nhiễm - kết cuộc
+
+## Nghiên cứu quan sát mô tả
+
+Câu hỏi nghiên cứu: PO
+
+::: {.r-stack}
+
+![](figures/StudyDesign_10.png){.fragment fig-align=center width=100%}
+
+![](figures/StudyDesign_11.png){.fragment fig-align=center width=100%}
+
+![](figures/StudyDesign_12.png){.fragment fig-align=center width=100%}
+
+![](figures/StudyDesign_13.png){.fragment fig-align=center width=100%}
+
+![](figures/StudyDesign_14.png){.fragment fig-align=center width=100%}
+
+:::
+
+## Nghiên cứu quan sát mô tả
+
+Câu hỏi nghiên cứu: PO
+
+Số hiện mắc vs. Số mới mắc
+
+Tính đại diện của mẫu nghiên cứu
+
+## Nghiên cứu quan sát có so sánh
+
+![](figures/StudyDesign_15.png){fig-align=center}
+
+## Nghiên cứu cắt ngang phân tích
+
+. . .
+
+Thông tin về phơi nhiễm và kết cục được thu thập cùng thời điểm.
+
+. . .
+
+Số hiện mắc
+
+. . .
+
+Chiều nhân quả (+/-)
+
+. . .
+
+Sai lệch lựa chọn
+
+. . .
+
+Khó diễn giải kết quả so sánh
+
+## Nghiên cứu đoàn hệ
+
+::: footer
+Szklo & Nieto (2019) Epidemiology: beyond the basics. 4th ed.
+:::
+
+![](figures/StudyDesign_19.png){fig-align=center}
+
+## Nghiên cứu đoàn hệ
+
+. . .
+
+Số mới mắc
+
+. . .
+
+Theo chiều nhân quả
+
+. . .
+
+Khó khăn về việc triển khai (theo dõi)
+
+## Nghiên cứu bệnh - chứng
+
+::: footer
+Szklo & Nieto (2019) Epidemiology: beyond the basics. 4th ed.
+:::
+
+::: {.r-stack}
+
+![](figures/StudyDesign_20.png){.fragment fig-align=center width=100%}
+
+![](figures/StudyDesign_21.png){.fragment fig-align=center width=100%}
+
+![](figures/StudyDesign_22.png){.fragment fig-align=center width=100%}
+
+:::
+
+## Nghiên cứu bệnh - chứng
+
+. . .
+
+Số hiện mắc hoặc số mới mắc
+
+. . .
+
+Ưu điểm về việc triển khai
+
+. . .
+
++/- Sai lệch lựa chọn (nhóm chứng)
+
+* Nhóm chứng nên được lựa chọn từ cùng dân số nguồn của nhóm bệnh
+
++/- Sai lệch thông tin (hồi tưởng)
+
+## Tháp chứng cứ
+
+::: {.r-stack}
+![](figures/EBM_14.png){.fragment .absolute top=100 left=0}
+![](figures/EBM_15.png){.fragment .absolute top=100 left=0}
+:::
+
+::: footer
+Murad MH, Asi N, Alsawas M, Alahdab F (2016) BMJ Evidence-Based Medicine; 21(4):125–7. 
+:::
+
+# Lựa chọn thiết kế nghiên cứu {data-background="#002147"}
+
+## Lựa chọn thiết kế nghiên cứu
+
+::: footer
+Gail MH, Altman DG, Cadarette SM et al. (2019) BMJ Open; 9(12):e031031. 
+:::
+
+* Cùng một câu hỏi nghiên cứu có thể có nhiều cách thiết kế nghiên cứu khác nhau.
+* Lựa chọn thiết kế nghiên cứu dựa vào
+    + Câu hỏi nghiên cứu
+    + Ưu/Nhược điểm của từng thiết kế
+    + Giới hạn về nguồn lực, điều kiện thực tế
+* Thiết kế nghiên cứu tốt giúp đảm bảo giá trị (bên trong, bên ngoài) của nghiên cứu.
+* Sai sót trong thiết kế thường không thể sửa chữa trong quá trình phân tích.
+
+## Ông già Noel, khẩu trang, COVID-19
+
+![](figures/santa_02.png)
+
+Thiết kế nghiên cứu nào?
+
+## Tình huống 1
+
+Đánh giá hiệu quả của việc đeo khẩu trang cho người mắc bệnh lên lượng virus phát hiện được khi thở 
+
+. . .
+
+![](figures/DTHCT_21.png){fig-align=center width=90%}
+
+::: footer
+Leung NHL, et al. (2020) Nat Med. 2020 May;26(5):676–80.  
+:::
+
+
+## Tình huống 2
+
+Đánh giá hiệu quả của việc đeo khẩu trang cho người khoẻ lên khả năng nhiễm bệnh
+
+. . .
+
+![](figures/DTHCT_23.png){fig-align=center}
+
+::: footer
+Bundgaard H et al. (2021) Ann Intern Med. 2021 Mar;174(3):335–43.  
+:::
+
+## Tình huống 3
+
+Đánh giá hiệu quả của việc đeo khẩu trang với sự lây truyền của SARS-CoV-2 ở mức độ cộng đồng
+
+. . .
+
+![](figures/DTHCT_22.png){fig-align=center width=85%}
+
+::: footer
+Rader B et al. (2021) Lancet Digit Health. 2021 Mar;3(3):e148–57. 
+:::
+
+## Tình huống 4
+
+Đánh giá hiệu quả của việc gia tăng đeo khẩu trang trên số ca nhiễm có triệu chứng
+
+. . .
+
+![](figures/DTHCT_24.png){fig-align=center}
+
+::: footer
+Abaluck J et al. (2021) Science. 2021 Dec 2;375(6577):eabi9069. 
+:::
+
+# Trình bày trong đề cương {data-background="#002147"}
+
+## Các hướng dẫn viết báo cáo
+
+::: footer
+https://www.spirit-statement.org; https://www.consort-statement.org; https://www.strobe-statement.org
+:::
+
+::: {.r-stack}
+
+![](figures/StudyDesign_16.png){.fragment fig-align=center width=100%}
+
+![](figures/StudyDesign_17.png){.fragment fig-align=center width=100%}
+
+![](figures/StudyDesign_18.png){.fragment fig-align=center width=100%}
+
+:::
+
+## Trình bày thiết kế nghiên cứu trong đề cương
+
+* Loại thiết kế (tên gọi & chi tiết)
+* Đối tượng nghiên cứu
+* Cách chọn mẫu
+* Cách thu thập dữ liệu
+* Phơi nhiễm: định nghĩa, cách đo lường
+* Kết cuộc: định nghĩa, cách đo lường
+* Phân nhóm: định nghĩa, cách phân nhóm, cỡ mẫu tương đối
+* Quá trình theo dõi
+* Biện pháp hạn chế sai lệch/nhiễu
+* Cỡ mẫu
+
+# CÁM ƠN ANH CHỊ ĐÃ THAM GIA BUỔI HỌC !
+
+Link bài giảng: https://lampk.github.io/notes/Slide_ThietKeNghienCuu.html
