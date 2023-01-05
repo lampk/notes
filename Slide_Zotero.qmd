@@ -1,0 +1,242 @@
+---
+title: "Quản lý và trích dẫn tài liệu tham khảo bằng Zotero"
+subtitle: ""
+author: "TS. BS. Phùng Khánh Lâm"
+date: "`r Sys.Date()`"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    chalkboard: true
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+    zoom: true
+    menu: false
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+```{r, include = FALSE}
+library(tidyverse)
+library(gt)
+library(gtExtras)
+```
+
+# Trích dẫn tài liệu tham khảo {data-background="#002147"}
+
+## Trích dẫn cái gì?
+
+. . .
+
+* Tài liệu được viện dẫn (quote)/diễn đạt lại (paraphrase)/tóm tắt lại (summarise)
+* Những ý tưởng từ người khác
+* Những thông tin/dữ liệu không phải là kiến thức chung (kiến thức chuyên biệt, còn tranh cãi)
+* Không phụ thuộc vào nguồn thông tin/cách thông tin được công bố
+
+## Trích dẫn như thế nào?
+
+. . .
+
+* Đầy đủ, chính xác, rõ ràng, có hệ thống
+* Thành phần: lời trích dẫn, in-text citation, danh mục tài liệu tham khảo
+
+## Hệ thống trích dẫn
+
+Trích dẫn đồng thời trong văn bản (in-text citation)
+
+Danh mục tài liệu tham khảo (reference list/bibliography)
+
+. . .
+
+Phong cách trích dẫn
+
+* Hệ thống dùng số: Vancouver
+* Hệ thống dùng tên-năm: APA
+* Hệ thống theo kiểu ghi chú: Chicago
+
+## Vancouver
+
+::: footer
+Student Learning Development - University of Otago (2017) https://www.otago.ac.nz/hedc/otago615365.pdf
+:::
+
+![](figures/Zotero_Vancouver.png)
+
+## APA
+
+::: footer
+Student Learning Development - University of Otago (2017) https://www.otago.ac.nz/hedc/otago615365.pdf
+:::
+
+![](figures/Zotero_APA.png)
+
+
+
+## Chicago
+
+::: footer
+Student Learning Development - University of Otago (2017) https://www.otago.ac.nz/hedc/otago615365.pdf
+:::
+
+![](figures/Zotero_Chicago.png)
+
+![](figures/Zotero_Chicago2.png)
+
+## Quy định của UMP (áp dụng từ 01/06/2022)
+
+[https://ump.edu.vn/uploads/ckeditor/files/TI%E1%BA%BEN%20S%C4%A8%20-%20SAU%20%C4%90%E1%BA%A0I%20H%E1%BB%8CC/1_6_2022_H%C6%AF%E1%BB%9ANG%20D%E1%BA%AAN%20TR%C3%8DCH%20D%E1%BA%AAN%20TLTK.doc](https://ump.edu.vn/uploads/ckeditor/files/TI%E1%BA%BEN%20S%C4%A8%20-%20SAU%20%C4%90%E1%BA%A0I%20H%E1%BB%8CC/1_6_2022_H%C6%AF%E1%BB%9ANG%20D%E1%BA%AAN%20TR%C3%8DCH%20D%E1%BA%AAN%20TLTK.doc)
+
+. . .
+
+* Theo chuẩn AMA (American Medical Association, 11th edition) của Hội Y khoa Hoa Kỳ (American Medical Association)
+
+. . .
+
+* Hình thức trích dẫn
+    + Trực tiếp: ![](figures/Trichdan_tructiep.png)
+    + Gián tiếp
+    + Thứ cấp
+
+## Nguyên tắc trích dẫn (UMP) 
+
+. . .
+
+* Đặt vấn đề, tổng quan tài liệu, phương pháp nghiên cứu, bàn luận
+
+. . .
+
+* Thống nhất và phù hợp
+
+. . .
+
+* Nguồn trích dẫn phải được ghi nhận ngay khi thông tin được sử dụng
+
+. . .
+
+* Trích dẫn từ nhiều tài liệu: tăng dần, dấu phẩy, không khoảng trắng
+
+. . .
+
+* Tài liệu được trích dẫn phải có trong danh mục tài liệu tham khảo và ngược lại
+
+. . .
+
+* Không trích dẫn tài liệu mà người viết chưa đọc
+
+. . .
+
+* Trích dẫn tài liệu có chất lượng tốt nhất
+
+## Quy định của UMP (áp dụng từ 01/06/2022)
+
+![](figures/TDTLTK_UMP_01.png)
+
+## Quy định của UMP (áp dụng từ 01/06/2022)
+
+![](figures/TDTLTK_UMP_02.png)
+
+## Quy định của UMP (áp dụng từ 01/06/2022)
+
+![](figures/TDTLTK_UMP_03.png)
+
+## Quy định của UMP (áp dụng từ 01/06/2022)
+
+![](figures/TDTLTK_UMP_04.png)
+
+## Nguyên tắc trích dẫn
+
+* Trích dẫn các tài liệu có liên quan
+* Đọc các tài liệu mà bạn trích dẫn
+* Trích dẫn ở vị trí có nội dung phù hợp
+* Trích dẫn tài liệu của bạn nếu cần thiết
+* Xếp thứ tự ưu tiên tài liệu trích dẫn
+* Sự khác biệt về văn hoá trích dẫn
+
+::: footer
+Penders B (2018) PLoS CompBiol, 14(4):e1006036
+:::
+
+## Phantom reference
+
+::: footer
+https://www.elsevier.com/journals/examples-and-counterexamples/2666-657X/guide-for-authors
+:::
+
+![](figures/Phantom_Ref_01.png)
+
+## Phantom reference
+
+::: footer
+https://www.the-matter-of-facts.com/post/the-phantom-reference-and-the-propagation-of-error
+:::
+
+. . .
+
+![](figures/Phantom_Ref_02.png){width=40%}
+
+. . .
+
+![](figures/Phantom_Ref_03.png){.absolute right=0 top=100 width=40%}
+
+## Phantom reference
+
+::: footer
+https://www.the-matter-of-facts.com/post/the-phantom-reference-and-the-propagation-of-error
+:::
+
+![](figures/Phantom_Ref_04.png)
+
+## Công cụ trích dẫn
+
+. . .
+
+![](figures/Zotero_Sosanh.png)
+
+## Zotero
+
+![](figures/Zotero_01.jpg)
+
+"Zotero" = "to master" (Albania)
+
+2006, 2017
+
+## Hệ sinh thái Zotero
+
+Phần mềm cài đặt trên Desktop: [Zotero Desktop]{.ered}
+
+Hệ thống lưu trữ cơ sở dữ liệu trực tuyến: [Zotero Web]{.ered}
+
+Công cụ kết nối Zotero với các trình duyệt: [Zotero Connector]{.ered}
+
+Công cụ kết nối Zotero với trình duyệt trên điện thoại: [Zotero Bookmarklet]{.ered}
+
+Công cụ giúp tạo danh mục tài liệu tham khảo: [Zoterobib]{.ered}
+
+Công cụ do bên thứ ba phát triển giúp mở rộng tính năng: [plugins]{.ered}
+
+## https://www.zotero.org/
+
+![](figures/Zotero_01.png)
+
+## https://www.zotero.org/download/
+
+![](figures/Zotero_07.png)
+
+# Thực hành
+
+![](figures/QRCode for Thực hành Quản lý và trích dẫn tài liệu tham khảo bằng Zotero.png)
+
+# CÁM ƠN CÁC EM ĐÃ THAM GIA BUỔI HỌC !
+
+Link bài giảng: https://lampk.github.io/notes/Slide_Zotero.html
+
+# Phản hồi sau buổi học
+
+![](figures/QRCode for Thực hành Quản lý và trích dẫn tài liệu tham khảo bằng Zotero.png)
