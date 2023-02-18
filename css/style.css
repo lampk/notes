@@ -28,9 +28,14 @@ pre code {
 h1,h2,h3,h4,h5 {
   color: #002147;
   font-weight: bold;
+  font-size:20px;
 }
 
 caption,figcaption {
   color: #002147;
   font-style: italic;
 }
+
+body {
+   font-size:16px;
+ }

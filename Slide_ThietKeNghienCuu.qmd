@@ -2,7 +2,7 @@
 title: "THIẾT KẾ NGHIÊN CỨU"
 subtitle: ""
 author: "TS. BS. Phùng Khánh Lâm"
-date: "25/12/2022"
+date: "18/01/2023"
 institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
 format: 
   revealjs:
@@ -29,6 +29,14 @@ library(gt)
 library(gtExtras)
 ```
 
+## Nội dung
+
+* Câu hỏi lượng giá trước buổi học
+
+. . .
+
+* Mong đợi về buổi học
+
 ## Mục tiêu bài giảng
 
 1. Trình bày được mục tiêu của thiết kế nghiên cứu
@@ -46,9 +54,27 @@ library(gtExtras)
 
 . . .
 
-Thiết kế nghiên cứu nào?
+Thiết kế nghiên cứu như thế nào ?
 
 # Mục tiêu của thiết kế nghiên cứu {data-background="#002147"}
+
+## Dịch tễ học vs. Nghiên cứu dịch tễ học
+
+::: footer
+Miettinen OS, Karp I. (2012) Epidemiological Research: An Introduction.
+:::
+
+Dịch tễ học ~ Community Medicine
+
+* Thực hành chăm sóc y tế 
+
+* Nghiên cứu về sức khoẻ
+
+. . .
+
+Nghiên cứu dịch tễ học
+
+
 
 ## Mục tiêu của thiết kế nghiên cứu
 
@@ -70,7 +96,44 @@ Stephen B. Hulley et al. (2013). Designing clinical research.
     + Giá trị bên trong
     + Giá trị bên ngoài
     
-## Giá trị bên ngoài 
+## Câu hỏi nghiên cứu
+
+Cấu trúc PICO(T)
+
+. . .
+
+* Population
+
+. . .
+
+* Intervention/Exposure
+
+. . .
+
+* Comparison/Control
+
+. . .
+
+* Outcome
+
+. . .
+
+* Time
+
+. . .
+
+PO vs. PICO
+
+
+## Giá trị của nghiên cứu
+
+. . .
+
+Giá trị bên trong
+
+. . .
+
+Giá trị bên ngoài 
 
 * Suy diễn khoa học vs. Suy diễn thống kê
 
@@ -91,6 +154,18 @@ Rothman KJ, Gallacher JE, Hatch EE (2013) International Journal of Epidemiology;
 :::
 
 # Các thiết kế nghiên cứu thường gặp {data-background="#002147"}
+
+## Thành phần trong thiết kế nghiên cứu
+
+* Dân số nghiên cứu
+* Đơn vị nghiên cứu
+* Kết cuộc
+* Phơi nhiễm
+* Các khoảng thời gian liên quan
+* Thời điểm đánh giá
+* Cách lấy mẫu
+* Loại dữ liệu
+
 
 ## Các thiết kế nghiên cứu thường gặp
 
@@ -310,6 +385,10 @@ Murad MH, Asi N, Alsawas M, Alahdab F (2016) BMJ Evidence-Based Medicine; 21(4):
 
 # Lựa chọn thiết kế nghiên cứu {data-background="#002147"}
 
+## Thiết kế mục tiêu & Thiết kế phương pháp
+
+![](figures/StudyDesign_23.png){fig-align=center}
+
 ## Lựa chọn thiết kế nghiên cứu
 
 ::: footer
@@ -328,7 +407,7 @@ Gail MH, Altman DG, Cadarette SM et al. (2019) BMJ Open; 9(12):e031031.
 
 ![](figures/santa_02.png)
 
-Thiết kế nghiên cứu nào?
+Thiết kế nghiên cứu như thế nào ?
 
 ## Tình huống 1
 
@@ -410,6 +489,30 @@ https://www.spirit-statement.org; https://www.consort-statement.org; https://www
 * Biện pháp hạn chế sai lệch/nhiễu
 * Cỡ mẫu
 
+# Tóm tắt {data-background="#002147"}
+
+## Thiết kế nghiên cứu 
+
+. . .
+
+* Mục tiêu: câu hỏi nghiên cứu + giá trị
+
+. . .
+
+* Thiết kế thường gặp: không chỉ là tên gọi
+
+. . .
+
+* Nguyên tắc lựa chọn:
+    + Khoa học: câu hỏi nghiên cứu + giá trị
+    + Khả thi
+    
+. . .
+
+* Mô tả: hướng dẫn báo cáo
+
 # CÁM ƠN ANH CHỊ ĐÃ THAM GIA BUỔI HỌC !
 
 Link bài giảng: https://lampk.github.io/notes/Slide_ThietKeNghienCuu.html
+
+Phản hồi về buổi học: https://forms.office.com/r/cydTHXM0LT 
