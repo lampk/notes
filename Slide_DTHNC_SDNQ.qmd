@@ -1,0 +1,553 @@
+---
+title: "DỊCH TỄ HỌC NÂNG CAO"
+subtitle: "SUY DIỄN NHÂN QUẢ"
+author: "TS. BS. Phùng Khánh Lâm"
+date: "10/03/2023"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    width: 1050
+    height: 700
+    chalkboard: false
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+## Mục tiêu bài giảng
+
+1. Trình bày được các khái niệm cơ bản về nguyên nhân
+
+2. Phân tích được ưu điểm, nhược điểm của cách tiếp cận cổ điển
+
+3. Trình bày được nguyên tắc cách tiếp cận theo kết cuộc tiềm năng
+
+# KHÁI NIỆM CƠ BẢN {data-background="#002147"}
+
+## Nguyên nhân
+
+> sự kiện, điều kiện, hoặc đặc tính giữ một vai trò thiết yếu trong việc tạo ra sự xuất hiện của bệnh
+
+> yếu tố ảnh hưởng đến sự xuất hiện bệnh (thay đổi tần suất bệnh)
+
+## Các loại nguyên nhân
+
+. . .
+
+[Nguyên nhân cần]{.ered}
+
+. . .
+
+* Nếu không có, bệnh không thể xuất hiện [Tiếp xúc với vi khuẩn lao và bệnh lao]
+
+. . .
+
+[Nguyên nhân đủ]{.ered}
+
+. . .
+
+* Nếu có, bệnh chắc chắn xuất hiện [Tiếp xúc với lượng lớn virus dại và bệnh dại]
+
+. . .
+
+[Nguyên nhân cần và đủ]{.ered}
+
+. . .
+
+* Quan điểm trước đây về nhiễm HIV và bệnh AIDS
+
+. . .
+
+[Nguyên nhân thành phần]{.ered}
+
+## Hút thuốc lá và Ung thư phổi ???
+
+![](figures/SDNQ_smoking.jpeg)
+
+# QUAN HỆ & QUAN HỆ NHÂN QUẢ {data-background="#002147"}
+
+## Nhiệm vụ của dịch tễ học là gì?
+
+. . .
+
+* Xác định nguyên nhân của bệnh 
+* Xác định người có nguy cơ cao mắc bệnh/kết cục
+* Xác định mục tiêu đích để cải thiện y tế công cộng 
+
+
+## Nhiệm vụ của dịch tễ học là gì?
+
+::: footer
+Westreich, D. (2020). Epidemiology by design: A causal approach to the health sciences. 
+:::
+
+. . .
+
+Mô tả (Exploratory)
+
+* Chuyện gì đang xảy ra?
+
+. . .
+
+Tiên đoán/Chẩn đoán
+
+* Chẩn đoán: xác định người có bệnh D
+* Tiên đoán: xác định người có khả năng mắc bệnh D
+
+. . .
+
+Nhân quả
+
+* Xác định các nguyên nhân gây ra D
+* Đánh giá liệu một phơi nhiễm E có phải là nguyên nhân gây ra D không
+
+
+## Nhiệm vụ của dịch tễ học là gì?
+
+![](figures/CI_01.png)
+
+::: footer
+Peter WG Tennant (2019) https://youtu.be/SbrX3YEMj_0
+:::
+
+## Nguyên nhân và yếu tố nguy cơ
+
+* Có mối liên hệ thật sự: yếu tố nguy cơ
+* Có mối quan hệ nhân quả: nguyên nhân
+
+. . .
+
+Thay đổi nguyên nhân làm thay đổi sự xuất hiện của bệnh (cá nhân và dân số).
+
+
+# CÁCH TIẾP CẬN CỔ ĐIỂN {data-background="#002147"}
+
+## Bánh nguyên nhân
+
+::: footer
+CDC (2012) Principles of Epidemiology in Public Health Practice, 3rd
+:::
+
+![](figures/causalpie.png)
+
+. . .
+
+* A, B, C, D, E, F, G, H, I, J: nguyên nhân thành phần
+
+. . .
+
+* A: nguyên nhân cần
+
+. . .
+
+* {A, B, C, D, E}, {A, B, F, G, H}, {A, C, F, I, J}: nguyên nhân đủ
+
+## Định đề Henle - Koch (1877)
+
+::: footer
+Surinder Kumar. Textbook of Microbiology. https://www.jaypeedigital.com/eReader/chapter/9789350255100/ch1
+:::
+
+![](figures/SDNQ_HenleKoch.jpg)
+
+## Tiêu chí Hill (1965)
+
+(1) Độ mạnh của mối liên hệ (Strength)
+(2) Tính nhất quán (Consistency)
+(3) Tính đặc hiệu (Specificity)
+(4) Quan hệ về thời gian (Temporality)
+(5) Khuynh độ sinh học (Biological gradient)
+(6) Có thể giải thích bằng cơ chế sinh học (Plausibility)
+(7) Phù hợp với hiểu biết về bệnh (Coherence)
+(8) Có dữ liệu từ thử nghiệm (Experiment)
+(9) Tương đồng (Analogy)
+
+## Tiêu chí Hill (1965)
+
+> Here then are nine different viewpoints [guidelines] from all of which we should study association before we cry causation. What I do not believe—and this has been suggested—that we can usefully lay down some hard-and-fast rules of evidence that must be obeyed before we can accept cause and effect. [None of my nine viewpoints can bring indisputable evidence for or against the cause-and-effect hypothesis and none can be required as a sine qua non]{.ered}. What they can do, with greater or less strength, is to help us to [make up our minds on the fundamental question—is there any other way of explaining the set of facts before us, is there any other answer equally, or more, likely than cause and effect?]{.ered}
+
+::: footer
+Hill AB. The environment and disease: association or causation? Proc R Soc Med. 1965;58:295–300.
+:::
+
+## Đánh giá chung
+
+* Kết hợp nhiều bằng chứng: thống kê và cơ chế
+* Vai trò của nghiên cứu thực nghiệm (RCT)
+* Nhận định chung về nguyên nhân của vấn đề sức khoẻ
+
+## Kết hợp nhiều bằng chứng
+
+Triangulation
+
+![](figures/triangulation.webp){width=100%}
+
+## Kết hợp nhiều bằng chứng
+
+. . .
+
+* Bằng chứng về cơ chế: nghiên cứu trong phòng thí nghiệm (động vật, tế bào)
+
+. . .
+
+* Bằng chứng về thống kê: nghiên cứu dịch tễ quan sát/thử nghiệm trên người
+
+## Bằng chứng về thống kê
+
+. . .
+
+Quan sát
+
+. . .
+
+* Quan sát trên lâm sàng [chủ quan, cảm tính]
+ 
+. . .
+
+* Quan sát trên dữ liệu thường quy sẵn có [chất lượng dữ liệu]
+ 
+. . .
+
+* Nghiên cứu quan sát (cắt ngang, bệnh chứng, đoàn hệ) [cơ hội, sai lệch, nhiễu]
+ 
+. . .
+
+Thử nghiệm [cơ hội, sai lệch, nhiễu]
+
+## Bằng chứng về thống kê
+
+![](figures/EBM_15.png)
+
+## Vai trò của nghiên cứu thực nghiệm (RCT)
+
+Tiêu chuẩn vàng???
+
+## Hiệu quả của streptomycin trong điều trị bệnh lao
+
+1944: Streptomycin được phát hiện tại Hoa Kỳ.
+
+1947: RCT: Streptomycin 2g/ngày vs CS thường quy (nghỉ tại giường/6 tháng)
+
+. . .
+
+::: footer
+MRC (1948) BMJ;2(4582):769–82. 
+:::
+
+![](figures/SDNQ_MRC1.png){fig-align=center width=100%}
+
+## Hiệu quả của streptomycin trong điều trị bệnh lao
+
+::: footer
+MRC (1948) BMJ;2(4582):769–82. 
+:::
+
+![](figures/SDNQ_MRC2.png){fig-align=center width=100%}
+
+## Hiệu quả của streptomycin trong điều trị bệnh lao
+
+Tỉ lệ tử vong sau 5 năm:
+
+* Nhóm dùng streptomycin: 58%
+* Nhóm chứng: 67%
+
+## Hiệu quả của streptomycin trong điều trị bệnh lao
+
+::: footer
+MRC (1948) BMJ;2(4582):769–82. 
+:::
+
+![](figures/SDNQ_MRC3.png){fig-align=center width=100%}
+
+## Thalidomide
+
+::: footer
+Gillies D. (2018) Causality, probability, and medicine. New York: Routledge. 
+:::
+. . .
+
+1950s: Thalidomide được đề xuất điều trị rối loạn lo âu và mất ngủ
+
+* Tác dụng an thần mạnh
+* Thử nghiệm trên động vật: không độc hại (không tìm được LD50 trên chuột; thỏ, mèo, chó)
+
+. . .
+
+1957: sử dụng như thuốc không kê đơn tại Đức
+
+. . .
+
+* Mẹ mang thai sử dụng --> Gây dị tật thai nhi 
+
+1961: bị rút khỏi thị trường
+
+. . .
+
+[Liệu có thể tránh được nếu thực hiện RCTs?]{.ered}
+
+## Thalidomide
+
+::: footer
+Gillies D. (2018) Causality, probability, and medicine. New York: Routledge. 
+:::
+
+Không được chấp thuận ngay từ đầu ở Hoa Kỳ
+
+* Dr Frances Kelsey: độc tính của quinine đối với thai kỳ trên thỏ
+* Thalidomide có trọng lượng phân tử nhỏ, qua được nhau thai
+* Một số thuốc/hoá chất gây hại trên thai nhi dù không có ảnh hưởng trên mẹ (thử nghiệm trên động vật)
+
+## Vai trò của nghiên cứu thực nghiệm (RCT)
+
+::: footer
+Gillies D. (2018) Causality, probability, and medicine. New York: Routledge. 
+:::
+
+Bằng chứng từ các thử nghiệm lâm sàng vẫn có các hạn chế
+
+* Giới hạn về thời gian
+* Giới hạn về mẫu nghiên cứu
+
+## Đánh giá chung
+
+* Kết hợp nhiều bằng chứng: thống kê và cơ chế
+* Vai trò của nghiên cứu thực nghiệm (RCT)
+* Nhận định chung về nguyên nhân của vấn đề sức khoẻ
+
+# CÁCH TIẾP CẬN KẾT CUỘC TIỀM NĂNG {data-background="#002147"}
+
+## Cách tiếp cận kết cuộc tiềm năng (potential outcomes)
+
+* Ước tính tác động nhân quả --> định hướng can thiệp
+* Điều kiện để ước tính có giá trị --> có thể sử dụng dữ liệu quan sát
+
+## Kết cuộc tiềm năng (potential outcome)
+
+::: footer
+Westreich, D. (2020). Epidemiology by design: A causal approach to the health sciences. 
+:::
+
+Bạn tham gia một nghiên cứu can thiệp
+
+. . .
+
+* Can thiệp: $A=1$ (dùng thuốc điều trị), $A=0$ (dùng giả dược)
+
+. . .
+
+* Trước khi tham gia, bạn có 2 kết cuộc tiềm năng
+    + Kết cuộc khi dùng thuốc: $Y^{a=1}$
+    + Kết cuộc khi dùng giả dược: $Y^{a=0}$
+
+
+## Tác động nhân quả trên cá nhân
+
+::: footer
+Westreich, D. (2020). Epidemiology by design: A causal approach to the health sciences. 
+:::
+
+. . .
+
+* Kết cuộc tiềm năng khi dùng thuốc: $Y^{a=1}$
+
+. . .
+
+* Kết cuộc tiềm năng khi dùng giả dược: $Y^{a=0}$
+
+. . .
+
+* Tác động nhân quả: $Y^{a=1} - Y^{a=0}$
+
+
+## Tác động nhân quả trên dân số
+
+::: footer
+Westreich, D. (2020). Epidemiology by design: A causal approach to the health sciences. 
+:::
+
+. . .
+
+* Kết cuộc tiềm năng khi dùng thuốc: $E[Y^{a=1}]$
+
+. . .
+
+* Kết cuộc tiềm năng khi dùng giả dược: $E[Y^{a=0}]$
+
+. . .
+
+* Tác động nhân quả: $E[Y^{a=1}] - E[Y^{a=0}]$
+
+## Tác động nhân quả trên dân số
+
+::: footer
+Hernán M & Robins JM (2020). Causal inference.
+:::
+
+![](figures/SDNQ_01.png)
+
+## Tác động nhân quả trên dân số
+
+::: footer
+Hernán M & Robins JM (2020). Causal inference.
+:::
+
+![](figures/SDNQ_01_2.png)
+
+## Tác động nhân quả trên dân số
+
+::: footer
+Hernán M & Robins JM (2020). Causal inference.
+:::
+
+![](figures/SDNQ_01_3.png)
+
+## Điều kiện để ước tính được tác động nhân quả
+
+::: footer
+Westreich, D. (2020). Epidemiology by design: A causal approach to the health sciences. 
+:::
+
+![](figures/PO_01.png)
+
+## Điều kiện để ước tính được tác động nhân quả
+
+::: footer
+Westreich, D. (2020). Epidemiology by design: A causal approach to the health sciences. 
+:::
+
+![](figures/PO_02.png)
+
+## Điều kiện để ước tính được tác động nhân quả
+
+::: footer
+Westreich, D. (2020). Epidemiology by design: A causal approach to the health sciences. 
+:::
+
+![](figures/PO_03.png)
+
+## Điều kiện để ước tính được tác động nhân quả
+
+::: footer
+Westreich, D. (2020). Epidemiology by design: A causal approach to the health sciences. 
+:::
+
+![](figures/PO_04.png)
+
+## Điều kiện để ước tính được tác động nhân quả
+
+::: footer
+Westreich, D. (2020). Epidemiology by design: A causal approach to the health sciences. 
+:::
+
+![](figures/PO_05.png)
+
+## Thử nghiệm lâm sàng có nhóm chứng phân nhóm ngẫu nhiên (RCT)
+
+* Chiều thời gian
+* Sai số đo lường
+* Nhất quán về nhân quả
+* Hoán đổi được
+
+## Target Emulation Trial
+
+* Dữ liệu từ nghiên cứu quan sát
+* Phân tích như thử nghiệm lâm sàng phân nhóm ngẫu nhiên
+
+## HRT và nguy cơ bệnh mạch vành
+
+::: footer
+Grodstein F et al. (2006) J Womens Health (Larchmt) 2006;15(1):35–44; Manson JE, Hsia J, Johnson KC, et al. (2003) NEJM;349(6):523–34.
+:::
+
+![](figures/PO_06.png)
+
+## HRT và nguy cơ bệnh mạch vành
+
+::: footer
+Grodstein F et al. (2006) J Womens Health (Larchmt) 2006;15(1):35–44; Manson JE, Hsia J, Johnson KC, et al. (2003) NEJM;349(6):523–34.
+:::
+
+![](figures/PO_07.png)
+
+## HRT và nguy cơ bệnh mạch vành
+
+::: footer
+Grodstein F et al. (2006) J Womens Health (Larchmt) 2006;15(1):35–44; Manson JE, Hsia J, Johnson KC, et al. (2003) NEJM;349(6):523–34.
+:::
+
+![](figures/PO_08.png)
+
+
+## HRT và nguy cơ bệnh mạch vành
+
+::: footer
+Grodstein F et al. (2006) J Womens Health (Larchmt) 2006;15(1):35–44; Manson JE, Hsia J, Johnson KC, et al. (2003) NEJM;349(6):523–34.
+:::
+
+![](figures/PO_09.png)
+
+## HRT và nguy cơ bệnh mạch vành
+
+::: footer
+Hernán MA, Alonso A, Logan R, et al. (2008) Epidemiology;19(6):766. 
+:::
+
+![](figures/PO_10.png)
+
+## Cách tiếp cận kết cuộc tiềm năng
+
+1. Định nghĩa can thiệp và các giá trị về can thiệp phù hợp với câu hỏi nghiên cứu.
+2. Định nghĩa kết cuộc tương ứng với câu hỏi nghiên cứu.
+3. Định nghĩa dân số quan tâm.
+4. Thiết lập từng kết cuộc tiềm năng cho mỗi mức độ về can thiệp.
+5. Xác định tác động nhân quả đích.
+6. Trình bày các giả định kiểm chứng ước lượng về tác động nhân quả từ dữ liệu.
+7. Ước tính tác động nhân quả đích.
+8. Đánh giá giá trị của các giả định và thực hiện phân tích độ nhạy nếu cần thiết.
+
+## Bài tập nhỏ
+
+* Thực hiện một chương trình khuyến khích bú sữa mẹ 
+* Theo dõi cân nặng của trẻ
+
+. . .
+
+Có thể đánh giá những tác động nhân quả nào?
+
+# KẾT LUẬN {data-background="#002147"}
+
+## Suy diễn nhân quả
+
+. . .
+
+Khái niệm cơ bản về nguyên nhân
+
+. . . 
+
+Quan hệ thông thường & quan hệ nhân quả
+
+. . .
+
+Cách tiếp cận cổ điển
+
+. . .
+
+Cách tiếp cận hiện đại
+
+        
+# CÁM ƠN ANH/CHỊ ĐÃ THAM GIA BUỔI HỌC !
+
+Link bài giảng: https://lampk.github.io/notes/Slide_DTHNC_SDNQ.html
+
+## Phản hồi
+
+![](figures/QRCode_SDNQ_20230310.png){width=100%}
