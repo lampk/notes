@@ -472,6 +472,6 @@ https://www.spirit-statement.org; https://www.consort-statement.org; https://www
 
 # CÁM ƠN ANH CHỊ ĐÃ THAM GIA BUỔI HỌC !
 
-Link bài giảng: https://lampk.github.io/notes/Slide_ThietKeNghienCuu_20230528.html
+Link bài giảng: https://lampk.github.io/notes/Slide_ThietKeNghienCuu_20230625.html
 
 ![](figures/QRCode_TKNC_20230528.png)
