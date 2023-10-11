@@ -1,0 +1,350 @@
+---
+title: "DỊCH TỄ HỌC CAN THIỆP: NGHIÊN CỨU CAN THIỆP"
+subtitle: ""
+author: "TS. BS. Phùng Khánh Lâm"
+date: "11/10/2023"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    width: 1050
+    height: 700
+    chalkboard: false
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+## Mục tiêu bài giảng
+
+* Mô tả các đặc trưng của nghiên cứu can thiệp
+
+* Mô tả các bước thực hiện nghiên cứu can thiệp
+
+* Phân tích các vấn đề và cách giải quyết khi thực hiện nghiên cứu can thiệp
+
+* Phân tích các vấn đề về đạo đức khi thực hiện nghiên cứu can thiệp
+
+# Ví dụ về một can thiệp {data-background="#002147"}
+
+# Một số khái niệm {data-background="#002147"}
+
+## Một số khái niệm
+
+. . .
+
+* Can thiệp, nghiên cứu can thiệp
+
+. . .
+
+> bất kỳ hoạt động nào được thực hiện với mục tiêu cải thiện sức khoẻ con người bằng cách phòng ngừa bệnh tật, chữa khỏi hoặc giảm độ nặng hay thời gian mắc bệnh, hoặc bằng cách phục hồi các chức năng bị mất do bệnh hay chấn thương.
+
+. . .
+
+* Kết cuộc (đơn thuần, kết hợp, trung gian)
+
+. . .
+
+* Hiệu lực (efficacy) vs. hiệu quả (effectiveness)
+
+. . .
+
+* Giá trị của nghiên cứu (bên trong, bên ngoài)
+
+
+# Khi nào cần nghiên cứu can thiệp? {data-background="#002147"}
+
+## Khi nào cần nghiên cứu can thiệp?
+
+. . .
+
+![](figures/DTHCT_11.png){fig-align="center"}
+
+
+# Làm nghiên cứu can thiệp như thế nào? {data-background="#002147"}
+
+## Làm nghiên cứu can thiệp như thế nào?
+
+. . .
+
+![](figures/DTHCT_25.png){fig-align="center"}
+
+## Làm nghiên cứu can thiệp như thế nào?
+
+
+![](figures/DTHCT_26.png){fig-align="center"}
+
+## Làm nghiên cứu can thiệp như thế nào?
+
+
+![](figures/DTHCT_27.png){fig-align="center"}
+
+## Làm nghiên cứu can thiệp như thế nào?
+
+
+![](figures/DTHCT_28.png){fig-align="center"}
+
+## Làm nghiên cứu can thiệp như thế nào?
+
+
+![](figures/DTHCT_29.png){fig-align="center"}
+
+. . .
+
+Bản chất của nghiên cứu can thiệp là gì?
+
+. . .
+
+*Nghiên cứu đoàn hệ tiến cứu + Nghiên cứu viên quyết định phơi nhiễm*
+
+# Những vấn đề và cách giải quyết? {data-background="#002147"}
+
+## Những vấn đề có thể xảy ra và cách giải quyết?
+
+![](figures/DTHCT_29.png){fig-align="center"}
+
+## Câu hỏi nghiên cứu
+
+![](figures/DTHCT_30.png){fig-align="center"}
+
+## Câu hỏi nghiên cứu
+
+![](figures/DTHCT_31.png){fig-align="center"}
+
+Ảnh hưởng đến giá trị bên trong hay bên ngoài?
+
+## Chọn mẫu
+
+![](figures/DTHCT_32.png){fig-align="center"}
+
+. . .
+
+Đối tượng, đơn vị?
+
+. . .
+
+* Người lành vs. người bệnh, Cá nhân vs. cộng đồng
+
+. . .
+
+* Thử nghiệm lâm sàng, thử nghiệm thực địa, thử nghiệm can thiệp cộng đồng
+
+## Chọn mẫu
+
+![](figures/DTHCT_32.png){fig-align="center"}
+
+Tiêu chuẩn chọn mẫu?
+
+. . .
+
+Đánh giá hiệu lực hay hiệu quả?
+
+## Nhóm chứng
+
+![](figures/DTHCT_31.png){fig-align="center"}
+
+Điều gì giải thích được cho kết quả?
+
+## Nhóm chứng
+
+![](figures/Control_02.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/Control_03.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/Control_04.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/Control_05.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/Control_06.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/Control_07.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/Control_08.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/Control_09.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/Control_10.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/Control_11.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/Control_12.png){fig-align="center"}
+
+## Nhóm chứng
+
+![](figures/DTHCT_33.png){fig-align="center"}
+
+## Phân nhóm
+
+![](figures/DTHCT_34.png){fig-align="center"}
+
+. . .
+
+Yếu tố gây nhiễu
+
+. . .
+
+*Phân nhóm ngẫu nhiên*
+
+## Phân nhóm ngẫu nhiên
+
+![](figures/DTHCT_18.png){fig-align="center"}
+
+## Phân nhóm ngẫu nhiên
+
+![](figures/DTHCT_19.png){fig-align="center"}
+
+## Can thiệp
+
+![](figures/DTHCT_35.png){fig-align="center"}
+
+. . .
+
+Sai lệch chọn lựa?
+
+. . .
+
+*Làm mù*
+
+## Đánh giá kết cuộc
+
+![](figures/DTHCT_36.png){fig-align="center"}
+
+. . .
+
+Sai lệch thông tin?
+
+. . .
+
+*Làm mù*
+
+## Theo dõi
+
+![](figures/DTHCT_37.png){fig-align="center"}
+
+. . .
+
+Bỏ cuộc?
+
+. . .
+
+*Làm mù, theo dõi sát*
+
+## Phân tích
+
+![](figures/DTHCT_38.png){fig-align="center"}
+
+. . .
+
+Sai lệch kết quả?
+
+. . .
+
+*Làm mù*
+
+# Đạo đức trong nghiên cứu can thiệp {data-background="#002147"}
+
+## Vì sao?
+
+Nghiên cứu khác với điều trị
+
+:::{.fragment}
+Mục đích của nghiên cứu
+
+* Kiến thức mới
+:::
+
+:::{.fragment}
+Lợi ích của người tham gia nghiên cứu
+
+* Thường không có lợi ích trực tiếp
+:::
+
+## Văn bản
+
+* Nuremberg Code (1947)
+
+* Declaration of Helsinki (2000)
+
+* Belmont Report (1979)
+
+* CIOMS (2002)
+
+## Nguyên tắc
+
+* Công bằng (justice)
+
+* Cân nhắc lợi ích/rủi ro (beneficence)
+
+* Tôn trọng ý kiến cá nhân (respect of autonomy)
+
+*	Không ác ý (non-maleficence)
+
+**Khi áp dụng cần cân nhắc cả các yếu tố về văn hoá, xã hội**
+
+## Áp dụng
+
+:::{.fragment}
+Khi nào tiến hành thử nghiệm lâm sàng?
+
+* Equipoise
+:::
+
+:::{.fragment}
+Thực hiện thử nghiệm lâm sàng như thế nào?
+
+* Đồng thuận tham gia nghiên cứu
+* Nhóm chứng: giả dược (placebo)?
+:::
+
+:::{.fragment}
+Khi nào kết thúc thử nghiệm lâm sàng?
+
+* Kết thúc sớm: dữ liệu của nghiên cứu, tiến triển của nghiên cứu, thông tin khác
+:::
+
+# Kết luận {data-background="#002147"}
+
+## Bạn học được điều gì từ bài giảng này?
+
+. . .
+
+* Một số khái niệm
+* Đặc tính của nghiên cứu can thiệp
+* Các bước tiến hành nghiên cứu can thiệp
+* Các vấn đề có thể xảy ra & cách giải quyết
+* Đạo đức khi thực hiện nghiên cứu can thiệp
+
+# CÁM ƠN CÁC EM ĐÃ THAM GIA BUỔI HỌC !
+
+Link bài giảng: https://lampk.github.io/notes/Slide_DTHCT_DH.html
+
+![](figures/QRCode_20231011.png)
+
