@@ -1,0 +1,275 @@
+---
+title: "DỊCH TỄ HỌC CƠ BẢN"
+subtitle: "SUY DIỄN NHÂN QUẢ"
+author: "TS. BS. Phùng Khánh Lâm"
+date: "02/11/2023"
+institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    width: 1050
+    height: 700
+    chalkboard: false
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+## Mục tiêu bài giảng
+
+1. Trình bày và phân loại nguyên nhân trên quan điểm dịch tễ học.
+
+2. Trình bày được một số nguyên tắc suy diễn nhân quả.
+
+# NGUYÊN NHÂN {data-background="#002147"}
+
+## Thảo luận
+
+Nhân quả là gì? Quan hệ nhân-quả (causality) khác gì so với mối tương quan thông thường (correlation)? 
+
+## Ví dụ
+
+![](figures/SDNQ_Rooster_01.png){width=80% fig-align=center}
+
+
+::: footer
+Adobestock/New Africa
+:::
+
+## Ví dụ
+
+![](figures/SDNQ_Rooster_02.png){width=80% fig-align=center}
+
+::: footer
+Shimmura T, Yoshimura T. (2013) Current Biology. 23(6):R231-R233. doi:10.1016/j.cub.2013.02.015
+:::
+
+## Nguyên nhân
+
+> sự kiện, điều kiện, hoặc đặc tính giữ một vai trò thiết yếu trong việc tạo ra sự xuất hiện của bệnh
+
+> yếu tố ảnh hưởng đến sự xuất hiện bệnh (thay đổi tần suất bệnh)
+
+. . .
+
+> “something that makes a difference.”
+
+
+::: footer
+Aschengrau A, Seage GR (2020) Essentials of Epidemiology in Public Health. Fourth edition.
+:::
+
+## Các loại nguyên nhân
+
+. . .
+
+[Nguyên nhân cần]{.ered}
+
+. . .
+
+* Nếu không có, bệnh không thể xuất hiện [Tiếp xúc với vi khuẩn lao và bệnh lao]
+
+. . .
+
+[Nguyên nhân đủ]{.ered}
+
+. . .
+
+* Nếu có, bệnh chắc chắn xuất hiện [Tiếp xúc với lượng lớn virus dại và bệnh dại]
+
+. . .
+
+[Nguyên nhân cần và đủ]{.ered}
+
+. . .
+
+* Quan điểm trước đây về nhiễm HIV và bệnh AIDS
+
+. . .
+
+[Nguyên nhân thành phần]{.ered}
+
+## Bánh nguyên nhân
+
+::: footer
+CDC (2012) Principles of Epidemiology in Public Health Practice, 3rd
+:::
+
+![](figures/causalpie.png){width=80% fig-align=center}
+
+. . .
+
+* A, B, C, D, E, F, G, H, I, J: nguyên nhân thành phần
+
+. . .
+
+* A: nguyên nhân cần
+
+. . .
+
+* {A, B, C, D, E}, {A, B, F, G, H}, {A, C, F, I, J}: nguyên nhân đủ
+
+## Hút thuốc lá và Ung thư phổi ???
+
+![](figures/SDNQ_smoking.jpeg){width=80% fig-align=center}
+
+# SUY DIỄN NHÂN QUẢ {data-background="#002147"}
+
+## Xác định quan hệ nhân quả bằng cách nào?
+
+* Có [mối liên quan]{.ered} hay không?
+* Nếu có, đó có phải là [liên quan nhân quả]{.ered} hay không?
+
+![](figures/SDNQ_steps.png){width=80% fig-align=center}
+
+::: footer
+Gordis Epidemiology (6th edition), 2019.
+:::
+
+## Hút thuốc lá và ung thư phổi
+
+![](figures/SDNQ_Smoking_01.png){width=80% fig-align=center}
+
+::: footer
+Proctor RN. (2001) Nat Rev Cancer. 1(1):82-86. doi:10.1038/35094091
+:::
+
+## Hút thuốc lá và ung thư phổi
+
+![](figures/SDNQ_Smoking_02.png){width=80% fig-align=center}
+
+::: footer
+Ruegg TA. (2015) Glob Qual Nurs Res. 2:2333393615585972. doi:10.1177/2333393615585972
+:::
+
+## Bước 1: Xác định mối liên quan
+
+* Nghiên cứu trên động vật
+
+* Nghiên cứu trong phòng thí nghiệm
+
+* Quan sát trên lâm sàng
+
+* Quan sát trên dữ liệu thường quy sẵn có
+
+* Nghiên cứu quan sát (cắt ngang, bệnh chứng, đoàn hệ)
+
+* Thử nghiệm
+
+## Bước 1: Xác định mối liên quan
+
+![](figures/SDNQ_TraSua_01.png){width=100%}
+
+## Bước 1: Xác định mối liên quan
+
+![](figures/SDNQ_TraSua_02.png){width=100%}
+
+## Bước 1: Xác định mối liên quan
+
+![](figures/SDNQ_TraSua_03.png){width=100%}
+
+## Bước 1: Xác định mối liên quan
+
+![](figures/SDNQ_TraSua_04.png){width=100%}
+
+## Bước 1: Xác định mối liên quan
+
+![](figures/SDNQ_TraSua_05.png){width=100%}
+
+## Bước 1: Xác định mối liên quan
+
+![](figures/SDNQ_TraSua_06.png){width=100%}
+
+## Bước 1: Xác định mối liên quan
+
+Ảnh hưởng của
+
+* Sai lệch (chọn mẫu, thông tin)
+
+* Yếu tố gây nhiễu
+
+* Cơ hội (ngẫu nhiên)
+
+## Bước 2: Nhận định về quan hệ nhân quả
+
+. . .
+
+Triangulation
+
+![](figures/triangulation.webp){width=100%}
+
+::: footer
+Munafò MR, Davey Smith G. (2018) Nature. 553(7689):399-401. doi:10.1038/d41586-018-01023-3
+:::
+
+## Bằng chứng về thống kê và bằng chứng về cơ chế
+
+::: footer
+Gillies D. (2018) Causality, probability, and medicine. New York: Routledge. 
+:::
+
+Suy diễn nhân quả cần kết hợp giữa bằng chứng về thống kê và bằng chứng về cơ chế
+
+. . .
+
+* Bằng chứng về thống kê: từ các nghiên cứu dịch tễ quan sát/thử nghiệm trên người
+
+. . .
+
+* Bằng chứng về cơ chế: từ nghiên cứu trong phòng thí nghiệm (động vật, mô, tế bào)
+
+## Định đề Henle - Koch (1877)
+
+::: footer
+Surinder Kumar. Textbook of Microbiology. https://www.jaypeedigital.com/eReader/chapter/9789350255100/ch1
+:::
+
+![](figures/SDNQ_HenleKoch.jpg){width=80% fig-align=center}
+
+## Tiêu chuẩn Hill (1965)
+
+(1) Độ mạnh của mối liên hệ (Strength)
+(2) Tính nhất quán (Consistency)
+(3) Tính đặc hiệu (Specificity)
+(4) Quan hệ về thời gian (Temporality)
+(5) Khuynh độ sinh học (Biological gradient)
+(6) Có thể giải thích bằng cơ chế sinh học (Plausibility)
+(7) Phù hợp với hiểu biết về bệnh (Coherence)
+(8) Có dữ liệu từ thử nghiệm (Experiment)
+(9) Tương đồng (Analogy)
+
+## Tiêu chuẩn Hill
+
+> Here then are nine different viewpoints [guidelines] from all of which we should study association before we cry causation. What I do not believe—and this has been suggested—that we can usefully lay down some hard-and-fast rules of evidence that must be obeyed before we can accept cause and effect. [None of my nine viewpoints can bring indisputable evidence for or against the cause-and-effect hypothesis and none can be required as a sine qua non]{.ered}. What they can do, with greater or less strength, is to help us to [make up our minds on the fundamental question—is there any other way of explaining the set of facts before us, is there any other answer equally, or more, likely than cause and effect?]{.ered}
+
+::: footer
+Hill AB. The environment and disease: association or causation? Proc R Soc Med. 1965;58:295–300.
+:::
+
+# KẾT LUẬN {data-background="#002147"}
+
+## Suy diễn nhân quả
+
+Bánh nguyên nhân - Các loại nguyên nhân
+
+Suy diễn nhân quả
+
+* 2 bước: xác định mối liên quan + nhận định về nhân quả
+* Xác định mối liên quan: loại bằng chứng, (cơ hội, sai lệch, nhiễu)
+* Nhận định về nhân quả
+    + Kết hợp nhiều bằng chứng: Bằng chứng về thống kê & Bằng chứng về cơ chế
+    + Một số gợi ý: Định đề Henle - Koch, Tiêu chuẩn Hill
+        
+# CÁM ƠN CÁC EM ĐÃ THAM GIA BUỔI HỌC !
+
+Link bài giảng: https://lampk.github.io/notes/Slide_DTHCB_SDNQ_20231102.html
+
+![](figures/QRCode_SDNQ_20231102.png){width=80% fig-align=center}
