@@ -79,6 +79,7 @@ $presentation-heading-color: #002147;
 #title-slide .date,
 #title-slide .institute {
   font-size: 1em;
+  text-align: left;
 }
 
 #title-slide .title,
@@ -92,4 +93,18 @@ $presentation-heading-color: #002147;
 #title-slide .reveal.has-logo .slide-number {
   color: #ffffff !important;
   text-align: left;
+}
+
+#title-slide {
+  text-align: left;
+
+  .quarto-title-authors {
+    justify-content: left;
+
+    .quarto-title-author { // optional, test it for yourself
+      padding-left: 0;
+      padding-right: 0;
+      width: 100%;
+    }
+  }
 }
