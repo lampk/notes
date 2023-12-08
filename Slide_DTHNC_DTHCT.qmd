@@ -33,7 +33,6 @@ editor: source
 
 * Phân tích các vấn đề về đạo đức khi thực hiện nghiên cứu can thiệp
 
-# Ví dụ về một can thiệp {data-background="#002147"}
 
 # Một số khái niệm {data-background="#002147"}
 
@@ -70,6 +69,46 @@ editor: source
 
 
 # Làm nghiên cứu can thiệp như thế nào? {data-background="#002147"}
+
+## Đánh giá hiệu quả một can thiệp
+
+Câu hỏi về quan hệ nhân quả
+
+. . .
+
+* Mô hình toán học
+
+* Nghiên cứu quan sát
+
+* Nghiên cứu can thiệp
+
+## Mô hình toán học
+
+::: footer
+Ferguson N, Laydon D, Nedjati Gilani G, et al. (2020) Imperial College London; doi:10.25561/77482
+:::
+
+![](figures/NCCT_Model.png){fig-align="center"}
+
+## Nghiên cứu quan sát
+
+![](figures/StudyDesign_07.png){.fragment fig-align="center"}
+
+## Nghiên cứu quan sát
+
+::: footer
+Grodstein F et al. (2006) J Womens Health (Larchmt) 2006;15(1):35–44; Manson JE, Hsia J, Johnson KC, et al. (2003) NEJM;349(6):523–34.
+:::
+
+![](figures/PO_09.png)
+
+## Nghiên cứu quan sát
+
+::: footer
+Hernán MA, Alonso A, Logan R, et al. (2008) Epidemiology;19(6):766. 
+:::
+
+![](figures/PO_10.png)
 
 ## Làm nghiên cứu can thiệp như thế nào?
 
