@@ -381,7 +381,7 @@ Khi nào kết thúc thử nghiệm lâm sàng?
 * Các vấn đề có thể xảy ra & cách giải quyết
 * Đạo đức khi thực hiện nghiên cứu can thiệp
 
-# CÁM ƠN CÁC EM ĐÃ THAM GIA BUỔI HỌC !
+# CÁM ƠN ANH/CHỊ ĐÃ THAM GIA BUỔI HỌC !
 
 Link bài giảng: https://lampk.github.io/notes/Slide_DTHNC_DTHCT.html
 
