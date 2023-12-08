@@ -2,7 +2,7 @@
 title: "DỊCH TỄ HỌC NÂNG CAO"
 subtitle: "SUY DIỄN NHÂN QUẢ"
 author: "TS. BS. Phùng Khánh Lâm"
-date: "10/03/2023"
+date: "08/12/2023"
 institute: "Bộ môn Dịch tễ học, Khoa YTCC, ĐHYD TPHCM"
 format: 
   revealjs:
@@ -121,8 +121,17 @@ Peter WG Tennant (2019) https://youtu.be/SbrX3YEMj_0
 
 ## Nguyên nhân và yếu tố nguy cơ
 
-* Có mối liên hệ thật sự: yếu tố nguy cơ
-* Có mối quan hệ nhân quả: nguyên nhân
+::: footer
+https://sphweb.bumc.bu.edu/otlt/MPH-Modules/EP/EP713_Causality/EP713_Causality3.html
+
+Gordis Epidemiology (6th edition), 2019.
+:::
+
+Yếu tố nguy cơ (risk factor)
+
+* Yếu tố có liên quan đến bệnh/kết cuộc
+* Không nhất thiết là nguyên nhân (yếu tố thay thế cho nguyên nhân thật sự)
+* Ví dụ: kinh tế xã hội cao, chưa từng lập gia đình là yếu tố nguy cơ của ung thư vú
 
 . . .
 
@@ -226,85 +235,6 @@ Thử nghiệm [cơ hội, sai lệch, nhiễu]
 ## Bằng chứng về thống kê
 
 ![](figures/EBM_15.png)
-
-## Vai trò của nghiên cứu thực nghiệm (RCT)
-
-Tiêu chuẩn vàng???
-
-## Hiệu quả của streptomycin trong điều trị bệnh lao
-
-1944: Streptomycin được phát hiện tại Hoa Kỳ.
-
-1947: RCT: Streptomycin 2g/ngày vs CS thường quy (nghỉ tại giường/6 tháng)
-
-. . .
-
-::: footer
-MRC (1948) BMJ;2(4582):769–82. 
-:::
-
-![](figures/SDNQ_MRC1.png){fig-align=center width=100%}
-
-## Hiệu quả của streptomycin trong điều trị bệnh lao
-
-::: footer
-MRC (1948) BMJ;2(4582):769–82. 
-:::
-
-![](figures/SDNQ_MRC2.png){fig-align=center width=100%}
-
-## Hiệu quả của streptomycin trong điều trị bệnh lao
-
-Tỉ lệ tử vong sau 5 năm:
-
-* Nhóm dùng streptomycin: 58%
-* Nhóm chứng: 67%
-
-## Hiệu quả của streptomycin trong điều trị bệnh lao
-
-::: footer
-MRC (1948) BMJ;2(4582):769–82. 
-:::
-
-![](figures/SDNQ_MRC3.png){fig-align=center width=100%}
-
-## Thalidomide
-
-::: footer
-Gillies D. (2018) Causality, probability, and medicine. New York: Routledge. 
-:::
-. . .
-
-1950s: Thalidomide được đề xuất điều trị rối loạn lo âu và mất ngủ
-
-* Tác dụng an thần mạnh
-* Thử nghiệm trên động vật: không độc hại (không tìm được LD50 trên chuột; thỏ, mèo, chó)
-
-. . .
-
-1957: sử dụng như thuốc không kê đơn tại Đức
-
-. . .
-
-* Mẹ mang thai sử dụng --> Gây dị tật thai nhi 
-
-1961: bị rút khỏi thị trường
-
-. . .
-
-[Liệu có thể tránh được nếu thực hiện RCTs?]{.ered}
-
-## Thalidomide
-
-::: footer
-Gillies D. (2018) Causality, probability, and medicine. New York: Routledge. 
-:::
-
-Không được chấp thuận ngay từ đầu ở Hoa Kỳ
-
-* Dr Frances Kelsey: độc tính của quinine đối với thai kỳ trên thỏ
-* Thalidomide có trọng lượng phân tử nhỏ, qua được nhau thai
-* Một số thuốc/hoá chất gây hại trên thai nhi dù không có ảnh hưởng trên mẹ (thử nghiệm trên động vật)
 
 ## Vai trò của nghiên cứu thực nghiệm (RCT)
 
@@ -513,15 +443,6 @@ Hernán MA, Alonso A, Logan R, et al. (2008) Epidemiology;19(6):766.
 6. Trình bày các giả định kiểm chứng ước lượng về tác động nhân quả từ dữ liệu.
 7. Ước tính tác động nhân quả đích.
 8. Đánh giá giá trị của các giả định và thực hiện phân tích độ nhạy nếu cần thiết.
-
-## Bài tập nhỏ
-
-* Thực hiện một chương trình khuyến khích bú sữa mẹ 
-* Theo dõi cân nặng của trẻ
-
-. . .
-
-Có thể đánh giá những tác động nhân quả nào?
 
 # KẾT LUẬN {data-background="#002147"}
 
