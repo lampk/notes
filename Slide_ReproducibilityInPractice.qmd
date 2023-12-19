@@ -1,0 +1,394 @@
+---
+title: "Reproducibility/Open Science in Practice"
+subtitle: "Biostatistics & Modelling Lab Meeting"
+author: "Phùng Khánh Lâm"
+date: "2023-12-19"
+institute: "Department of Epidemiology, Faculty of Public Health, UMP <br> Biostatistics Group, OUCRU"
+format: 
+  revealjs:
+    theme: [default, css/lampk.scss]
+    slide-number: c/t
+    width: 1050
+    height: 700
+    chalkboard: false
+    self-contained: false
+    preview-links: auto
+    scrollable: true
+title-slide-attributes:
+  data-background-color: "#002147"
+  data-color: "#ffffff"
+  data-link-color: "#ffffff"
+  data-visibility: "uncounted"
+  data-text-align: "left"
+editor: source
+---
+
+## Content
+
+* Restructuring the Biostat's folder
+
+* Vaccine Registry Database Project
+
+## Content
+
+* Restructuring the Biostat's folder **(work locally then share)**
+
+* Vaccine Registry Database Project **(collaborative project)**
+
+# Restructuring the Biostat's folder {data-background="#002147"}
+
+## The Biostat's folder
+
+. . .
+
+![](figures/BiostatFolder.png){fig-align="center"}
+
+## ClinicalProjectsNonRCT
+
+![](figures/BiostatFolder_01.png){fig-align="center"}
+
+## ClinicalProjectsNonRCT
+
+* Readme: 0_readme.docx
+
+. . .
+
+* One folder for each project
+
+. . .
+
+* Outliers
+    + Ebola_trials???
+    + DKCX_TBMHIV_cytokinesMRI: data, description
+    + 21EN_Rotarix_vaccine: design
+    + IntensiveLongitudinalData: papers
+    + Dengue_Pooled data
+    + ThaoPhD
+
+. . .
+
+* Folder structure
+    + Analysis, Data, Old stuff, Output, Output - 31 May 2012 – Old, Publications
+    + Analysis, Data, Protocol_CRF, Publication, StatisticalAnalysisPlan, .Rdata, .Rhistory
+    + Analysis, Data, PreliminaryWork, Protocol, Result, Description.docx
+    + Analysis, Data, Data_Cleaning, Documents, Protocol_CRFs, Publication, SAP
+    + Do (Check, Input, Output, Working_scripts, R scripts, functions.R, report (.Rmd)), Other (CRF)
+    + 1_AnalysisMarch2013 (Analysis, Data), PaperDrafts_July2016, ProtocolCRF
+    + Analyses, Article, Data, Literature, Protocol.docx
+    + Analysis, R codes, .Rdata, excel data files
+    + R-codes (Data, Results, .RMD, Rfunctions.R), Manuscript
+    + Data, Figures, .RMD files
+    + Data (Data, figures, Old_data, others, output, .RMD files)
+    + Data, Protocol and SAP, .RMD files
+    + Data, Documents, folder with .RMD files
+    + Data, docs, papers, R, stan
+    + Data, scripts, reports
+
+## RCT
+
+![](figures/BiostatFolder_02.png){fig-align="center"}
+
+## RCT
+
+* Readme: 0_readme_16Mar2015.docx
+
+. . .
+
+* Grouped by research group (CN, DX, EN, HN, MA, NP, TB)
+
+. . .
+
+* Outliers
+    + Mechanical_pilot_RCT_planning: sample size
+    
+. . .
+
+* Folder structure
+    + Analysis, Data, InterimAnalyses, Protocol_CRF_DSMBcharter_InterimAnalysisPlan, Publication, StatisticalAnalysisPlan, Literature, MonthlyReports
+
+## Dummy_Randomizationlists
+
+![](figures/BiostatFolder_03.png){fig-align="center"}
+
+## Dummy_Randomizationlists
+
+* SOP
+
+. . .
+
+* 00_examples
+
+. . .
+
+* One folder for each study
+
+## Courses
+
+![](figures/BiostatFolder_04.png){fig-align="center"}
+
+## Courses
+
+* Statistics courses (by us and by others), Conferences (videos)
+
+. . .
+
+* Grouped by types
+
+## Training & journal clubs
+
+![](figures/BiostatFolder_05.png){fig-align="center"}
+
+## Training & journal clubs
+
+* JournalClub
+
+. . .
+
+* Mediation
+
+. . .
+
+* Training by year (for us)
+
+## z_OtherStuff
+
+![](figures/BiostatFolder_06.png){fig-align="center"}
+
+## z_OtherStuff
+
+* Presentations (by us)
+
+. . .
+
+* Apps (by us)
+
+. . .
+
+* Non-statistical training courses (for us)
+
+## Identified Problems
+
+. . .
+
+Structure
+
+* Non-standardized folder structures
+* Files in incorrect places
+
+. . .
+
+Clarity
+
+* Non-standardized in naming of files & folders
+* Lack of readme files 
+
+. . .
+
+Coverage
+
+* Not representative for works done by our group
+
+. . .
+
+Usefulness
+
+* At the moment only for storing purpose
+
+## What is the purpose of this folder?
+
+. . .
+
+Storing/Keeping: 
+
+* should include ALL works done, each work ALL information to reproduce results; 
+* should be easy to FIND; 
+* should be EFFICIENT (less files, less storage, no redundancy)
+
+. . .
+
+Sharing: 
+
+* should be easy to know what available; 
+* should be easy to SEE & REUSE
+
+. . .
+
+Doing: 
+
+* should be easy to see what have been done & what need to be done
+
+## Suggestions
+
+* Remove files that are no longer relevant
+
+* Rename folders/files if it makes the contents clearer
+
+* Suggested structure
+
+![](figures/BiostatFolder_07.png){fig-align="center"}
+
+# Updates on Vaccine Registry Project {data-background="#002147"}
+
+## Vietnam National Immunization Information System
+
+::: footer
+Nguyen Tuyet Nga et al. (2020) From a small scale to nationwide application: National Immunization Information System (NIIS) in Vietnam
+:::
+
+![](figures/VNNIIS_01.png){fig-align="center"}
+
+## The Immunization Registry Module
+
+::: footer
+Nguyen Tuyet Nga et al. (2020) From a small scale to nationwide application: National Immunization Information System (NIIS) in Vietnam
+:::
+
+![](figures/VNNIIS_02.png){fig-align="center"}
+
+## Vaccine Registry Project
+
+* Collaboration between OUCRU, NIHE (Dr Thai), VIMC/NUS (Hannah)
+
+. . .
+
+* Data: 173,632,416 rows and 26 columns
+
+![](figures/VNNIIS_03.png){fig-align="center"}
+
+## Vaccine Registry Project - Challenges
+
+. . .
+
+How to use the database?
+
+. . .
+
+How to effectively clean the database? 
+
+* How was data generated? 
+* Common data errors 
+* Duplications (without perfect unique identifier)
+* Big data
+
+. . .
+
+How to maintain the database?
+
+* Big data + Sensitive information
+* Sharing?
+* Potential updates?
+
+## OUCRU Vaccine Registry Portal: http://192.168.29.196/
+
+::: footer
+Work by Bui Thanh Long
+:::
+
+![](figures/OUCRU_VaxReg_01.png){fig-align="center"}
+
+## Data storage & data analysis workflow
+
+![](figures/OUCRU_VaxReg_02.png){fig-align="center"}
+
+::: footer
+Work by Bui Thanh Long, Pham Nguyen Quynh Anh
+:::
+
+## Data cleaning - general
+
+::: footer
+Work by Pham Nguyen Quynh Anh
+:::
+
+Intrinsic data quality
+
+Contextual data quality (Whether the data is “good enough” for the task at hand)
+
+## Data cleaning - general
+
+::: footer
+Work by Pham Nguyen Quynh Anh, HCDC interns (Lê Thị Kiều Diễm, Phan Thị Ngọc Thịnh, Phan Thị Hằng)
+:::
+
+![](figures/NIIS_Cleaning_01.png){fig-align="center"}
+
+## Data cleaning - general
+
+::: footer
+Work by Pham Nguyen Quynh Anh, HCDC interns (Lê Thị Kiều Diễm, Phan Thị Ngọc Thịnh, Phan Thị Hằng)
+:::
+
+Data coverage: (# children in registry) / (# children <1 year-old from WorldPop) 
+
+![](figures/NIIS_Cleaning_02.png){fig-align="center"}
+
+## Data cleaning - general
+
+::: footer
+Work by Pham Nguyen Quynh Anh, HCDC interns (Lê Thị Kiều Diễm, Phan Thị Ngọc Thịnh, Phan Thị Hằng)
+:::
+
+Reliability: Type of vaccination
+
+![](figures/NIIS_Cleaning_03.png){fig-align="center"}
+
+## Data cleaning - de-duplication
+
+::: footer
+Work by Pham Nguyen Quynh Anh
+:::
+
+* Structured entity resolution: "taking large noisy databases and removing duplicate entities (often in the absence of a unique identifier)"
+
+* Blocking + Modern probabilistic record linkage:
+    + R: fastLink
+    + Python: splink
+    
+* Adapt to work with Apache Arrow?
+
+## Data cleaning - R package
+
+::: footer
+Work by Pham Nguyen Quynh Anh
+:::
+
+ArrowDQAToolkit
+
+* Functions to facilitate the cleaning of vaccine registry data
+* Work with Apache Arrow
+* Audience: HCDC staff
+
+## Open Science Framework (OSF)
+
+![](figures/OSF_01.png){fig-align="center"}
+
+## Open Science Framework (OSF)
+
+![](figures/OSF_02.png){fig-align="center"}
+
+## Open Science Framework (OSF)
+
+* A Project Management Service Built for Research
+* OSF (facilitating scientific research) vs. GitHub (facilitating software development)
+* Features
+    * Integrations: add-ons system (Dropbox, Google Drive, S3, GitHub)
+    * Storage: 50 years from the day COS closed
+    * Citation: globally unique identifier, DOI (for public project)
+    * Archives
+* Open Research lifecycle
+    + OSF registries
+    + OSF preprints
+    + OSF collections
+    + OSF institutions
+
+# Reproducibility/Open Science in Practice {data-background="#002147"}
+
+## Reproducibility/Open Science continuum... for discussion
+
+![](figures/BiostatFolder_08.png){fig-align="center"}
+
+* Platform/Combination of platforms to be used?
+* Fixed structure/convention?
+
+
+
